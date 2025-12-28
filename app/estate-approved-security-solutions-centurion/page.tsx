@@ -847,5 +847,9 @@ export default function EstateApprovedSecuritySolutionsCenturionPage() {
       </Button>
     </div>
   </div>
+ </div>
+)
+}
+  
 
-          </div>
+          
