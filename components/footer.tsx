@@ -4,12 +4,21 @@ import { Mail, MapPin, Phone, MessageSquare } from "lucide-react"
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
-  const services = [
-    { name: "Aluminium Windows", href: "/services/aluminium-windows" },
-    { name: "Aluminium Doors", href: "/services/aluminium-doors" },
-    { name: "Sliding Doors", href: "/services/sliding-doors" },
-    { name: "Security Gates", href: "/services/security-gates" },
-    { name: "Glass Balustrades", href: "/services/glass-balustrades" },
+  const generalServices = [
+    { name: "Aluminium Windows", href: "/aluminium-windows" },
+    { name: "Aluminium Doors", href: "/aluminium-doors" },
+    { name: "Sliding Doors", href: "/sliding-doors" },
+    { name: "Security Gates", href: "/security-gates" },
+    { name: "Glass Balustrades", href: "/glass-balustrades" },
+  ]
+
+  const cityServices = [
+    { name: "Windows Johannesburg", href: "/aluminium-windows-johannesburg" },
+    { name: "Windows Sandton", href: "/aluminium-windows-sandton" },
+    { name: "Windows Pretoria", href: "/aluminium-windows-pretoria" },
+    { name: "Security Gates JHB", href: "/security-gates-johannesburg" },
+    { name: "Security Gates Sandton", href: "/security-gates-sandton" },
+    { name: "Fencing Pretoria", href: "/aluminium-fencing-pretoria" },
   ]
 
   const areas = ["Johannesburg", "Sandton", "Pretoria", "Centurion", "Midrand", "Fourways", "Randburg", "Roodepoort"]
@@ -49,11 +58,11 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Services */}
+          {/* General Services */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Our Services</h3>
             <ul className="space-y-2 text-sm">
-              {services.map((service) => (
+              {generalServices.map((service) => (
                 <li key={service.href}>
                   <Link href={service.href} className="hover:text-blue-400 transition-colors">
                     {service.name}
@@ -68,13 +77,14 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Service Areas */}
           <div>
-            <h3 className="text-white font-semibold text-lg mb-4">Service Areas</h3>
+            <h3 className="text-white font-semibold text-lg mb-4">City Services</h3>
             <ul className="space-y-2 text-sm">
-              {areas.map((area) => (
-                <li key={area}>
-                  <span className="hover:text-blue-400 transition-colors cursor-default">{area}</span>
+              {cityServices.map((service) => (
+                <li key={service.href}>
+                  <Link href={service.href} className="hover:text-blue-400 transition-colors">
+                    {service.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -100,6 +110,18 @@ export default function Footer() {
               <p className="text-sm">Mon-Fri: 8:00 AM - 5:00 PM</p>
               <p className="text-sm">Sat: 8:00 AM - 1:00 PM</p>
             </div>
+          </div>
+        </div>
+
+        <div className="border-t border-slate-800 mt-8 pt-8">
+          <h4 className="text-white font-semibold text-center mb-4">Serving Gauteng:</h4>
+          <div className="flex flex-wrap justify-center gap-3 text-sm text-slate-400">
+            {areas.map((area, idx) => (
+              <span key={area}>
+                {area}
+                {idx < areas.length - 1 && <span className="mx-2">•</span>}
+              </span>
+            ))}
           </div>
         </div>
 

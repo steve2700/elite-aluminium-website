@@ -11,6 +11,7 @@ import FAQSection from "@/components/faq-section"
 import ServiceAreas from "@/components/service-areas"
 import QuoteForm from "@/components/quote-form"
 import CTASection from "@/components/cta-section"
+import CityServices from "@/components/city-services"
 
 export const metadata: Metadata = {
   title: "Elite Aluminium | Premium Aluminium Windows, Doors & Glass Solutions in Gauteng",
@@ -230,6 +231,7 @@ export default function HomePage() {
       <Hero />
       <Services />
       <WhyChooseUs />
+      <CityServices />
       <DetailedBenefits />
       <ProcessSection />
       <Testimonials />
