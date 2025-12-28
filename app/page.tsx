@@ -2,7 +2,9 @@ import type { Metadata } from "next"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Hero from "@/components/hero"
+import StatsShowcase from "@/components/stats-showcase"
 import Services from "@/components/services"
+import ProjectShowcase from "@/components/project-showcase"
 import WhyChooseUs from "@/components/why-choose-us"
 import DetailedBenefits from "@/components/detailed-benefits"
 import ProcessSection from "@/components/process-section"
@@ -12,6 +14,7 @@ import ServiceAreas from "@/components/service-areas"
 import QuoteForm from "@/components/quote-form"
 import CTASection from "@/components/cta-section"
 import CityServices from "@/components/city-services"
+import PremiumServices from "@/components/premium-services"
 
 export const metadata: Metadata = {
   title: "Elite Aluminium | Premium Aluminium Windows, Doors & Glass Solutions in Gauteng",
@@ -95,7 +98,7 @@ export default function HomePage() {
             name: "Elite Aluminium",
             image: "https://elitealuminium.co.za/logo.png",
             description:
-              "Premium aluminium and glass installation company serving Gauteng, South Africa. Expert installation of windows, doors, security gates, and glass balustrades.",
+              "Premium aluminium and glass installation company serving Gauteng, South Africa. Expert installation of windows, doors, security gates, carports, and glass balustrades.",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Johannesburg",
@@ -109,6 +112,7 @@ export default function HomePage() {
             },
             url: "https://elitealuminium.co.za",
             telephone: "+27795935025",
+            email: "info@elitealuminium.co.za",
             priceRange: "$$",
             openingHoursSpecification: [
               {
@@ -152,6 +156,10 @@ export default function HomePage() {
               {
                 "@type": "City",
                 name: "Randburg",
+              },
+              {
+                "@type": "City",
+                name: "Roodepoort",
               },
             ],
             sameAs: ["https://www.facebook.com/elitealuminium", "https://www.instagram.com/elitealuminium"],
@@ -221,6 +229,20 @@ export default function HomePage() {
                     name: "Commercial Shopfronts",
                   },
                 },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Carport Installation",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Aluminium Fencing",
+                  },
+                },
               ],
             },
           }),
@@ -229,9 +251,12 @@ export default function HomePage() {
 
       <Header />
       <Hero />
+      <StatsShowcase />
       <Services />
+      <ProjectShowcase />
       <WhyChooseUs />
       <CityServices />
+      <PremiumServices />
       <DetailedBenefits />
       <ProcessSection />
       <Testimonials />

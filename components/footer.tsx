@@ -16,9 +16,34 @@ export default function Footer() {
     { name: "Windows Johannesburg", href: "/aluminium-windows-johannesburg" },
     { name: "Windows Sandton", href: "/aluminium-windows-sandton" },
     { name: "Windows Pretoria", href: "/aluminium-windows-pretoria" },
+    { name: "Doors Johannesburg", href: "/aluminium-doors-johannesburg" },
+    { name: "Doors Sandton", href: "/aluminium-doors-sandton" },
+    { name: "Sliding Doors JHB", href: "/sliding-doors-johannesburg" },
+    { name: "Sliding Doors Sandton", href: "/sliding-doors-sandton" },
+    { name: "Sliding Doors Pretoria", href: "/sliding-doors-pretoria" },
     { name: "Security Gates JHB", href: "/security-gates-johannesburg" },
     { name: "Security Gates Sandton", href: "/security-gates-sandton" },
     { name: "Fencing Pretoria", href: "/aluminium-fencing-pretoria" },
+    { name: "Fencing Centurion", href: "/aluminium-fencing-centurion" },
+  ]
+
+  const premiumServices = [
+    { name: "Glass Balustrades Sandton", href: "/glass-balustrades-sandton" },
+    { name: "Glass Balustrades Pretoria", href: "/glass-balustrades-pretoria" },
+    { name: "Shopfronts Johannesburg", href: "/shopfronts-johannesburg" },
+    { name: "Carports Pretoria", href: "/carports-pretoria" },
+    { name: "Carports Centurion", href: "/aluminium-carports-centurion" },
+  ]
+
+  const specialtyServices = [
+    { name: "Affordable Security Gates JHB", href: "/affordable-security-gates-johannesburg" },
+    { name: "Modern Sliding Doors JHB", href: "/modern-aluminium-sliding-doors-johannesburg" },
+    { name: "Frameless Glass Sandton", href: "/frameless-glass-balustrades-sandton" },
+    { name: "Pool Glass Fencing PTA", href: "/pool-compliant-glass-fencing-pretoria" },
+    { name: "Commercial Shopfronts JHB", href: "/commercial-shopfront-installers-johannesburg" },
+    { name: "Window Repairs JHB", href: "/aluminium-window-repairs-johannesburg" },
+    { name: "Cheap Burglar Bars JHB", href: "/cheap-burglar-bars-johannesburg" },
+    { name: "24hr Security Gates PTA", href: "/24-hour-security-gate-installation-pretoria" },
   ]
 
   const areas = ["Johannesburg", "Sandton", "Pretoria", "Centurion", "Midrand", "Fourways", "Randburg", "Roodepoort"]
@@ -26,7 +51,7 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300 border-t border-slate-800">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -80,7 +105,35 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">City Services</h3>
             <ul className="space-y-2 text-sm">
-              {cityServices.map((service) => (
+              {cityServices.slice(0, 8).map((service) => (
+                <li key={service.href}>
+                  <Link href={service.href} className="hover:text-blue-400 transition-colors">
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Premium Services */}
+          <div>
+            <h3 className="text-white font-semibold text-lg mb-4">Premium Services</h3>
+            <ul className="space-y-2 text-sm">
+              {premiumServices.map((service) => (
+                <li key={service.href}>
+                  <Link href={service.href} className="hover:text-blue-400 transition-colors">
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Specialty Services */}
+          <div>
+            <h3 className="text-white font-semibold text-lg mb-4">Specialty Services</h3>
+            <ul className="space-y-2 text-sm">
+              {specialtyServices.map((service) => (
                 <li key={service.href}>
                   <Link href={service.href} className="hover:text-blue-400 transition-colors">
                     {service.name}

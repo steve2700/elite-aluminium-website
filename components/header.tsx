@@ -10,6 +10,8 @@ export default function Header() {
     { name: "Sliding Doors", href: "/sliding-doors" },
     { name: "Security Gates", href: "/security-gates" },
     { name: "Glass Balustrades", href: "/glass-balustrades" },
+    { name: "Shopfronts", href: "/shopfronts-johannesburg" },
+    { name: "Carports", href: "/carports-pretoria" },
   ]
 
   return (
@@ -80,13 +82,19 @@ export default function Header() {
                 </div>
               </div>
             </div>
+            <Link href="/about" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">
+              About Us
+            </Link>
+            <Link href="/faq" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">
+              FAQ
+            </Link>
             <Link
               href="/#service-areas"
               className="text-slate-300 hover:text-white transition-colors text-sm font-medium"
             >
               Service Areas
             </Link>
-            <Link href="/#contact" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">
+            <Link href="/contact" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">
               Contact
             </Link>
           </nav>
@@ -119,10 +127,16 @@ export default function Header() {
                     </Link>
                   ))}
                 </div>
+                <Link href="/about" className="text-lg font-medium hover:text-blue-400 transition-colors">
+                  About Us
+                </Link>
+                <Link href="/faq" className="text-lg font-medium hover:text-blue-400 transition-colors">
+                  FAQ
+                </Link>
                 <Link href="/#service-areas" className="text-lg font-medium hover:text-blue-400 transition-colors">
                   Service Areas
                 </Link>
-                <Link href="/#contact" className="text-lg font-medium hover:text-blue-400 transition-colors">
+                <Link href="/contact" className="text-lg font-medium hover:text-blue-400 transition-colors">
                   Contact
                 </Link>
               </nav>
