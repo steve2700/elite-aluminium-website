@@ -1,0 +1,36 @@
+# Elite Aluminium - Robots.txt
+# https://elitealuminium.co.za/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Sitemaps
+Sitemap: https://elitealuminium.co.za/sitemap.xml
+Sitemap: https://elitealuminium.co.za/sitemap-0.xml
+
+# Crawl delay (optional - adjust if needed)
+# Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
