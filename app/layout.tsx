@@ -67,26 +67,14 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/icon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/icon-48x48.png", sizes: "48x48", type: "image/png" },
-      { url: "/icon-96x96.png", sizes: "96x96", type: "image/png" },
-      { url: "/icon-128x128.png", sizes: "128x128", type: "image/png" },
-      { url: "/icon-192x192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-256x256.png", sizes: "256x256", type: "image/png" },
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
     ],
     apple: [
       { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
-      { url: "/icon-152x152.png", sizes: "152x152", type: "image/png" },
-      { url: "/icon-144x144.png", sizes: "144x144", type: "image/png" },
     ],
-    other: [
-      {
-        rel: "mask-icon",
-        url: "/logo.png",
-      },
-    ],
+    shortcut: "/favicon.ico",
   },
   manifest: "/site.webmanifest",
   alternates: {
@@ -104,9 +92,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-verification-code", // Add your Google Search Console verification code
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
+    google: "your-google-verification-code",
   },
 }
 
@@ -130,12 +116,10 @@ export default function RootLayout({
   return (
     <html lang="en-ZA" className="scroll-smooth">
       <head>
-        {/* Additional SEO & Performance Tags */}
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
-        {/* Structured Data - Organization */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -196,12 +180,7 @@ export default function RootLayout({
                   closes: "13:00",
                 },
               ],
-              sameAs: [
-                // Add your social media URLs when ready
-                // "https://www.facebook.com/elitealuminium",
-                // "https://www.instagram.com/elitealuminium",
-                // "https://www.linkedin.com/company/elitealuminium",
-              ],
+              sameAs: [],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: "Aluminium & Glass Services",
@@ -247,7 +226,6 @@ export default function RootLayout({
           }}
         />
 
-        {/* Structured Data - Website */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
