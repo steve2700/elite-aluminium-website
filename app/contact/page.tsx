@@ -1,6 +1,4 @@
 import type { Metadata } from "next"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -48,7 +46,7 @@ export default function ContactPage() {
           }),
         }}
       />
-      <Header />
+      
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 text-white py-20">
@@ -382,7 +380,7 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
-      <Footer />
+     
     </>
   )
 }
