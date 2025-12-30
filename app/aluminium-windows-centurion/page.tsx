@@ -1,6 +1,4 @@
 import type { Metadata } from "next"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import { Phone, Mail, MapPin, MessageSquare } from "lucide-react"
 
 export const metadata: Metadata = {
@@ -51,7 +49,7 @@ export default function AluminiumWindowsCenturionPage() {
         }}
       />
 
-      <Header />
+     
 
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="container mx-auto px-4">
@@ -214,7 +212,7 @@ export default function AluminiumWindowsCenturionPage() {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   )
 }
