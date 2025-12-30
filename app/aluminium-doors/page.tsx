@@ -1,6 +1,4 @@
 import type { Metadata } from "next"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { MessageSquare, Phone, Check, ShieldCheck, Lock } from "lucide-react"
 import Link from "next/link"
@@ -51,7 +49,7 @@ export default function AluminiumDoorsPage() {
         }}
       />
 
-      <Header />
+      
 
       <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="absolute inset-0 z-0 opacity-30">
@@ -538,7 +536,7 @@ export default function AluminiumDoorsPage() {
         </div>
       </article>
 
-      <Footer />
+      
     </>
   )
 }
