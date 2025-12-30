@@ -1,6 +1,4 @@
 import type { Metadata } from "next"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -71,7 +69,7 @@ export default function CarportsPretoriaPage() {
         }}
       />
 
-      <Header />
+      
 
       <main className="min-h-screen">
         {/* Hero Section */}
@@ -703,7 +701,7 @@ export default function CarportsPretoriaPage() {
         </div>
       </main>
 
-      <Footer />
+      
     </>
   )
 }
