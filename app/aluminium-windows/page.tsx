@@ -1,6 +1,4 @@
 import type { Metadata } from "next"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { MessageSquare, Phone, Check, ShieldCheck, Award, Clock } from "lucide-react"
 import Link from "next/link"
@@ -59,7 +57,7 @@ export default function AluminiumWindowsPage() {
         }}
       />
 
-      <Header />
+     
 
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
@@ -575,7 +573,7 @@ export default function AluminiumWindowsPage() {
         </div>
       </article>
 
-      <Footer />
+      
     </>
   )
 }
