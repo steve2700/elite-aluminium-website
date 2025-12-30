@@ -1,7 +1,5 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import { Phone, Mail, MapPin, Clock, CheckCircle2, ArrowRight, MessageSquare, Shield } from "lucide-react"
 
 export const metadata: Metadata = {
@@ -123,7 +121,7 @@ export default function AluminiumWindowsJohannesburgPage() {
         }}
       />
 
-      <Header />
+      
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20 overflow-hidden">
@@ -598,7 +596,7 @@ export default function AluminiumWindowsJohannesburgPage() {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   )
 }
