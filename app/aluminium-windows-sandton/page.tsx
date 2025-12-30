@@ -1,6 +1,4 @@
 import type { Metadata } from "next"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import { Phone, Mail, MapPin, MessageSquare, Star } from "lucide-react"
 
 export const metadata: Metadata = {
@@ -61,7 +59,7 @@ export default function AluminiumWindowsSandtonPage() {
         }}
       />
 
-      <Header />
+      
 
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/modern-aluminium-windows-installation.jpg')] bg-cover bg-center opacity-10" />
@@ -294,7 +292,7 @@ export default function AluminiumWindowsSandtonPage() {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   )
 }
