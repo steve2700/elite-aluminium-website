@@ -1,7 +1,5 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { MessageSquare, Phone, Mail, Check, Star, Shield, Clock, MapPin } from "lucide-react"
 
@@ -159,7 +157,7 @@ export default function GlassBalustradesSandtonPage() {
         }}
       />
 
-      <Header />
+      
 
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
@@ -408,7 +406,7 @@ export default function GlassBalustradesSandtonPage() {
         </div>
       </section>
 
-      <Footer />
+      
 
       {/* Mobile Sticky CTA */}
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-40">
