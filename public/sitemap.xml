@@ -281,7 +281,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
-
+  <url>
+    <loc>https://aluminium.co.za/shopfronts-johannesburg</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.93</priority>
+  </url>
   <url>
     <loc>https://elitealuminium.co.za/estate-approved-security-solutions-centurion</loc>
     <lastmod>2024-01-15</lastmod>
