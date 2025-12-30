@@ -14,8 +14,7 @@ import {
   Maximize2,
   Droplets,
 } from "lucide-react"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
+
 
 export const metadata: Metadata = {
   title: "Glass Balustrades Gauteng | Frameless Glass Railings | Elite Aluminium",
@@ -150,7 +149,7 @@ export default function GlassBalustradesPage() {
 
   return (
     <>
-      <Header />
+    
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
@@ -510,7 +509,7 @@ export default function GlassBalustradesPage() {
           </div>
         </section>
       </main>
-      <Footer />
+      
     </>
   )
 }
