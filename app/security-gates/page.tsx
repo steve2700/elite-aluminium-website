@@ -15,8 +15,7 @@ import {
   Zap,
   AlertTriangle,
 } from "lucide-react"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
+
 
 export const metadata: Metadata = {
   title: "Security Gates Gauteng | Burglar Bars & Protection | Elite Aluminium",
@@ -125,7 +124,7 @@ export default function SecurityGatesPage() {
 
   return (
     <>
-      <Header />
+     
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
@@ -465,7 +464,7 @@ export default function SecurityGatesPage() {
           </div>
         </section>
       </main>
-      <Footer />
+      
     </>
   )
 }
