@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { MapPin, ArrowRight } from "lucide-react"
-
 export default function CityServices() {
   const cityServiceGroups = [
     {
@@ -39,7 +38,6 @@ export default function CityServices() {
       services: [{ name: "Aluminium Windows", href: "/aluminium-windows-fourways" }],
     },
   ]
-
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
@@ -49,7 +47,6 @@ export default function CityServices() {
             Expert aluminium and glass installations across Gauteng's major cities. Find services in your area.
           </p>
         </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {cityServiceGroups.map((group) => (
             <div
@@ -74,7 +71,7 @@ export default function CityServices() {
                 ))}
               </ul>
               <Link
-                href={`#contact`}
+                href="/contact"
                 className="mt-4 inline-flex items-center text-blue-600 font-medium text-sm hover:text-blue-700 transition-colors"
               >
                 Get {group.city} Quote
@@ -83,7 +80,6 @@ export default function CityServices() {
             </div>
           ))}
         </div>
-
         <div className="text-center mt-12">
           <p className="text-slate-600 mb-4">
             Don't see your city? We serve all Gauteng areas including Midrand, Randburg, Roodepoort, and more.
