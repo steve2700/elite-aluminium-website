@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Homepage -->
   <url>
     <loc>https://elitealuminium.co.za/</loc>
@@ -7,7 +8,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
+
   <!-- Essential Pages -->
   <url>
     <loc>https://elitealuminium.co.za/contact</loc>
@@ -15,21 +16,69 @@
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/about</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/faq</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.88</priority>
   </url>
-  
+
+  <!-- Area Hub Pages -->
+  <url>
+    <loc>https://elitealuminium.co.za/areas/johannesburg</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/areas/sandton</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/areas/pretoria</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/areas/centurion</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.93</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/areas/midrand</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/areas/fourways</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/areas/randburg</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/areas/roodepoort</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
   <!-- General Service Pages -->
   <url>
     <loc>https://elitealuminium.co.za/aluminium-windows</loc>
@@ -37,28 +86,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  
   <url>
     <loc>https://elitealuminium.co.za/aluminium-doors</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  
   <url>
     <loc>https://elitealuminium.co.za/sliding-doors</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  
   <url>
     <loc>https://elitealuminium.co.za/security-gates</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  
   <url>
     <loc>https://elitealuminium.co.za/glass-balustrades</loc>
     <lastmod>2024-01-15</lastmod>
@@ -73,42 +118,36 @@
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/security-gates-sandton</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/security-gates-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/burglar-bars-johannesburg</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/burglar-bars-sandton</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/aluminium-fencing-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/aluminium-fencing-centurion</loc>
     <lastmod>2024-01-15</lastmod>
@@ -123,28 +162,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/aluminium-windows-sandton</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/aluminium-windows-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/aluminium-windows-centurion</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/aluminium-windows-fourways</loc>
     <lastmod>2024-01-15</lastmod>
@@ -159,28 +194,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.92</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/aluminium-doors-sandton</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.92</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/sliding-doors-johannesburg</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.92</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/sliding-doors-sandton</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.92</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/sliding-doors-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
@@ -188,35 +219,57 @@
     <priority>0.92</priority>
   </url>
 
-  <!-- Tier 4: Premium Products (Lower volume, higher margins) -->
+  <!-- Tier 4: New Johannesburg Service Pages -->
+  <url>
+    <loc>https://elitealuminium.co.za/shower-doors-johannesburg</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/aluminium-fencing-johannesburg</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/glass-glazing-johannesburg</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+  </url>
+  <url>
+    <loc>https://elitealuminium.co.za/stacking-doors-johannesburg</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <!-- Tier 5: Premium Products (Lower volume, higher margins) -->
   <url>
     <loc>https://elitealuminium.co.za/glass-balustrades-sandton</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/glass-balustrades-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/shopfronts-johannesburg</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/carports-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/aluminium-carports-centurion</loc>
     <lastmod>2024-01-15</lastmod>
@@ -231,58 +284,44 @@
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/modern-aluminium-sliding-doors-johannesburg</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/frameless-glass-balustrades-sandton</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/pool-compliant-glass-fencing-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/commercial-shopfront-installers-johannesburg</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
-
-  <!-- New Repair, Price, Quality, and Emergency Long-Tail Pages -->
   <url>
     <loc>https://elitealuminium.co.za/aluminium-window-repairs-johannesburg</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.94</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/cheap-burglar-bars-johannesburg</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.94</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/powder-coated-aluminium-doors-johannesburg</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.93</priority>
-  </url>
-  <url>
-    <loc>https://elitealuminium.co.za/shopfronts-johannesburg</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
@@ -293,18 +332,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/24-hour-security-gate-installation-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.94</priority>
   </url>
-
   <url>
     <loc>https://elitealuminium.co.za/double-glazed-aluminium-windows-pretoria</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
+
 </urlset>
