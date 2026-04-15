@@ -134,7 +134,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        
+
         {/* Structured Data - Organization */}
         <script
           type="application/ld+json"
@@ -197,10 +197,10 @@ export default function RootLayout({
                 },
               ],
               sameAs: [
-                // Add your social media URLs when ready
-                // "https://www.facebook.com/elitealuminium",
-                // "https://www.instagram.com/elitealuminium",
-                // "https://www.linkedin.com/company/elitealuminium",
+                "https://www.facebook.com/profile.php?id=61570711647291",
+                "https://www.instagram.com/_elitealuminium/",
+                "https://www.linkedin.com/company/elitealuminiumza/",
+                "https://za.pinterest.com/elite_aluminium/",
               ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
