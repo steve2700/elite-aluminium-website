@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Affordable Security Gates Johannesburg | Budget-Friendly Installation",
   description:
-    "Affordable security gates in Johannesburg from R2,500. Quality installation without breaking the bank. 10-year guarantee. Free quotes. Call 079 593 5025.",
+    "Affordable security gates in Johannesburg from R2,500. Quality installation without breaking the bank. 10-year guarantee. Free quotes. Call 067 276 3724.",
   keywords:
     "affordable security gates johannesburg, cheap security gates jhb, budget security gates, security gates prices johannesburg, low cost security gates",
   openGraph: {
@@ -40,7 +40,7 @@ export default function AffordableSecurityGatesJohannesburg() {
               addressRegion: "Gauteng",
               addressCountry: "ZA",
             },
-            telephone: "+27795935025",
+            telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             priceRange: "R2500-R8500",
             areaServed: {
@@ -69,7 +69,7 @@ export default function AffordableSecurityGatesJohannesburg() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white gap-2" asChild>
                 <Link
-                  href="https://wa.me/27795935025?text=Hi%2C%20I%20need%20affordable%20security%20gates%20in%20Johannesburg"
+                  href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20affordable%20security%20gates%20in%20Johannesburg"
                   target="_blank"
                 >
                   <MessageSquare className="h-5 w-5" />
@@ -82,9 +82,9 @@ export default function AffordableSecurityGatesJohannesburg() {
                 className="border-white text-white hover:bg-white/10 gap-2 bg-transparent"
                 asChild
               >
-                <Link href="tel:+27795935025">
+                <Link href="tel:+27672763724">
                   <Phone className="h-5 w-5" />
-                  Call: 079 593 5025
+                  Call: 067 276 3724
                 </Link>
               </Button>
             </div>
@@ -480,7 +480,7 @@ export default function AffordableSecurityGatesJohannesburg() {
               <CardContent>
                 <p className="text-slate-600">
                   We provide free, no-obligation quotes for all security gate installations in Johannesburg. Contact us
-                  via WhatsApp at 079 593 5025 or call us directly. We can provide estimates over the phone or schedule
+                  via WhatsApp at 067 276 3724 or call us directly. We can provide estimates over the phone or schedule
                   a free site visit for accurate measurements.
                 </p>
               </CardContent>
@@ -513,7 +513,7 @@ export default function AffordableSecurityGatesJohannesburg() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-slate-100 gap-2" asChild>
               <Link
-                href="https://wa.me/27795935025?text=Hi%2C%20I%20need%20a%20quote%20for%20affordable%20security%20gates"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20a%20quote%20for%20affordable%20security%20gates"
                 target="_blank"
               >
                 <MessageSquare className="h-5 w-5" />
@@ -526,9 +526,9 @@ export default function AffordableSecurityGatesJohannesburg() {
               className="border-white text-white hover:bg-white/10 gap-2 bg-transparent"
               asChild
             >
-              <Link href="tel:+27795935025">
+              <Link href="tel:+27672763724">
                 <Phone className="h-5 w-5" />
-                Call: 079 593 5025
+                Call: 067 276 3724
               </Link>
             </Button>
           </div>
@@ -543,7 +543,7 @@ export default function AffordableSecurityGatesJohannesburg() {
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700 gap-2" asChild>
             <Link
-              href="https://wa.me/27795935025?text=Hi%2C%20I%20need%20affordable%20security%20gates"
+              href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20affordable%20security%20gates"
               target="_blank"
             >
               <MessageSquare className="h-4 w-4" />
@@ -551,7 +551,7 @@ export default function AffordableSecurityGatesJohannesburg() {
             </Link>
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700 gap-2" asChild>
-            <Link href="tel:+27795935025">
+            <Link href="tel:+27672763724">
               <Phone className="h-4 w-4" />
               Call Now
             </Link>
