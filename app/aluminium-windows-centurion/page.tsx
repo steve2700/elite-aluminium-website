@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, MessageSquare } from "lucide-react"
 export const metadata: Metadata = {
   title: "Aluminium Windows Centurion | Estate-Approved Installation | Elite Aluminium",
   description:
-    "Premium aluminium window installation in Centurion. Estate-approved designs, energy efficient solutions. Serving all Centurion estates. Free quotes - Call 079 593 5025",
+    "Premium aluminium window installation in Centurion. Estate-approved designs, energy efficient solutions. Serving all Centurion estates. Free quotes - Call 067 276 3724",
   alternates: {
     canonical: "https://elitealuminium.co.za/aluminium-windows-centurion",
   },
@@ -36,7 +36,7 @@ export default function AluminiumWindowsCenturionPage() {
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Centurion Windows",
             url: "https://elitealuminium.co.za/aluminium-windows-centurion",
-            telephone: "+27795935025",
+            telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
@@ -61,14 +61,14 @@ export default function AluminiumWindowsCenturionPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+27795935025"
+                href="tel:+27672763724"
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold"
               >
                 <Phone className="h-5 w-5" />
-                Call 079 593 5025
+                Call 067 276 3724
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Centurion"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Centurion"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold"
@@ -176,11 +176,11 @@ export default function AluminiumWindowsCenturionPage() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Transform Your Centurion Home Today</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+27795935025"
+              href="tel:+27672763724"
               className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold"
             >
               <Phone className="h-5 w-5" />
-              079 593 5025
+              067 276 3724
             </a>
             <a
               href="mailto:info@elitealuminium.co.za"
@@ -196,13 +196,13 @@ export default function AluminiumWindowsCenturionPage() {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
         <div className="flex gap-2">
           <a
-            href="tel:+27795935025"
+            href="tel:+27672763724"
             className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg font-semibold"
           >
             📞 Call Now
           </a>
           <a
-            href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20windows%20in%20Centurion"
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20windows%20in%20Centurion"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold"
