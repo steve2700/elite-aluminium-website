@@ -7,7 +7,7 @@ import { Phone, Mail, MessageCircle, Check, MapPin, Shield, Clock, Award } from 
 export const metadata: Metadata = {
   title: "Carports Pretoria | Premium Aluminium Carport Installation | Elite Aluminium",
   description:
-    "Professional carport installation in Pretoria. Aluminium, steel & shade net carports. Double, single & multi-car options. SANS compliant. Free quotes - Call 079 593 5025",
+    "Professional carport installation in Pretoria. Aluminium, steel & shade net carports. Double, single & multi-car options. SANS compliant. Free quotes - Call 067 276 3724",
   keywords: [
     "carports Pretoria",
     "aluminium carports Pretoria",
@@ -56,7 +56,7 @@ export default function CarportsPretoriaPage() {
             provider: {
               "@type": "LocalBusiness",
               name: "Elite Aluminium",
-              telephone: "+27795935025",
+              telephone: "+27672763724",
               email: "info@elitealuminium.co.za",
             },
             areaServed: {
@@ -87,7 +87,7 @@ export default function CarportsPretoriaPage() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8" asChild>
                   <a
-                    href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
+                    href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -101,9 +101,9 @@ export default function CarportsPretoriaPage() {
                   className="border-white text-white hover:bg-white/10 bg-transparent"
                   asChild
                 >
-                  <a href="tel:0795935025">
+                  <a href="tel:0672763724">
                     <Phone className="mr-2 h-5 w-5" />
-                    079 593 5025
+                    067 276 3724
                   </a>
                 </Button>
               </div>
@@ -646,7 +646,7 @@ export default function CarportsPretoriaPage() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" variant="secondary" className="px-8" asChild>
                 <a
-                  href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
+                  href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -660,9 +660,9 @@ export default function CarportsPretoriaPage() {
                 className="border-white text-white hover:bg-white/10 px-8 bg-transparent"
                 asChild
               >
-                <a href="tel:0795935025">
+                <a href="tel:0672763724">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </a>
               </Button>
               <Button
@@ -684,7 +684,7 @@ export default function CarportsPretoriaPage() {
         <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 flex gap-2 md:hidden z-50 shadow-lg">
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700" asChild>
             <a
-              href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
+              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -693,7 +693,7 @@ export default function CarportsPretoriaPage() {
             </a>
           </Button>
           <Button variant="outline" className="flex-1 bg-transparent" asChild>
-            <a href="tel:0795935025">
+            <a href="tel:0672763724">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </a>
