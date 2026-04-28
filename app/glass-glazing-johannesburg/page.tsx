@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin, Clock, CheckCircle2, ArrowRight, MessageSquare, Sh
 export const metadata: Metadata = {
   title: "Glass & Glazing Johannesburg | Safety Glass, Double Glazing | Elite Aluminium",
   description:
-    "Professional glass and glazing services in Johannesburg. Safety glass, double glazing, shopfront glass, frameless glass. SABS certified. Free quotes - Call 079 593 5025",
+    "Professional glass and glazing services in Johannesburg. Safety glass, double glazing, shopfront glass, frameless glass. SABS certified. Free quotes - Call 067 276 3724",
   keywords: [
     "glass glazing Johannesburg",
     "double glazing Johannesburg",
@@ -88,7 +88,7 @@ export default function GlassGlazingJohannesburgPage() {
             name: "Elite Aluminium - Glass & Glazing Johannesburg",
             "@id": "https://elitealuminium.co.za/glass-glazing-johannesburg",
             url: "https://elitealuminium.co.za/glass-glazing-johannesburg",
-            telephone: "+27795935025",
+            telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
@@ -124,10 +124,10 @@ export default function GlassGlazingJohannesburgPage() {
               shopfront glass, frameless glass and glass replacement. SABS certified materials, 10-year guarantee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27795935025" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                <Phone className="h-5 w-5" /> Call 079 593 5025
+              <a href="tel:+27672763724" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                <Phone className="h-5 w-5" /> Call 067 276 3724
               </a>
-              <a href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20and%20glazing%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+              <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20and%20glazing%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
                 <MessageSquare className="h-5 w-5" /> WhatsApp Quote
               </a>
             </div>
@@ -203,7 +203,7 @@ export default function GlassGlazingJohannesburgPage() {
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-4 text-slate-900">Emergency Glass Replacement Johannesburg</h2>
-              <p className="leading-relaxed">Storm damage, break-ins and accidents happen. Elite Aluminium provides fast glass replacement services across all Johannesburg suburbs. We carry a wide range of standard glass sizes and thicknesses in stock, meaning most standard replacements can be completed same-day or next-day. Call us on 079 593 5025 to arrange a rapid response glass replacement in Johannesburg.</p>
+              <p className="leading-relaxed">Storm damage, break-ins and accidents happen. Elite Aluminium provides fast glass replacement services across all Johannesburg suburbs. We carry a wide range of standard glass sizes and thicknesses in stock, meaning most standard replacements can be completed same-day or next-day. Call us on 067 276 3724 to arrange a rapid response glass replacement in Johannesburg.</p>
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-4 text-slate-900">Commercial Glazing Johannesburg</h2>
@@ -222,7 +222,7 @@ export default function GlassGlazingJohannesburgPage() {
               { q: "How much does glass replacement cost in Johannesburg?", a: "Glass replacement in Johannesburg starts from around R200 for a small standard pane. Double glazed units, safety glass and larger panes cost more. We provide free on-site quotes and can advise on the most cost-effective solution for your situation." },
               { q: "Is double glazing worth it in Johannesburg?", a: "Yes — Johannesburg's hot summers and cold winters mean double glazing pays for itself in energy savings relatively quickly. It also reduces noise significantly, which is a benefit in busier Johannesburg suburbs. We can advise on expected payback periods during your free quote." },
               { q: "What glass do I need for shower doors in Johannesburg?", a: "Shower doors in Johannesburg must be made from toughened safety glass (minimum 6mm for framed, 10mm for frameless). All our shower door glass is SABS certified and meets the required safety standards." },
-              { q: "Do you do emergency glass repairs in Johannesburg?", a: "Yes — call us on 079 593 5025 for urgent glass replacement anywhere in Johannesburg. We stock a wide range of standard glass sizes and aim to complete most emergency replacements same-day or next-day." },
+              { q: "Do you do emergency glass repairs in Johannesburg?", a: "Yes — call us on 067 276 3724 for urgent glass replacement anywhere in Johannesburg. We stock a wide range of standard glass sizes and aim to complete most emergency replacements same-day or next-day." },
             ].map((faq, i) => (
               <div key={i} className="bg-white rounded-lg p-6 border border-slate-200">
                 <h3 className="text-xl font-bold mb-3 text-slate-800">{faq.q}</h3>
@@ -253,8 +253,8 @@ export default function GlassGlazingJohannesburgPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Your Free Glazing Quote in Johannesburg</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <a href="tel:+27795935025" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-              <Phone className="h-5 w-5" /> 079 593 5025
+            <a href="tel:+27672763724" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+              <Phone className="h-5 w-5" /> 067 276 3724
             </a>
             <a href="mailto:info@elitealuminium.co.za" className="inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-900 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
               <Mail className="h-5 w-5" /> info@elitealuminium.co.za
@@ -288,8 +288,8 @@ export default function GlassGlazingJohannesburgPage() {
 
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
         <div className="flex gap-2">
-          <a href="tel:+27795935025" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg font-semibold">📞 Call Now</a>
-          <a href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20and%20glazing%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold">💬 WhatsApp</a>
+          <a href="tel:+27672763724" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg font-semibold">📞 Call Now</a>
+          <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20and%20glazing%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold">💬 WhatsApp</a>
         </div>
       </div>
     </>
