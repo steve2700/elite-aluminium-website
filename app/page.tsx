@@ -17,7 +17,7 @@ import PremiumServices from "@/components/premium-services"
 export const metadata: Metadata = {
   title: "Elite Aluminium | Premium Aluminium Windows, Doors & Glass Solutions in Gauteng",
   description:
-    "Expert aluminium window, door, sliding door, security gate & glass installation across Johannesburg, Sandton, Pretoria, Centurion. 15+ years experience. Free quotes - Call 079 593 5025",
+    "Expert aluminium window, door, sliding door, security gate & glass installation across Johannesburg, Sandton, Pretoria, Centurion. 15+ years experience. Free quotes - Call 067 276 3724",
   keywords: [
     "aluminium windows Johannesburg",
     "aluminium doors Gauteng",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Elite Aluminium | Premium Aluminium Solutions Gauteng",
     description:
-      "Expert aluminium & glass installation across Johannesburg, Sandton, Pretoria. Free quotes - 079 593 5025",
+      "Expert aluminium & glass installation across Johannesburg, Sandton, Pretoria. Free quotes - 067 276 3724",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -109,7 +109,7 @@ export default function HomePage() {
               longitude: 28.0473,
             },
             url: "https://elitealuminium.co.za",
-            telephone: "+27795935025",
+            telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             priceRange: "$$",
             openingHoursSpecification: [
