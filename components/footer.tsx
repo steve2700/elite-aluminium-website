@@ -115,12 +115,12 @@ export default function Footer() {
             </p>
             <div className="space-y-2 text-sm">
               <a
-                href="tel:+27795935025"
+                href="tel:+27672763724"
                 className="flex items-center gap-2 hover:text-blue-400 transition-colors"
                 aria-label="Call Elite Aluminium"
               >
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                079 593 5025
+                067 276 3724
               </a>
               <a
                 href="mailto:info@elitealuminium.co.za"
@@ -224,7 +224,7 @@ export default function Footer() {
               Ready to transform your space? Contact us today for a free quote and site visit.
             </p>
             <Link
-              href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
+              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2.5 rounded-lg transition-colors text-sm font-medium"
