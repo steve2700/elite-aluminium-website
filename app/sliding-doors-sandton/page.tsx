@@ -7,12 +7,12 @@ import { Card, CardContent } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Sliding Doors Sandton | Premium Sliding Door Installation | Elite Aluminium",
   description:
-    "Luxury sliding door installation in Sandton. Stacking doors, lift-slide systems. Estate-approved. Call 079 593 5025.",
+    "Luxury sliding door installation in Sandton. Stacking doors, lift-slide systems. Estate-approved. Call 067 276 3724.",
   keywords: "sliding doors sandton, stacking doors sandton, lift-slide doors sandton, aluminium sliding doors sandton",
   openGraph: {
     title: "Sliding Doors Sandton | Premium Sliding Door Installation | Elite Aluminium",
     description:
-      "Luxury sliding door installation in Sandton. Stacking doors, lift-slide systems. Estate-approved. Call 079 593 5025.",
+      "Luxury sliding door installation in Sandton. Stacking doors, lift-slide systems. Estate-approved. Call 067 276 3724.",
     url: "https://elitealuminium.co.za/sliding-doors-sandton",
     type: "website",
   },
@@ -35,14 +35,14 @@ export default function SlidingDoorsSandtonPage() {
               Luxury sliding door installations for Sandton's finest properties. Estate-approved designs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20sliding%20doors%20in%20Sandton"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20sliding%20doors%20in%20Sandton"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -91,14 +91,14 @@ export default function SlidingDoorsSandtonPage() {
               Get a free consultation and quote for luxury sliding doors. Estate-approved installations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" variant="secondary" className="text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  079 593 5025
+                  067 276 3724
                 </Button>
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20sliding%20doors%20in%20Sandton"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20sliding%20doors%20in%20Sandton"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -156,7 +156,7 @@ export default function SlidingDoorsSandtonPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Sliding Doors Sandton",
-            telephone: "079-593-5025",
+            telephone: "067-276-3724",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
