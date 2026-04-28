@@ -19,7 +19,7 @@ import {
 export const metadata: Metadata = {
   title: "Glass Balustrades Gauteng | Frameless Glass Railings | Elite Aluminium",
   description:
-    "Premium glass balustrades and frameless glass railings in Gauteng. Pool-compliant, modern designs. Expert installation. 10-year guarantee. Call 079 593 5025.",
+    "Premium glass balustrades and frameless glass railings in Gauteng. Pool-compliant, modern designs. Expert installation. 10-year guarantee. Call 067 276 3724.",
   keywords:
     "glass balustrades, frameless glass, glass railings, pool fencing, balcony glass, glass balustrades Sandton, glass balustrades Pretoria, Gauteng",
   alternates: {
@@ -170,14 +170,14 @@ export default function GlassBalustradesPage() {
                   comprehensive 10-year guarantee.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:+27795935025">
+                  <a href="tel:+27672763724">
                     <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700">
                       <Phone className="mr-2 h-5 w-5" />
-                      Call 079 593 5025
+                      Call 067 276 3724
                     </Button>
                   </a>
                   <a
-                    href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades"
+                    href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -417,7 +417,7 @@ export default function GlassBalustradesPage() {
                   {
                     question: "How much do glass balustrades cost in Gauteng?",
                     answer:
-                      "Glass balustrade prices vary based on system type, glass thickness, and installation complexity. Frameless glass balustrades range from R3,500 to R5,500 per linear meter including installation. Semi-frameless systems range from R2,800 to R4,200 per meter. Pool-compliant fencing with self-closing gates typically costs R4,500 to R6,000 per meter. We provide detailed free quotes. Contact us on 079 593 5025 for accurate pricing based on your project specifications.",
+                      "Glass balustrade prices vary based on system type, glass thickness, and installation complexity. Frameless glass balustrades range from R3,500 to R5,500 per linear meter including installation. Semi-frameless systems range from R2,800 to R4,200 per meter. Pool-compliant fencing with self-closing gates typically costs R4,500 to R6,000 per meter. We provide detailed free quotes. Contact us on 067 276 3724 for accurate pricing based on your project specifications.",
                   },
                   {
                     question: "What's the difference between frameless and semi-frameless glass?",
@@ -478,14 +478,14 @@ export default function GlassBalustradesPage() {
                 space with elegant, pool-compliant glass balustrade solutions.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <a href="tel:+27795935025">
+                <a href="tel:+27672763724">
                   <Button size="lg" className="bg-white text-cyan-600 hover:bg-cyan-50">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 079 593 5025
+                    Call 067 276 3724
                   </Button>
                 </a>
                 <a
-                  href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades"
+                  href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
