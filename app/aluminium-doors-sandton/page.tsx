@@ -7,13 +7,13 @@ import { Card, CardContent } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Aluminium Doors Sandton | Luxury Door Installation | Elite Aluminium",
   description:
-    "Premium aluminium door installation in Sandton. Pivot doors, French doors, custom entrance doors. Estate-approved. Call 079 593 5025.",
+    "Premium aluminium door installation in Sandton. Pivot doors, French doors, custom entrance doors. Estate-approved. Call 067 276 3724.",
   keywords:
     "aluminium doors sandton, pivot doors sandton, luxury doors sandton, entrance doors sandton, estate doors sandton",
   openGraph: {
     title: "Aluminium Doors Sandton | Luxury Door Installation | Elite Aluminium",
     description:
-      "Premium aluminium door installation in Sandton. Pivot doors, French doors, custom entrance doors. Estate-approved. Call 079 593 5025.",
+      "Premium aluminium door installation in Sandton. Pivot doors, French doors, custom entrance doors. Estate-approved. Call 067 276 3724.",
     url: "https://elitealuminium.co.za/aluminium-doors-sandton",
     type: "website",
   },
@@ -85,7 +85,7 @@ export default function AluminiumDoorsSandtonPage() {
               <a href="tel:+27672763724">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <a
@@ -210,7 +210,7 @@ export default function AluminiumDoorsSandtonPage() {
               <a href="tel:+27672763724">
                 <Button size="lg" variant="secondary" className="text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  079 593 5025
+                  067 276 3724
                 </Button>
               </a>
               <a
