@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin, Clock, CheckCircle2, ArrowRight, MessageSquare, Sh
 export const metadata: Metadata = {
   title: "Aluminium Windows Johannesburg | Professional Installation | Elite Aluminium",
   description:
-    "Expert aluminium window installation in Johannesburg. SABS certified, 10-year guarantee. Serving all Johannesburg suburbs. Free quotes - Call 079 593 5025",
+    "Expert aluminium window installation in Johannesburg. SABS certified, 10-year guarantee. Serving all Johannesburg suburbs. Free quotes - Call 067 276 3724",
   keywords: [
     "aluminium windows Johannesburg",
     "window installation Johannesburg",
@@ -93,7 +93,7 @@ export default function AluminiumWindowsJohannesburgPage() {
             image: "https://elitealuminium.co.za/modern-aluminium-windows-installation.jpg",
             "@id": "https://elitealuminium.co.za/aluminium-windows-johannesburg",
             url: "https://elitealuminium.co.za/aluminium-windows-johannesburg",
-            telephone: "+27795935025",
+            telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
@@ -140,14 +140,14 @@ export default function AluminiumWindowsJohannesburgPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+27795935025"
+                href="tel:+27672763724"
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
               >
                 <Phone className="h-5 w-5" />
-                Call 079 593 5025
+                Call 067 276 3724
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Johannesburg"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Johannesburg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
@@ -442,7 +442,7 @@ export default function AluminiumWindowsJohannesburgPage() {
                 <input
                   type="tel"
                   className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="079 123 4567"
+                  placeholder="067 276 3724"
                 />
               </div>
               <div>
@@ -502,11 +502,11 @@ export default function AluminiumWindowsJohannesburgPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+27795935025"
+              href="tel:+27672763724"
               className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               <Phone className="h-5 w-5" />
-              079 593 5025
+              067 276 3724
             </a>
             <a
               href="mailto:info@elitealuminium.co.za"
@@ -580,13 +580,13 @@ export default function AluminiumWindowsJohannesburgPage() {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
         <div className="flex gap-2">
           <a
-            href="tel:+27795935025"
+            href="tel:+27672763724"
             className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg font-semibold"
           >
             📞 Call Now
           </a>
           <a
-            href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Johannesburg"
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Johannesburg"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold"
