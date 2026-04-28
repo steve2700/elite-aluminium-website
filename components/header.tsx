@@ -45,12 +45,12 @@ export default function Header() {
         <div className="flex items-center justify-between py-2 border-b border-slate-700/50">
           <div className="flex items-center gap-4 text-sm text-slate-300">
             <a
-              href="tel:+27795935025"
+              href="tel:+27672763724"
               className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"
-              aria-label="Call us at 079 593 5025"
+              aria-label="Call us at 0672763724"
             >
               <Phone className="h-3.5 w-3.5 flex-shrink-0" />
-              <span className="hidden sm:inline">079 593 5025</span>
+              <span className="hidden sm:inline">0672763724</span>
               <span className="sm:hidden text-xs">Call</span>
             </a>
             <a
@@ -64,7 +64,7 @@ export default function Header() {
             </a>
           </div>
           <a
-            href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -265,14 +265,14 @@ export default function Header() {
                 {/* Mobile CTAs */}
                 <div className="pt-4 mt-4 border-t border-slate-700 space-y-3">
                   <a
-                    href="tel:+27795935025"
+                    href="tel:+27672763724"
                     className="flex items-center justify-center gap-2 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition-colors font-medium"
                   >
                     <Phone className="h-4 w-4" />
-                    079 593 5025
+                    0672763724
                   </a>
                   <a
-                    href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
+                    href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg transition-colors font-medium"
