@@ -6,7 +6,7 @@ import { MessageSquare, Phone, Mail, Check, Star, Shield, Clock, MapPin } from "
 export const metadata: Metadata = {
   title: "Glass Balustrades Pretoria | Frameless Pool & Deck Glass Installations | Elite Aluminium",
   description:
-    "Premium glass balustrades installation in Pretoria. Frameless pool fencing, deck railings & balcony glass. SANS 10134 compliant. Estate-approved designs. Free quotes - 079 593 5025",
+    "Premium glass balustrades installation in Pretoria. Frameless pool fencing, deck railings & balcony glass. SANS 10134 compliant. Estate-approved designs. Free quotes - 067 276 3724",
   keywords: [
     "glass balustrades Pretoria",
     "frameless glass Pretoria",
@@ -145,7 +145,7 @@ export default function GlassBalustradesPretoriaPage() {
             provider: {
               "@type": "LocalBusiness",
               name: "Elite Aluminium",
-              telephone: "+27795935025",
+              telephone: "+27672763724",
               email: "info@elitealuminium.co.za",
             },
             areaServed: {
@@ -178,14 +178,14 @@ export default function GlassBalustradesPretoriaPage() {
               glass. SANS 10134 compliant. Estate-approved designs with 10-year guarantee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg w-full sm:w-auto">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Pretoria"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Pretoria"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -347,10 +347,10 @@ export default function GlassBalustradesPretoriaPage() {
               designs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-slate-100 text-lg w-full sm:w-auto">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <a href="mailto:info@elitealuminium.co.za">
@@ -412,14 +412,14 @@ export default function GlassBalustradesPretoriaPage() {
       {/* Mobile Sticky CTA */}
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-40">
         <div className="flex gap-2">
-          <a href="tel:+27795935025" className="flex-1">
+          <a href="tel:+27672763724" className="flex-1">
             <Button className="w-full bg-blue-600 hover:bg-blue-700">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </Button>
           </a>
           <a
-            href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Pretoria"
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Pretoria"
             className="flex-1"
             target="_blank"
             rel="noopener noreferrer"
