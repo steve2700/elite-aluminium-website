@@ -6,7 +6,7 @@ import { Phone, MessageSquare, MapPin } from "lucide-react"
 export const metadata: Metadata = {
   title: "Security Gates Pretoria | Professional Installation | Elite Aluminium",
   description:
-    "Professional security gates in Pretoria. Government-approved, SABS certified, 10-year guarantee. Call 079 593 5025.",
+    "Professional security gates in Pretoria. Government-approved, SABS certified, 10-year guarantee. Call 067 276 3724.",
   keywords: "security gates pretoria, burglar bars pretoria, trellis doors pretoria, security solutions pretoria",
 }
 
@@ -39,14 +39,14 @@ export default function SecurityGatesPretoriaPage() {
             government properties with SABS approved solutions.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="tel:+27795935025">
+            <a href="tel:+27672763724">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                 <Phone className="mr-2" />
-                Call 079 593 5025
+                Call 067 276 3724
               </Button>
             </a>
             <Link
-              href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Pretoria"
+              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Pretoria"
               target="_blank"
             >
               <Button size="lg" className="bg-green-600 hover:bg-green-700">
@@ -98,13 +98,13 @@ export default function SecurityGatesPretoriaPage() {
       {/* Mobile CTA */}
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t p-4 md:hidden z-50">
         <div className="flex gap-2">
-          <a href="tel:+27795935025" className="flex-1">
+          <a href="tel:+27672763724" className="flex-1">
             <Button className="w-full bg-blue-600">
               <Phone className="mr-2 h-4 w-4" />
               Call
             </Button>
           </a>
-          <Link href="https://wa.me/27795935025" className="flex-1">
+          <Link href="https://wa.me/27672763724" className="flex-1">
             <Button className="w-full bg-green-600">
               <MessageSquare className="mr-2 h-4 w-4" />
               WhatsApp
