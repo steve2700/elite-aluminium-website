@@ -9,7 +9,7 @@ import { Phone, MessageSquare, Mail, Shield, CheckCircle2, MapPin, Star } from "
 export const metadata: Metadata = {
   title: "Security Gates Johannesburg | Professional Installation | Elite Aluminium",
   description:
-    "Professional security gates in Johannesburg. SABS approved, 10-year guarantee, same-day quotes. Call 079 593 5025 today.",
+    "Professional security gates in Johannesburg. SABS approved, 10-year guarantee, same-day quotes. Call 067 276 3724 today.",
   keywords:
     "security gates johannesburg, security gates joburg, aluminium security gates, burglar bars johannesburg, security solutions johannesburg",
   alternates: {
@@ -165,14 +165,14 @@ export default function SecurityGatesJohannesburgPage() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-8">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <Link
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Johannesburg"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Johannesburg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -273,7 +273,7 @@ export default function SecurityGatesJohannesburgPage() {
 
             <p className="text-center text-slate-600 mt-8">
               Don't see your suburb? We service all areas in and around Johannesburg.{" "}
-              <a href="tel:+27795935025" className="text-blue-600 hover:text-blue-700 font-semibold">
+              <a href="tel:+27672763724" className="text-blue-600 hover:text-blue-700 font-semibold">
                 Call us
               </a>{" "}
               to confirm coverage.
@@ -556,8 +556,8 @@ export default function SecurityGatesJohannesburgPage() {
 
                   <p className="text-sm text-center text-slate-600">
                     Or call us directly:{" "}
-                    <a href="tel:+27795935025" className="font-bold text-blue-600">
-                      079 593 5025
+                    <a href="tel:+27672763724" className="font-bold text-blue-600">
+                      067 276 3724
                     </a>
                   </p>
                 </form>
@@ -578,10 +578,10 @@ export default function SecurityGatesJohannesburgPage() {
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <a href="mailto:info@elitealuminium.co.za">
@@ -591,7 +591,7 @@ export default function SecurityGatesJohannesburgPage() {
                 </Button>
               </a>
               <Link
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Johannesburg"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Johannesburg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -615,14 +615,14 @@ export default function SecurityGatesJohannesburgPage() {
       {/* Mobile Sticky Bottom Bar */}
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
         <div className="flex gap-2">
-          <a href="tel:+27795935025" className="flex-1">
+          <a href="tel:+27672763724" className="flex-1">
             <Button className="w-full bg-blue-600 hover:bg-blue-700">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </Button>
           </a>
           <Link
-            href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Johannesburg"
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Johannesburg"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1"
@@ -644,7 +644,7 @@ export default function SecurityGatesJohannesburgPage() {
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Security Gates Johannesburg",
             image: "https://elitealuminium.co.za/logo.png",
-            telephone: "079-593-5025",
+            telephone: "067-276-3724",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
