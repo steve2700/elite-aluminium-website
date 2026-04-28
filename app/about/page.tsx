@@ -399,7 +399,7 @@ export default function AboutPage() {
                 quote today.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20free%20quote" target="_blank">
+                <Link href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote" target="_blank">
                   <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
                     <MessageSquare className="mr-2 h-5 w-5" />
                     WhatsApp Us Now
