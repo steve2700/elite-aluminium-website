@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 }
 
 export default function AluminiumCarportsCenturionPage() {
-  const whatsappNumber = "27795935025"
+  const whatsappNumber = "27672763724"
   const whatsappMessage = encodeURIComponent("Hi, I need a quote for aluminium carports in Centurion")
 
   return (
@@ -40,7 +40,7 @@ export default function AluminiumCarportsCenturionPage() {
             image: "https://elitealuminium.co.za/modern-aluminium-carport-installation.jpg",
             "@id": "https://elitealuminium.co.za/aluminium-carports-centurion",
             url: "https://elitealuminium.co.za/aluminium-carports-centurion",
-            telephone: "+27795935025",
+            telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
@@ -116,7 +116,7 @@ export default function AluminiumCarportsCenturionPage() {
                 className="bg-white/10 border-white/20 hover:bg-white/20 text-white text-lg px-8"
                 asChild
               >
-                <a href="tel:0795935025">
+                <a href="tel:0672763724">
                   <Phone className="mr-2 h-5 w-5" />
                   079 593 5025
                 </a>
@@ -776,7 +776,7 @@ export default function AluminiumCarportsCenturionPage() {
                 className="border-white text-white hover:bg-white/10 text-lg px-8 bg-transparent"
                 asChild
               >
-                <a href="tel:0795935025">
+                <a href="tel:0672763724">
                   <Phone className="mr-2 h-5 w-5" />
                   079 593 5025
                 </a>
@@ -814,7 +814,7 @@ export default function AluminiumCarportsCenturionPage() {
             </a>
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700" asChild>
-            <a href="tel:0795935025">
+            <a href="tel:0672763724">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </a>
