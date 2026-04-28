@@ -200,9 +200,9 @@ export default function TermsAndConditionsPage() {
                   <Mail className="h-5 w-5 text-blue-600" />
                   info@elitealuminium.co.za
                 </a>
-                <a href="tel:+27795935025" className="flex items-center gap-3 text-slate-700 hover:text-blue-600 transition-colors">
+                <a href="tel:+27672763724" className="flex items-center gap-3 text-slate-700 hover:text-blue-600 transition-colors">
                   <Phone className="h-5 w-5 text-blue-600" />
-                  079 593 5025
+                  067 276 3724
                 </a>
               </div>
             </div>
