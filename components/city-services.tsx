@@ -85,10 +85,10 @@ export default function CityServices() {
             Don't see your city? We serve all Gauteng areas including Midrand, Randburg, Roodepoort, and more.
           </p>
           <a
-            href="tel:+27795935025"
+            href="tel:+27672763724"
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
           >
-            Call 079 593 5025 for Your Area
+            Call 067 276 3724 for Your Area
           </a>
         </div>
       </div>
