@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Aluminium Carports Centurion | Premium Estate-Approved Carports | Elite Aluminium",
   description:
-    "Premium aluminium carports in Centurion. Estate-approved designs, SABS certified, 10-year guarantee. Serving Centurion, Irene, Wierdapark & surrounds. Call 079 593 5025.",
+    "Premium aluminium carports in Centurion. Estate-approved designs, SABS certified, 10-year guarantee. Serving Centurion, Irene, Wierdapark & surrounds. Call 067 276 3724.",
   keywords:
     "aluminium carports centurion, carports centurion, aluminium carport installation, estate-approved carports, centurion carports, double carports centurion, cantilever carports, SABS certified carports",
   openGraph: {
@@ -118,7 +118,7 @@ export default function AluminiumCarportsCenturionPage() {
               >
                 <a href="tel:0672763724">
                   <Phone className="mr-2 h-5 w-5" />
-                  079 593 5025
+                  067 276 3724
                 </a>
               </Button>
             </div>
@@ -778,7 +778,7 @@ export default function AluminiumCarportsCenturionPage() {
               >
                 <a href="tel:0672763724">
                   <Phone className="mr-2 h-5 w-5" />
-                  079 593 5025
+                  067 276 3724
                 </a>
               </Button>
               <Button
