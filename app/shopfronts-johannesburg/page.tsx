@@ -41,7 +41,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
             provider: {
               "@type": "LocalBusiness",
               name: "Elite Aluminium",
-              telephone: "+27795935025",
+              telephone: "+27672763724",
               email: "info@elitealuminium.co.za",
               address: {
                 "@type": "PostalAddress",
@@ -73,7 +73,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white gap-2 text-lg px-8">
                 <MessageCircle className="h-5 w-5" />
                 <a
-                  href="https://wa.me/27795935025?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg"
+                  href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg"
                   className="flex items-center gap-2"
                 >
                   WhatsApp Quote
@@ -85,7 +85,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
                 className="gap-2 text-lg px-8 bg-white text-slate-900 hover:bg-slate-100"
               >
                 <Phone className="h-5 w-5" />
-                <a href="tel:+27795935025">079 593 5025</a>
+                <a href="tel:+27672763724">067 276 3724</a>
               </Button>
             </div>
 
@@ -623,7 +623,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white gap-2 text-lg px-8">
               <MessageCircle className="h-5 w-5" />
-              <a href="https://wa.me/27795935025?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg">
+              <a href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg">
                 WhatsApp Quote
               </a>
             </Button>
@@ -633,7 +633,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
               className="gap-2 text-lg px-8 bg-white text-blue-900 hover:bg-slate-100"
             >
               <Phone className="h-5 w-5" />
-              <a href="tel:+27795935025">079 593 5025</a>
+              <a href="tel:+27672763724">067 276 3724</a>
             </Button>
             <Button
               size="lg"
@@ -694,13 +694,13 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700">
             <MessageCircle className="mr-2 h-4 w-4" />
-            <a href="https://wa.me/27795935025?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg">
+            <a href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg">
               WhatsApp
             </a>
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
             <Phone className="mr-2 h-4 w-4" />
-            <a href="tel:+27795935025">Call Now</a>
+            <a href="tel:+27672763724">Call Now</a>
           </Button>
         </div>
       </div>
