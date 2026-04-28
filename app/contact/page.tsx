@@ -71,7 +71,7 @@ export default function ContactPage() {
                     className="bg-white/10 border-white/20 text-white hover:bg-white/20"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call067 276 3724
+                    Call 067 276 3724
                   </Button>
                 </Link>
               </div>
