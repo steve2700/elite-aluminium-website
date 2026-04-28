@@ -6,7 +6,7 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Aluminium Windows Johannesburg | Premium Quality Installation | Elite Aluminium",
   description:
-    "Expert aluminium window installation in Johannesburg, Sandton, Pretoria & Gauteng. Top-quality casement, sliding, awning windows. 15+ years experience. SABS certified. Free quotes - 079 593 5025",
+    "Expert aluminium window installation in Johannesburg, Sandton, Pretoria & Gauteng. Top-quality casement, sliding, awning windows. 15+ years experience. SABS certified. Free quotes - 067 276 3724",
   keywords: [
     "aluminium windows Johannesburg",
     "aluminium windows Sandton",
@@ -44,7 +44,7 @@ export default function AluminiumWindowsPage() {
             provider: {
               "@type": "LocalBusiness",
               name: "Elite Aluminium",
-              telephone: "+27795935025",
+              telephone: "+27672763724",
               email: "info@elitealuminium.co.za",
             },
             areaServed: {
@@ -85,7 +85,7 @@ export default function AluminiumWindowsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows"
+              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -94,14 +94,14 @@ export default function AluminiumWindowsPage() {
                 Get Free Quote
               </Button>
             </Link>
-            <Link href="tel:+27795935025">
+            <Link href="tel:+27672763724">
               <Button
                 size="lg"
                 variant="outline"
                 className="bg-white/10 hover:bg-white/20 text-white border-white/30 px-8 py-6"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call 079 593 5025
+                Call 067 276 3724
               </Button>
             </Link>
           </div>
@@ -491,11 +491,11 @@ export default function AluminiumWindowsPage() {
                   <strong>Get an Accurate Quote:</strong> Contact Elite Aluminium today for a free, no-obligation quote
                   tailored to your specific requirements. We'll visit your property, assess your needs, and provide
                   transparent pricing with no hidden costs. Call{" "}
-                  <a href="tel:+27795935025" className="text-blue-600 hover:text-blue-700 font-semibold">
-                    079 593 5025
+                  <a href="tel:+27672763724" className="text-blue-600 hover:text-blue-700 font-semibold">
+                    067 276 3724
                   </a>{" "}
                   or{" "}
-                  <a href="https://wa.me/27795935025" className="text-green-600 hover:text-green-700 font-semibold">
+                  <a href="https://wa.me/27672763724" className="text-green-600 hover:text-green-700 font-semibold">
                     WhatsApp us
                   </a>{" "}
                   for immediate assistance.
@@ -549,7 +549,7 @@ export default function AluminiumWindowsPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
-                  href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows"
+                  href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -558,10 +558,10 @@ export default function AluminiumWindowsPage() {
                     WhatsApp for Quote
                   </Button>
                 </Link>
-                <Link href="tel:+27795935025">
+                <Link href="tel:+27672763724">
                   <Button size="lg" variant="outline" className="bg-white text-slate-900 hover:bg-slate-100 px-8 py-6">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 079 593 5025
+                    Call 067 276 3724
                   </Button>
                 </Link>
               </div>
