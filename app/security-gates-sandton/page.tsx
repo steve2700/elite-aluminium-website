@@ -6,7 +6,7 @@ import { Phone, MessageSquare, Shield, MapPin } from "lucide-react"
 export const metadata: Metadata = {
   title: "Security Gates Sandton | Premium Installation | Elite Aluminium",
   description:
-    "Luxury security gates in Sandton. Estate-approved designs, SABS certified, 10-year guarantee. Call 079 593 5025 for premium service.",
+    "Luxury security gates in Sandton. Estate-approved designs, SABS certified, 10-year guarantee. Call 067 276 3724 for premium service.",
   keywords:
     "security gates sandton, luxury security gates, estate approved security gates, burglar bars sandton, trellis doors sandton",
   alternates: {
@@ -62,14 +62,14 @@ export default function SecurityGatesSandtonPage() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-8">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <Link
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20security%20gates%20in%20Sandton"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20security%20gates%20in%20Sandton"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -178,14 +178,14 @@ export default function SecurityGatesSandtonPage() {
       {/* Mobile Sticky Bottom Bar */}
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
         <div className="flex gap-2">
-          <a href="tel:+27795935025" className="flex-1">
+          <a href="tel:+27672763724" className="flex-1">
             <Button className="w-full bg-blue-600 hover:bg-blue-700">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </Button>
           </a>
           <Link
-            href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Sandton"
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Sandton"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1"
