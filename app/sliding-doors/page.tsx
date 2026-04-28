@@ -9,7 +9,7 @@ import Footer from "@/components/footer"
 export const metadata: Metadata = {
   title: "Aluminium Sliding Doors Gauteng | Premium Installation | Elite Aluminium",
   description:
-    "Premium aluminium sliding doors in Gauteng. Space-saving, elegant designs with expert installation. 10-year guarantee. Free quotes. Call 079 593 5025 today.",
+    "Premium aluminium sliding doors in Gauteng. Space-saving, elegant designs with expert installation. 10-year guarantee. Free quotes. Call 067 276 3724 today.",
   keywords:
     "aluminium sliding doors, sliding doors Gauteng, patio doors, aluminium doors Johannesburg, sliding doors Sandton, sliding doors Pretoria, stacking doors",
   alternates: {
@@ -126,14 +126,14 @@ export default function SlidingDoorsPage() {
                   across Johannesburg, Sandton, Pretoria, and all of Gauteng. 10-year guarantee on all installations.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:+27795935025">
+                  <a href="tel:+27672763724">
                     <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                       <Phone className="mr-2 h-5 w-5" />
-                      Call 079 593 5025
+                      Call 067 276 3724
                     </Button>
                   </a>
                   <a
-                    href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20sliding%20doors"
+                    href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20sliding%20doors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -359,7 +359,7 @@ export default function SlidingDoorsPage() {
                   {
                     question: "How much do aluminium sliding doors cost in Gauteng?",
                     answer:
-                      "Aluminium sliding door prices vary based on size, panel configuration, glass type, and hardware quality. Standard 2-panel sliding doors typically range from R8,000 to R15,000. Premium stacking doors or lift-and-slide systems for large openings can range from R25,000 to R80,000+. We provide free quotes with detailed breakdowns. Contact us on 079 593 5025 for an accurate quote based on your specific requirements.",
+                      "Aluminium sliding door prices vary based on size, panel configuration, glass type, and hardware quality. Standard 2-panel sliding doors typically range from R8,000 to R15,000. Premium stacking doors or lift-and-slide systems for large openings can range from R25,000 to R80,000+. We provide free quotes with detailed breakdowns. Contact us on 067 276 3724 for an accurate quote based on your specific requirements.",
                   },
                   {
                     question: "What's the difference between stacking and standard sliding doors?",
@@ -419,14 +419,14 @@ export default function SlidingDoorsPage() {
                 indoor-outdoor living experience with premium aluminium sliding doors.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <a href="tel:+27795935025">
+                <a href="tel:+27672763724">
                   <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 079 593 5025
+                    Call 067 276 3724
                   </Button>
                 </a>
                 <a
-                  href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20sliding%20doors"
+                  href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20sliding%20doors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
