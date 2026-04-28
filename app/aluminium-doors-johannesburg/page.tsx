@@ -7,13 +7,13 @@ import { Card, CardContent } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Aluminium Doors Johannesburg | Professional Installation | Elite Aluminium",
   description:
-    "Expert aluminium door installation in Johannesburg. Pivot doors, French doors, barn doors. 10-year guarantee. Free quotes. Call 079 593 5025.",
+    "Expert aluminium door installation in Johannesburg. Pivot doors, French doors, barn doors. 10-year guarantee. Free quotes. Call 067 276 3724.",
   keywords:
     "aluminium doors johannesburg, pivot doors johannesburg, french doors johannesburg, aluminium entrance doors johannesburg, commercial doors johannesburg",
   openGraph: {
     title: "Aluminium Doors Johannesburg | Professional Installation | Elite Aluminium",
     description:
-      "Expert aluminium door installation in Johannesburg. Pivot doors, French doors, barn doors. 10-year guarantee. Free quotes. Call 079 593 5025.",
+      "Expert aluminium door installation in Johannesburg. Pivot doors, French doors, barn doors. 10-year guarantee. Free quotes. Call 067 276 3724.",
     url: "https://elitealuminium.co.za/aluminium-doors-johannesburg",
     type: "website",
     images: [
@@ -160,14 +160,14 @@ export default function AluminiumDoorsJohannesburgPage() {
               more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20doors%20in%20Johannesburg"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20doors%20in%20Johannesburg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -401,14 +401,14 @@ export default function AluminiumDoorsJohannesburgPage() {
               guarantee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" variant="secondary" className="text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  079 593 5025
+                  067 276 3724
                 </Button>
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20doors%20in%20Johannesburg"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20doors%20in%20Johannesburg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -466,14 +466,14 @@ export default function AluminiumDoorsJohannesburgPage() {
       {/* Sticky Mobile CTA */}
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 z-50 md:hidden">
         <div className="flex gap-2">
-          <a href="tel:+27795935025" className="flex-1">
+          <a href="tel:+27672763724" className="flex-1">
             <Button className="w-full bg-blue-600 hover:bg-blue-700">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </Button>
           </a>
           <a
-            href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20doors%20in%20Johannesburg"
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20doors%20in%20Johannesburg"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1"
@@ -492,7 +492,7 @@ export default function AluminiumDoorsJohannesburgPage() {
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Aluminium Doors Johannesburg",
             image: "https://elitealuminium.co.za/modern-aluminium-pivot-door-entrance.jpg",
-            telephone: "079-593-5025",
+            telephone: "067-276-3724",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
