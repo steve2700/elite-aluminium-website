@@ -7,13 +7,13 @@ import { Card, CardContent } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Sliding Doors Johannesburg | Aluminium Sliding Door Installation | Elite Aluminium",
   description:
-    "Professional sliding door installation in Johannesburg. Stacking doors, lift-slide, pocket doors. 10-year guarantee. Call 079 593 5025.",
+    "Professional sliding door installation in Johannesburg. Stacking doors, lift-slide, pocket doors. 10-year guarantee. Call 067 276 3724.",
   keywords:
     "sliding doors johannesburg, stacking doors johannesburg, aluminium sliding doors johannesburg, patio doors johannesburg",
   openGraph: {
     title: "Sliding Doors Johannesburg | Aluminium Sliding Door Installation | Elite Aluminium",
     description:
-      "Professional sliding door installation in Johannesburg. Stacking doors, lift-slide, pocket doors. 10-year guarantee. Call 079 593 5025.",
+      "Professional sliding door installation in Johannesburg. Stacking doors, lift-slide, pocket doors. 10-year guarantee. Call 067 276 3724.",
     url: "https://elitealuminium.co.za/sliding-doors-johannesburg",
     type: "website",
   },
@@ -37,14 +37,14 @@ export default function SlidingDoorsJohannesburgPage() {
               Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 079 593 5025
+                  Call 067 276 3724
                 </Button>
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20sliding%20doors%20in%20Johannesburg"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20sliding%20doors%20in%20Johannesburg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -95,14 +95,14 @@ export default function SlidingDoorsJohannesburgPage() {
               guarantee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27795935025">
+              <a href="tel:+27672763724">
                 <Button size="lg" variant="secondary" className="text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  079 593 5025
+                  067 276 3724
                 </Button>
               </a>
               <a
-                href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20sliding%20doors%20in%20Johannesburg"
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20sliding%20doors%20in%20Johannesburg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -160,7 +160,7 @@ export default function SlidingDoorsJohannesburgPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Sliding Doors Johannesburg",
-            telephone: "079-593-5025",
+            telephone: "067-276-3724",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
