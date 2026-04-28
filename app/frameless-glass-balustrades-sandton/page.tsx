@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Frameless Glass Balustrades Sandton | Luxury Pool & Balcony Glass Fencing",
   description:
-    "Frameless glass balustrades in Sandton. Premium uninterrupted views for pools, balconies, and decks. SANS 10134 compliant. Free quotes. Call 079 593 5025.",
+    "Frameless glass balustrades in Sandton. Premium uninterrupted views for pools, balconies, and decks. SANS 10134 compliant. Free quotes. Call 067 276 3724.",
   keywords:
     "frameless glass balustrades sandton, glass pool fencing sandton, frameless glass railing, luxury glass balustrades, glass balcony railing sandton",
   openGraph: {
@@ -40,7 +40,7 @@ export default function FramelessGlassBalustradesSandton() {
               addressRegion: "Gauteng",
               addressCountry: "ZA",
             },
-            telephone: "+27795935025",
+            telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             priceRange: "R3500-R5500 per meter",
             areaServed: {
@@ -69,7 +69,7 @@ export default function FramelessGlassBalustradesSandton() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white gap-2" asChild>
                 <Link
-                  href="https://wa.me/27795935025?text=Hi%2C%20I%27m%20interested%20in%20frameless%20glass%20balustrades%20in%20Sandton"
+                  href="https://wa.me/27672763724?text=Hi%2C%20I%27m%20interested%20in%20frameless%20glass%20balustrades%20in%20Sandton"
                   target="_blank"
                 >
                   <MessageSquare className="h-5 w-5" />
@@ -82,9 +82,9 @@ export default function FramelessGlassBalustradesSandton() {
                 className="border-white text-white hover:bg-white/10 gap-2 bg-transparent"
                 asChild
               >
-                <Link href="tel:+27795935025">
+                <Link href="tel:+27672763724">
                   <Phone className="h-5 w-5" />
-                  Call: 079 593 5025
+                  Call: 067 276 3724
                 </Link>
               </Button>
             </div>
@@ -167,13 +167,13 @@ export default function FramelessGlassBalustradesSandton() {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 md:hidden z-50 shadow-lg">
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700 gap-2" asChild>
-            <Link href="https://wa.me/27795935025?text=Frameless%20glass%20quote%20Sandton" target="_blank">
+            <Link href="https://wa.me/27672763724?text=Frameless%20glass%20quote%20Sandton" target="_blank">
               <MessageSquare className="h-4 w-4" />
               WhatsApp
             </Link>
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700 gap-2" asChild>
-            <Link href="tel:+27795935025">
+            <Link href="tel:+27672763724">
               <Phone className="h-4 w-4" />
               Call Now
             </Link>
