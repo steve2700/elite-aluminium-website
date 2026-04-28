@@ -7,7 +7,7 @@ import { Phone, Mail, MapPin, Clock, ArrowRight, MessageSquare } from "lucide-re
 
 export const metadata: Metadata = {
   title: "Aluminium & Glass Services in Centurion | Elite Aluminium",
-  description: "Elite Aluminium serves Centurion with aluminium windows, fencing, carports and estate-approved security solutions. SABS certified. Free quotes - Call 079 593 5025",
+  description: "Elite Aluminium serves Centurion with aluminium windows, fencing, carports and estate-approved security solutions. SABS certified. Free quotes - Call 067 276 3724",
   keywords: ["aluminium services Centurion", "aluminium windows Centurion", "aluminium fencing Centurion", "carports Centurion", "estate security Centurion"],
   openGraph: { title: "Aluminium & Glass Services in Centurion | Elite Aluminium", url: "https://elitealuminium.co.za/areas/centurion", siteName: "Elite Aluminium", locale: "en_ZA", type: "website" },
   alternates: { canonical: "https://elitealuminium.co.za/areas/centurion" },
@@ -25,7 +25,7 @@ export default function CenturionAreaPage() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "LocalBusiness", name: "Elite Aluminium - Centurion", "@id": "https://elitealuminium.co.za/areas/centurion", url: "https://elitealuminium.co.za/areas/centurion", telephone: "+27795935025", email: "info@elitealuminium.co.za", address: { "@type": "PostalAddress", addressLocality: "Centurion", addressRegion: "Gauteng", addressCountry: "ZA" }, geo: { "@type": "GeoCoordinates", latitude: -25.8619, longitude: 28.1881 }, areaServed: { "@type": "City", name: "Centurion" } }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "LocalBusiness", name: "Elite Aluminium - Centurion", "@id": "https://elitealuminium.co.za/areas/centurion", url: "https://elitealuminium.co.za/areas/centurion", telephone: "+27672763724", email: "info@elitealuminium.co.za", address: { "@type": "PostalAddress", addressLocality: "Centurion", addressRegion: "Gauteng", addressCountry: "ZA" }, geo: { "@type": "GeoCoordinates", latitude: -25.8619, longitude: 28.1881 }, areaServed: { "@type": "City", name: "Centurion" } }) }} />
 
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="container mx-auto px-4">
@@ -41,8 +41,8 @@ export default function CenturionAreaPage() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Aluminium & Glass Services in Centurion</h1>
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">Premium aluminium windows, fencing, carports and estate-approved security solutions for Centurion homes and estates. SABS certified, 10-year guarantee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27795935025" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><Phone className="h-5 w-5" /> Call 079 593 5025</a>
-              <a href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20in%20Centurion" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><MessageSquare className="h-5 w-5" /> WhatsApp Quote</a>
+              <a href="tel:+27672763724" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><Phone className="h-5 w-5" /> Call 067 276 3724</a>
+              <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20in%20Centurion" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><MessageSquare className="h-5 w-5" /> WhatsApp Quote</a>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function CenturionAreaPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4 text-slate-900">Get a Free Centurion Quote Today</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <a href="tel:+27795935025" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><Phone className="h-5 w-5" /> 079 593 5025</a>
+            <a href="tel:+27672763724" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><Phone className="h-5 w-5" /> 067 276 3724</a>
             <a href="mailto:info@elitealuminium.co.za" className="inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-900 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><Mail className="h-5 w-5" /> info@elitealuminium.co.za</a>
           </div>
           <Link href="/contact" className="inline-flex items-center gap-2 text-blue-600 font-medium hover:text-blue-700 transition-colors">Fill in our contact form <ArrowRight className="h-4 w-4" /></Link>
@@ -105,8 +105,8 @@ export default function CenturionAreaPage() {
 
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
         <div className="flex gap-2">
-          <a href="tel:+27795935025" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg font-semibold">📞 Call Now</a>
-          <a href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20quote%20in%20Centurion" target="_blank" rel="noopener noreferrer" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold">💬 WhatsApp</a>
+          <a href="tel:+27672763724" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg font-semibold">📞 Call Now</a>
+          <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20in%20Centurion" target="_blank" rel="noopener noreferrer" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold">💬 WhatsApp</a>
         </div>
       </div>
     </>
