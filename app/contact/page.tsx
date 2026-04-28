@@ -7,9 +7,9 @@ import { Phone, Mail, MapPin, Clock, MessageSquare, Send } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Contact Elite Aluminium | Free Quotes & Consultations | 079 593 5025",
+  title: "Contact Elite Aluminium | Free Quotes & Consultations |067 276 3724",
   description:
-    "Get in touch with Elite Aluminium for free quotes on aluminium windows, doors, security gates & glass. Call 079 593 5025, email info@elitealuminium.co.za or WhatsApp us. Serving Gauteng.",
+    "Get in touch with Elite Aluminium for free quotes on aluminium windows, doors, security gates & glass. Call067 276 3724, email info@elitealuminium.co.za or WhatsApp us. Serving Gauteng.",
   keywords: [
     "contact elite aluminium",
     "aluminium quotes Gauteng",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Contact Elite Aluminium | Free Quotes & Consultations",
-    description: "Get free quotes on premium aluminium & glass installations. Call 079 593 5025 or WhatsApp us today.",
+    description: "Get free quotes on premium aluminium & glass installations. Call067 276 3724 or WhatsApp us today.",
     url: "https://elitealuminium.co.za/contact",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
@@ -58,20 +58,20 @@ export default function ContactPage() {
                 installations across Gauteng. We respond within 2 hours during business hours.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20free%20quote" target="_blank">
+                <Link href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote" target="_blank">
                   <Button size="lg" className="bg-green-600 hover:bg-green-700">
                     <MessageSquare className="mr-2 h-5 w-5" />
                     WhatsApp Us Now
                   </Button>
                 </Link>
-                <Link href="tel:+27795935025">
+                <Link href="tel:+27672763724">
                   <Button
                     size="lg"
                     variant="outline"
                     className="bg-white/10 border-white/20 text-white hover:bg-white/20"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 079 593 5025
+                    Call067 276 3724
                   </Button>
                 </Link>
               </div>
@@ -91,8 +91,8 @@ export default function ContactPage() {
                     </div>
                     <h3 className="font-bold text-lg mb-2">Call Us</h3>
                     <p className="text-slate-600 text-sm mb-3">Speak directly with our experts</p>
-                    <a href="tel:+27795935025" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
-                      079 593 5025
+                    <a href="tel:+27672763724" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
+                     067 276 3724
                     </a>
                   </div>
                 </CardContent>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                     <h3 className="font-bold text-lg mb-2">WhatsApp</h3>
                     <p className="text-slate-600 text-sm mb-3">Quick response guaranteed</p>
                     <Link
-                      href="https://wa.me/27795935025"
+                      href="https://wa.me/27672763724"
                       target="_blank"
                       className="text-green-600 hover:text-green-700 font-semibold"
                     >
@@ -282,7 +282,7 @@ export default function ContactPage() {
                     Our team is standing by to help with urgent enquiries, emergency repairs, and same-day
                     consultations.
                   </p>
-                  <Link href="https://wa.me/27795935025?text=I%20need%20urgent%20assistance" target="_blank">
+                  <Link href="https://wa.me/27672763724?text=I%20need%20urgent%20assistance" target="_blank">
                     <Button className="w-full bg-white text-blue-600 hover:bg-blue-50">
                       <MessageSquare className="mr-2 h-5 w-5" />
                       WhatsApp for Urgent Help
@@ -370,7 +370,7 @@ export default function ContactPage() {
                   <CardContent className="pt-6">
                     <h3 className="font-bold text-lg mb-2">What's the best way to contact you for urgent matters?</h3>
                     <p className="text-slate-600">
-                      For urgent enquiries or emergency services, WhatsApp is the fastest method at 079 593 5025. You
+                      For urgent enquiries or emergency services, WhatsApp is the fastest method at067 276 3724. You
                       can also call us directly on the same number during business hours.
                     </p>
                   </CardContent>
