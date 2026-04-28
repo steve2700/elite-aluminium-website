@@ -1,80 +1,112 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Phone, Mail, MapPin, Clock, CheckCircle2, ArrowRight, MessageSquare, Shield } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { MessageSquare, Phone, Mail, Check, Star, Shield, Clock, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Glass & Glazing Johannesburg | Safety Glass, Double Glazing | Elite Aluminium",
+  title: "Glass Balustrades Sandton | Frameless Pool & Deck Glass Installations | Elite Aluminium",
   description:
-    "Professional glass and glazing services in Johannesburg. Safety glass, double glazing, shopfront glass, frameless glass. SABS certified. Free quotes - Call 067 276 3724",
-  keywords: [
-    "glass glazing Johannesburg",
-    "double glazing Johannesburg",
-    "safety glass Johannesburg",
-    "glass installation Johannesburg",
-    "shopfront glass Johannesburg",
-    "frameless glass Johannesburg",
-    "glass replacement Johannesburg",
-    "toughened glass Johannesburg",
-  ],
-  authors: [{ name: "Elite Aluminium" }],
-  openGraph: {
-    title: "Glass & Glazing Johannesburg | Elite Aluminium",
-    description: "Professional glass and glazing services across all Johannesburg suburbs. Safety glass, double glazing and more.",
-    url: "https://elitealuminium.co.za/glass-glazing-johannesburg",
-    siteName: "Elite Aluminium",
-    locale: "en_ZA",
-    type: "website",
-  },
-  alternates: {
-    canonical: "https://elitealuminium.co.za/glass-glazing-johannesburg",
-  },
+    "Premium glass balustrades installation in Sandton. Frameless pool fencing, deck railings & balcony glass. SANS 10134 compliant. Estate-approved designs. Free quotes - 067 276 3724",
 }
 
-export default function GlassGlazingJohannesburgPage() {
+export default function GlassBalustradesSandtonPage() {
   const suburbs = [
-    "Sandton", "Rosebank", "Parkhurst", "Melville", "Randburg",
-    "Bryanston", "Fourways", "Midrand", "Roodepoort", "Northcliff",
-    "Greenside", "Craighall", "Houghton", "Parktown", "Bedfordview", "Edenvale",
+    "Hyde Park",
+    "Sandhurst",
+    "Morningside",
+    "Bryanston",
+    "Atholl",
+    "Rivonia",
+    "Illovo",
+    "Melrose",
+    "Wendywood",
+    "Gallo Manor",
+    "Sunninghill",
+    "Paulshof",
+    "Lonehill",
+    "Dainfern",
+    "Cedar Lakes",
   ]
 
-  const glazingTypes = [
+  const glassTypes = [
     {
-      title: "Single Glazing",
-      description: "Standard glazing for windows and doors throughout Johannesburg",
-      features: ["4mm, 5mm & 6mm thickness", "Clear, tinted or frosted", "Cost-effective", "Quick replacement"],
+      title: "Frameless Pool Fencing",
+      description:
+        "SANS 10134 compliant frameless glass pool fencing that provides unobstructed views while ensuring maximum safety for your luxury Sandton property.",
+      features: ["12mm toughened glass", "Self-closing gates", "Invisible spigot fixing", "Estate-approved"],
     },
     {
-      title: "Double Glazing",
-      description: "Energy-efficient double glazed units to reduce heating and cooling costs",
-      features: ["Up to 30% energy saving", "Noise reduction", "Reduces condensation", "Ideal for Jhb climate"],
+      title: "Deck & Patio Glass",
+      description:
+        "Elegant glass balustrades for elevated decks and patios in Sandton homes. Modern, minimalist design that complements luxury architecture.",
+      features: ["Frameless or channel options", "Wind-resistant", "Low maintenance", "Premium finish"],
     },
     {
-      title: "Toughened Safety Glass",
-      description: "SABS certified safety glass for doors, shopfronts and high-traffic areas",
-      features: ["SABS SANS 1263 certified", "5x stronger than standard glass", "Safe breakage pattern", "Balustrades & shower doors"],
+      title: "Balcony Railings",
+      description:
+        "High-rise balcony glass installations for Sandton apartments and penthouses. Engineered for safety with stunning panoramic views.",
+      features: ["High-strength glass", "Weather-resistant", "Custom heights", "Building compliant"],
     },
     {
-      title: "Laminated Glass",
-      description: "Security laminated glass for high-risk applications",
-      features: ["Holds together when broken", "Smash & grab resistant", "UV protection", "Security glazing"],
-    },
-    {
-      title: "Frosted & Decorative Glass",
-      description: "Privacy and decorative glass options for homes and offices",
-      features: ["Sandblasted finish", "Etched patterns", "Bathroom privacy", "Office partitions"],
-    },
-    {
-      title: "Shopfront Glazing",
-      description: "Large-format commercial glazing for Johannesburg retail and office shopfronts",
-      features: ["Full height glazing", "Structural silicone", "Safety compliant", "Commercial grade"],
+      title: "Staircase Glass",
+      description:
+        "Contemporary glass balustrades for internal and external staircases. Adds light and space to modern Sandton homes.",
+      features: ["Sleek design", "Easy to clean", "Various fixing methods", "Custom-made"],
     },
   ]
 
   const benefits = [
-    { icon: Shield, title: "SABS Certified", desc: "All glass meets South African SANS safety standards" },
-    { icon: CheckCircle2, title: "Custom Cut", desc: "Glass cut to any size and shape for your Johannesburg project" },
-    { icon: Shield, title: "Fast Turnaround", desc: "Quick glass replacement service across all JHB suburbs" },
-    { icon: CheckCircle2, title: "10-Year Guarantee", desc: "Full workmanship guarantee on all glazing installations" },
+    "Unobstructed panoramic views of Sandton skyline",
+    "SANS 10134 compliant for pool safety",
+    "Estate architectural guidelines approved",
+    "10-year guarantee on workmanship",
+    "12mm toughened safety glass standard",
+    "Invisible spigot or channel mounting",
+    "Same-day quotes in Sandton suburbs",
+    "Experienced luxury property installers",
+  ]
+
+  const faqs = [
+    {
+      question: "How much do glass balustrades cost in Sandton?",
+      answer:
+        "Glass balustrades in Sandton typically range from R2,500 to R4,500 per linear meter, depending on glass thickness, fixing method (frameless vs channel), and site-specific requirements. We provide detailed quotes after a free site visit to your Sandton property.",
+    },
+    {
+      question: "Are glass balustrades safe for pool fencing in Sandton?",
+      answer:
+        "Yes, absolutely. Our glass pool fencing is fully SANS 10134 compliant, using 12mm toughened safety glass with self-closing gates. Glass balustrades are the premium choice for Sandton estates, offering superior safety with unobstructed views.",
+    },
+    {
+      question: "Do glass balustrades work in Sandton's high-rise apartments?",
+      answer:
+        "Yes, we specialize in high-rise glass balustrade installations across Sandton. Our engineered solutions meet all building safety requirements for apartments and penthouses, withstanding wind loads and providing secure, stylish balcony railings.",
+    },
+    {
+      question: "Are your glass installations estate-approved in Sandton?",
+      answer:
+        "Yes, we work extensively with Sandton estates and know all architectural guidelines. Our glass balustrades are designed to meet estate requirements for Dainfern, Cedar Lakes, Blue Hills, and other premium Sandton estates. We handle all estate approval submissions.",
+    },
+    {
+      question: "How long does glass balustrade installation take in Sandton?",
+      answer:
+        "Most Sandton glass balustrade installations take 1-3 days, depending on the linear meters and complexity. Pool fencing installations typically take 1-2 days, while larger deck or multi-level projects may take 2-3 days. We schedule installations to minimize disruption to your Sandton home.",
+    },
+    {
+      question: "What's the maintenance for glass balustrades in Sandton?",
+      answer:
+        "Glass balustrades require minimal maintenance in Sandton. Simply clean with glass cleaner and a soft cloth every few weeks. The toughened glass is weather-resistant and won't rust, warp, or corrode like traditional metal railings. Spigots and hardware are stainless steel for longevity.",
+    },
+    {
+      question: "Can you match existing glass designs in Sandton estates?",
+      answer:
+        "Yes, we can match existing glass balustrade designs to ensure consistency across your Sandton property or estate. We work with your architect or estate's design guidelines to deliver seamless, approved installations.",
+    },
+    {
+      question: "Do you offer warranties on glass installations in Sandton?",
+      answer:
+        "Yes, we provide a 10-year workmanship guarantee on all glass balustrade installations in Sandton. Our toughened glass also comes with manufacturer warranties. We're committed to long-term quality for every Sandton client.",
+    },
   ]
 
   return (
@@ -84,212 +116,295 @@ export default function GlassGlazingJohannesburgPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: "Elite Aluminium - Glass & Glazing Johannesburg",
-            "@id": "https://elitealuminium.co.za/glass-glazing-johannesburg",
-            url: "https://elitealuminium.co.za/glass-glazing-johannesburg",
-            telephone: "+27672763724",
-            email: "info@elitealuminium.co.za",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Johannesburg",
-              addressRegion: "Gauteng",
-              addressCountry: "ZA",
+            "@type": "Service",
+            serviceType: "Glass Balustrades Installation",
+            provider: {
+              "@type": "LocalBusiness",
+              name: "Elite Aluminium",
+              telephone: "+27672763724",
+              email: "info@elitealuminium.co.za",
             },
-            areaServed: { "@type": "City", name: "Johannesburg" },
-            priceRange: "R200-R1500",
+            areaServed: {
+              "@type": "City",
+              name: "Sandton",
+              containedInPlace: {
+                "@type": "State",
+                name: "Gauteng",
+              },
+            },
+            description:
+              "Premium glass balustrades installation in Sandton including frameless pool fencing, deck railings, and balcony glass. SANS 10134 compliant.",
           }),
         }}
       />
 
-      {/* Hero */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20 overflow-hidden">
-        <div className="container mx-auto px-4 relative z-10">
-          <nav className="flex items-center gap-2 text-sm text-slate-400 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span>/</span>
-            <Link href="/areas/johannesburg" className="hover:text-white transition-colors">Johannesburg</Link>
-            <span>/</span>
-            <span className="text-white">Glass & Glazing</span>
-          </nav>
+      {/* Hero Section */}
+      <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/modern-glass-balustrades-installation.jpg')] bg-cover bg-center opacity-20" />
+        <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block bg-blue-600/20 backdrop-blur-sm border border-blue-500/30 rounded-full px-4 py-2 mb-6">
-              <span className="text-blue-300 text-sm font-medium">Johannesburg's Glass & Glazing Experts</span>
+            <div className="inline-block bg-blue-600/20 border border-blue-500/30 rounded-full px-4 py-2 mb-6">
+              <span className="text-blue-400 font-medium">Premium Glass Installations in Sandton</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance">
-              Glass & Glazing Services in Johannesburg
+              Glass Balustrades Sandton | Frameless Pool & Deck Glass
             </h1>
-            <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
-              Professional glass supply and installation across all Johannesburg suburbs. Safety glass, double glazing,
-              shopfront glass, frameless glass and glass replacement. SABS certified materials, 10-year guarantee.
+            <p className="text-xl text-slate-300 mb-8 text-pretty">
+              Luxury glass balustrade installations across Sandton. Frameless pool fencing, deck railings & balcony
+              glass. SANS 10134 compliant. Estate-approved designs with 10-year guarantee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27672763724" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                <Phone className="h-5 w-5" /> Call 067 276 3724
+              <a href="tel:+27672763724">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg w-full sm:w-auto">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call 067 276 3724
+                </Button>
               </a>
-              <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20and%20glazing%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                <MessageSquare className="h-5 w-5" /> WhatsApp Quote
+              <a
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Sandton"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-lg border-2 border-green-500 text-green-400 hover:bg-green-500 hover:text-white w-full sm:w-auto bg-transparent"
+                >
+                  <MessageSquare className="mr-2 h-5 w-5" />
+                  WhatsApp Quote
+                </Button>
               </a>
             </div>
-            <p className="mt-6 text-slate-400 text-sm"><Clock className="inline h-4 w-4 mr-1" />Same-day quotes available across Johannesburg</p>
+            <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm">
+              <div className="flex items-center gap-2">
+                <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
+                <span>15+ Years Experience</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Shield className="h-5 w-5 text-blue-400" />
+                <span>10-Year Guarantee</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Clock className="h-5 w-5 text-green-400" />
+                <span>Free Sandton Quotes</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Intro */}
+      {/* Local Intro Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto prose prose-lg">
+            <p className="text-lg leading-relaxed text-slate-700">
+              Elite Aluminium provides premium <strong>glass balustrades installation throughout Sandton</strong> and
+              surrounding luxury suburbs. Our experienced teams install high-quality frameless glass fencing, pool
+              balustrades, deck railings, and balcony glass for residential estates, high-rise apartments, and
+              commercial properties across Sandton.
+            </p>
+            <p className="text-lg leading-relaxed text-slate-700 mt-4">
+              With over 15 years serving <strong>Sandton homeowners and estates</strong>, we understand the local
+              requirements for SANS 10134 compliant pool fencing, estate-approved designs, and luxury installations.
+              From Hyde Park to Dainfern, we deliver premium <strong>glass balustrades in Sandton</strong> backed by our
+              10-year workmanship guarantee.
+            </p>
+            <p className="text-lg leading-relaxed text-slate-700 mt-4">
+              Whether you need frameless pool fencing, contemporary deck glass, high-rise balcony railings, or internal
+              staircase balustrades in <strong>Sandton</strong>, our expert installers provide professional service from
+              quote to completion. We work with architects and estate committees to ensure full compliance with design
+              guidelines.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Sandton Suburbs */}
+      <section className="py-16 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Sandton Suburbs We Serve</h2>
+            <p className="text-center text-slate-600 mb-8 text-pretty">
+              Professional glass balustrades installation across all Sandton areas
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+              {suburbs.map((suburb) => (
+                <div
+                  key={suburb}
+                  className="bg-white p-4 rounded-lg border border-slate-200 text-center hover:shadow-md transition-shadow"
+                >
+                  <MapPin className="h-5 w-5 mx-auto mb-2 text-blue-600" />
+                  <span className="text-sm font-medium text-slate-800">{suburb}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Glass Types Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Types of Glass Balustrades We Install in Sandton
+            </h2>
+            <p className="text-center text-slate-600 mb-12 text-pretty">
+              Premium glass solutions for every luxury Sandton property
+            </p>
+            <div className="grid md:grid-cols-2 gap-8">
+              {glassTypes.map((type, idx) => (
+                <div
+                  key={idx}
+                  className="bg-slate-50 rounded-xl p-8 border border-slate-200 hover:shadow-lg transition-shadow"
+                >
+                  <h3 className="text-2xl font-bold mb-4 text-slate-900">{type.title}</h3>
+                  <p className="text-slate-700 mb-6 leading-relaxed">{type.description}</p>
+                  <ul className="space-y-2">
+                    {type.features.map((feature, i) => (
+                      <li key={i} className="flex items-start gap-2">
+                        <Check className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-700">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="py-16 bg-gradient-to-br from-blue-900 to-slate-900 text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Why Sandton Residents Choose Elite Aluminium
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {benefits.map((benefit, idx) => (
+                <div key={idx} className="flex items-start gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
+                  <Check className="h-6 w-6 text-green-400 flex-shrink-0 mt-1" />
+                  <span className="text-slate-100">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <p className="text-lg text-slate-700 leading-relaxed mb-6">
-              Elite Aluminium provides a full range of <strong>glass and glazing services throughout Johannesburg</strong>. From single glass replacements to complete double-glazed window installations and large-format commercial shopfront glazing, our experienced teams handle projects of all sizes across all Johannesburg suburbs.
-            </p>
-            <p className="text-lg text-slate-700 leading-relaxed mb-6">
-              All glass supplied and installed by Elite Aluminium meets <strong>SABS SANS standards</strong>. We supply toughened safety glass, laminated security glass, double glazed units, frosted and decorative glass, and standard float glass in a range of thicknesses.
-            </p>
-            <p className="text-lg text-slate-700 leading-relaxed">
-              Whether you need a quick <strong>glass replacement in Johannesburg</strong> after a break-in or storm damage, or you're upgrading to energy-efficient double glazing, our team provides fast, professional service backed by our 10-year workmanship guarantee.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Glazing Types */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Glass & Glazing Options in Johannesburg</h2>
-          <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">Comprehensive glass solutions for residential and commercial Johannesburg properties</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {glazingTypes.map((type) => (
-              <div key={type.title} className="bg-white rounded-xl p-6 border border-slate-200">
-                <h3 className="text-xl font-bold mb-3 text-slate-800">{type.title}</h3>
-                <p className="text-slate-600 mb-4 text-sm">{type.description}</p>
-                <ul className="space-y-2">
-                  {type.features.map((f) => (
-                    <li key={f} className="flex items-start gap-2">
-                      <CheckCircle2 className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                      <span className="text-slate-700 text-sm">{f}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose */}
-      <section className="py-16 bg-gradient-to-br from-blue-600 to-cyan-600 text-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Why Choose Elite Aluminium for Glazing in Johannesburg</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {benefits.map((b) => (
-              <div key={b.title} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6">
-                <b.icon className="h-10 w-10 mb-4" />
-                <h3 className="text-xl font-bold mb-2">{b.title}</h3>
-                <p className="text-blue-100">{b.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Content */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto space-y-8 text-lg text-slate-700">
-            <div>
-              <h2 className="text-3xl font-bold mb-4 text-slate-900">Double Glazing in Johannesburg</h2>
-              <p className="leading-relaxed">Johannesburg's extreme temperature swings — hot summers and cold Highveld winters — make double glazing a worthwhile investment. Double glazed units reduce heat transfer significantly, keeping your home cooler in summer and warmer in winter. Johannesburg homeowners typically see up to 30% reduction in heating and cooling costs after upgrading to double glazing. The acoustic benefits are an added bonus, particularly in high-traffic Johannesburg suburbs.</p>
-            </div>
-            <div>
-              <h2 className="text-3xl font-bold mb-4 text-slate-900">Emergency Glass Replacement Johannesburg</h2>
-              <p className="leading-relaxed">Storm damage, break-ins and accidents happen. Elite Aluminium provides fast glass replacement services across all Johannesburg suburbs. We carry a wide range of standard glass sizes and thicknesses in stock, meaning most standard replacements can be completed same-day or next-day. Call us on 067 276 3724 to arrange a rapid response glass replacement in Johannesburg.</p>
-            </div>
-            <div>
-              <h2 className="text-3xl font-bold mb-4 text-slate-900">Commercial Glazing Johannesburg</h2>
-              <p className="leading-relaxed">We work with commercial developers, architects and property managers across Johannesburg on shopfront glazing, office partitions, large-format glass installations and glass balustrades. Our commercial glazing team is experienced in handling large glass panels and complex structural glazing projects. Contact us to discuss your Johannesburg commercial glazing project.</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Glass Balustrades Sandton - Frequently Asked Questions
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, idx) => (
+                <div key={idx} className="bg-slate-50 rounded-lg p-6 border border-slate-200">
+                  <h3 className="text-xl font-bold mb-3 text-slate-900">{faq.question}</h3>
+                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </section>
 
-      {/* FAQs */}
-      <section className="py-16 bg-slate-50">
+      {/* Contact CTA Section */}
+      <section className="py-16 bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Glass & Glazing FAQs – Johannesburg</h2>
-          <div className="max-w-4xl mx-auto space-y-6">
-            {[
-              { q: "How much does glass replacement cost in Johannesburg?", a: "Glass replacement in Johannesburg starts from around R200 for a small standard pane. Double glazed units, safety glass and larger panes cost more. We provide free on-site quotes and can advise on the most cost-effective solution for your situation." },
-              { q: "Is double glazing worth it in Johannesburg?", a: "Yes — Johannesburg's hot summers and cold winters mean double glazing pays for itself in energy savings relatively quickly. It also reduces noise significantly, which is a benefit in busier Johannesburg suburbs. We can advise on expected payback periods during your free quote." },
-              { q: "What glass do I need for shower doors in Johannesburg?", a: "Shower doors in Johannesburg must be made from toughened safety glass (minimum 6mm for framed, 10mm for frameless). All our shower door glass is SABS certified and meets the required safety standards." },
-              { q: "Do you do emergency glass repairs in Johannesburg?", a: "Yes — call us on 067 276 3724 for urgent glass replacement anywhere in Johannesburg. We stock a wide range of standard glass sizes and aim to complete most emergency replacements same-day or next-day." },
-            ].map((faq, i) => (
-              <div key={i} className="bg-white rounded-lg p-6 border border-slate-200">
-                <h3 className="text-xl font-bold mb-3 text-slate-800">{faq.q}</h3>
-                <p className="text-slate-600 leading-relaxed">{faq.a}</p>
-              </div>
-            ))}
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Your Free Sandton Glass Quote Today</h2>
+            <p className="text-xl mb-8 text-blue-100 text-pretty">
+              Professional glass balustrades installation across Sandton with same-day quotes and estate-approved
+              designs
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:+27672763724">
+                <Button size="lg" className="bg-white text-blue-600 hover:bg-slate-100 text-lg w-full sm:w-auto">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call 067 276 3724
+                </Button>
+              </a>
+              <a href="mailto:info@elitealuminium.co.za">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-white text-white hover:bg-white hover:text-blue-600 text-lg w-full sm:w-auto bg-transparent"
+                >
+                  <Mail className="mr-2 h-5 w-5" />
+                  Email Us
+                </Button>
+              </a>
+            </div>
+            <div className="mt-8 p-6 bg-white/10 backdrop-blur-sm rounded-lg inline-block">
+              <p className="text-sm text-blue-100 mb-2">Servicing all of Sandton and surrounding areas</p>
+              <p className="font-semibold">Response time: Under 2 hours</p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Suburbs */}
-      <section className="py-16 bg-white">
+      {/* Internal Links */}
+      <section className="py-12 bg-slate-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Johannesburg Suburbs We Serve</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
-            {suburbs.map((suburb) => (
-              <div key={suburb} className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-center hover:border-blue-500 transition-all">
-                <MapPin className="h-5 w-5 text-blue-600 mx-auto mb-2" />
-                <span className="text-slate-700 font-medium">{suburb}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Your Free Glazing Quote in Johannesburg</h2>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <a href="tel:+27672763724" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-              <Phone className="h-5 w-5" /> 067 276 3724
-            </a>
-            <a href="mailto:info@elitealuminium.co.za" className="inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-900 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-              <Mail className="h-5 w-5" /> info@elitealuminium.co.za
-            </a>
-          </div>
-          <Link href="/contact" className="inline-flex items-center gap-2 text-blue-600 font-medium hover:text-blue-700 transition-colors">
-            Fill in our contact form <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-      </section>
-
-      {/* Related */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Other Services in Johannesburg</h2>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {[
-              { title: "Shower Doors Johannesburg", href: "/shower-doors-johannesburg", desc: "Frameless and framed shower enclosures" },
-              { title: "Aluminium Windows Johannesburg", href: "/aluminium-windows-johannesburg", desc: "Premium aluminium windows across JHB" },
-              { title: "Glass Balustrades Johannesburg", href: "/glass-balustrades-johannesburg", desc: "Frameless glass balustrade systems" },
-            ].map((s) => (
-              <Link key={s.href} href={s.href} className="bg-white p-6 rounded-xl border border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all group">
-                <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600">{s.title}</h3>
-                <p className="text-slate-600 mb-4">{s.desc}</p>
-                <span className="text-blue-600 font-medium inline-flex items-center gap-2">Learn More <ArrowRight className="h-4 w-4" /></span>
+          <div className="max-w-6xl mx-auto">
+            <h3 className="text-2xl font-bold text-center mb-8">Related Services in Sandton</h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              <Link
+                href="/aluminium-windows-sandton"
+                className="bg-white p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow text-center"
+              >
+                <h4 className="font-semibold text-lg mb-2">Aluminium Windows Sandton</h4>
+                <p className="text-sm text-slate-600">Premium window installations</p>
               </Link>
-            ))}
+              <Link
+                href="/sliding-doors-sandton"
+                className="bg-white p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow text-center"
+              >
+                <h4 className="font-semibold text-lg mb-2">Sliding Doors Sandton</h4>
+                <p className="text-sm text-slate-600">Luxury sliding door systems</p>
+              </Link>
+              <Link
+                href="/security-gates-sandton"
+                className="bg-white p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow text-center"
+              >
+                <h4 className="font-semibold text-lg mb-2">Security Gates Sandton</h4>
+                <p className="text-sm text-slate-600">High-end security solutions</p>
+              </Link>
+            </div>
+            <div className="text-center mt-8">
+              <Link href="/glass-balustrades" className="text-blue-600 hover:underline font-medium">
+                ← Back to General Glass Balustrades
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
+      {/* Mobile Sticky CTA */}
+      <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-40">
         <div className="flex gap-2">
-          <a href="tel:+27672763724" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg font-semibold">📞 Call Now</a>
-          <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20and%20glazing%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold">💬 WhatsApp</a>
+          <a href="tel:+27672763724" className="flex-1">
+            <Button className="w-full bg-blue-600 hover:bg-blue-700">
+              <Phone className="mr-2 h-4 w-4" />
+              Call Now
+            </Button>
+          </a>
+          <a
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Sandton"
+            className="flex-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="w-full bg-green-600 hover:bg-green-700">
+              <MessageSquare className="mr-2 h-4 w-4" />
+              WhatsApp
+            </Button>
+          </a>
         </div>
       </div>
     </>
