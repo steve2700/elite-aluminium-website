@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Burglar Bars Sandton | Estate Approved Installation | Elite Aluminium",
   description:
-    "Premium burglar bars in Sandton. Estate-approved designs, SABS certified, custom finishes. From R250/m. Call 079 593 5025.",
+    "Premium burglar bars in Sandton. Estate-approved designs, SABS certified, custom finishes. From R250/m. Call 067 276 3724.",
   keywords: [
     "burglar bars sandton",
     "window security sandton",
@@ -37,7 +37,7 @@ export default function BurglarBarsSandtonPage() {
     provider: {
       "@type": "LocalBusiness",
       name: "Elite Aluminium",
-      telephone: "+27795935025",
+      telephone: "+27672763724",
       email: "info@elitealuminium.co.za",
     },
     areaServed: {
@@ -60,13 +60,13 @@ export default function BurglarBarsSandtonPage() {
             and discreet security solutions.
           </p>
           <div className="flex gap-4">
-            <a href="tel:+27795935025">
+            <a href="tel:+27672763724">
               <Button size="lg" className="bg-blue-600">
                 <Phone className="mr-2" />
-                Call 079 593 5025
+                Call 067 276 3724
               </Button>
             </a>
-            <Link href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20burglar%20bars%20in%20Sandton">
+            <Link href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20burglar%20bars%20in%20Sandton">
               <Button size="lg" className="bg-green-600">
                 <MessageSquare className="mr-2" />
                 WhatsApp Quote
@@ -303,9 +303,9 @@ export default function BurglarBarsSandtonPage() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" asChild className="bg-blue-600 hover:bg-blue-700">
-                <Link href="tel:+27795935025">
+                <Link href="tel:+27672763724">
                   <Phone className="mr-2" />
-                  Call: 079 593 5025
+                  Call: 067 276 3724
                 </Link>
               </Button>
               <Button size="lg" asChild variant="outline" className="bg-white text-slate-900 hover:bg-slate-100">
@@ -318,13 +318,13 @@ export default function BurglarBarsSandtonPage() {
 
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t p-4 md:hidden z-50">
         <div className="flex gap-2">
-          <a href="tel:+27795935025" className="flex-1">
+          <a href="tel:+27672763724" className="flex-1">
             <Button className="w-full bg-blue-600">
               <Phone className="mr-2 h-4 w-4" />
               Call
             </Button>
           </a>
-          <Link href="https://wa.me/27795935025" className="flex-1">
+          <Link href="https://wa.me/27672763724" className="flex-1">
             <Button className="w-full bg-green-600">
               <MessageSquare className="mr-2 h-4 w-4" />
               WhatsApp
