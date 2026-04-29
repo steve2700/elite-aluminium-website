@@ -14,7 +14,7 @@ export default function CTASection() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Link
-              href="https://wa.me/27795935025?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20aluminium%20installation%20needs"
+              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20aluminium%20installation%20needs"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto"
@@ -28,14 +28,14 @@ export default function CTASection() {
               </Button>
             </Link>
 
-            <Link href="tel:+27795935025" className="w-full sm:w-auto">
+            <Link href="tel:+27672763724" className="w-full sm:w-auto">
               <Button
                 size="lg"
                 variant="outline"
                 className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border-white/50 hover:border-white text-lg px-8 py-6 rounded-lg backdrop-blur-sm transition-all"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                079 593 5025
+                067 276 3724
               </Button>
             </Link>
           </div>
