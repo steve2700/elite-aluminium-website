@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     "SABS approved windows",
   ],
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-windows",
+    canonical: "https://www.elitealuminium.co.za/aluminium-windows",
   },
   openGraph: {
     title: "Aluminium Windows Johannesburg | Expert Installation | Elite Aluminium",
     description:
       "Premium aluminium window installation across Gauteng. Casement, sliding, awning windows. 15+ years experience. Free quotes available.",
-    url: "https://elitealuminium.co.za/aluminium-windows",
+    url: "https://www.elitealuminium.co.za/aluminium-windows",
   },
 }
 
