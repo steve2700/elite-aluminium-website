@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     title: "About Elite Aluminium | Gauteng's Premier Aluminium Specialists",
     description:
       "15+ years of excellence in aluminium & glass installations. SABS certified, family-owned, serving all of Gauteng.",
-    url: "https://elitealuminium.co.za/about",
+    url: "https://www.elitealuminium.co.za/about",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/about",
+    canonical: "https://www.elitealuminium.co.za/about",
   },
 }
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
             name: "About Elite Aluminium",
             description:
               "Learn about Elite Aluminium, Gauteng's premier aluminium and glass installation company with 15+ years of experience",
-            url: "https://elitealuminium.co.za/about",
+            url: "https://www.elitealuminium.co.za/about",
           }),
         }}
       />
