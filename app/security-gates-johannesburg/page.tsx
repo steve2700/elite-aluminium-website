@@ -13,13 +13,13 @@ export const metadata: Metadata = {
   keywords:
     "security gates johannesburg, security gates joburg, aluminium security gates, burglar bars johannesburg, security solutions johannesburg",
   alternates: {
-    canonical: "https://elitealuminium.co.za/security-gates-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/security-gates-johannesburg",
   },
   openGraph: {
     title: "Security Gates Johannesburg | Elite Aluminium",
     description:
       "Professional security gate installation throughout Johannesburg. 15+ years experience, SABS approved.",
-    url: "https://elitealuminium.co.za/security-gates-johannesburg",
+    url: "https://www.elitealuminium.co.za/security-gates-johannesburg",
   },
 }
 
@@ -643,7 +643,7 @@ export default function SecurityGatesJohannesburgPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Security Gates Johannesburg",
-            image: "https://elitealuminium.co.za/logo.png",
+            image: "https://www.elitealuminium.co.za/logo.png",
             telephone: "067-276-3724",
             email: "info@elitealuminium.co.za",
             address: {
@@ -657,7 +657,7 @@ export default function SecurityGatesJohannesburgPage() {
               latitude: -26.2041,
               longitude: 28.0473,
             },
-            url: "https://elitealuminium.co.za/security-gates-johannesburg",
+            url: "https://www.elitealuminium.co.za/security-gates-johannesburg",
             priceRange: "R500-R6000",
             areaServed: [
               { "@type": "City", name: "Johannesburg" },
