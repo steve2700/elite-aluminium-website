@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aluminium & Glass Services in Sandton | Elite Aluminium",
     description: "Professional aluminium and glass installations across all Sandton suburbs. 15+ years experience, SABS certified.",
-    url: "https://elitealuminium.co.za/areas/sandton",
+    url: "https://www.elitealuminium.co.za/areas/sandton",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
-  alternates: { canonical: "https://elitealuminium.co.za/areas/sandton" },
+  alternates: { canonical: "https://www.elitealuminium.co.za/areas/sandton" },
 }
 
 export default function SandtonAreaPage() {
@@ -50,8 +50,8 @@ export default function SandtonAreaPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "LocalBusiness",
-        name: "Elite Aluminium - Sandton", "@id": "https://elitealuminium.co.za/areas/sandton",
-        url: "https://elitealuminium.co.za/areas/sandton", telephone: "+27672763724",
+        name: "Elite Aluminium - Sandton", "@id": "https://www.elitealuminium.co.za/areas/sandton",
+        url: "https://www.elitealuminium.co.za/areas/sandton", telephone: "+27672763724",
         email: "info@elitealuminium.co.za",
         address: { "@type": "PostalAddress", addressLocality: "Sandton", addressRegion: "Gauteng", addressCountry: "ZA" },
         geo: { "@type": "GeoCoordinates", latitude: -26.1076, longitude: 28.0567 },
