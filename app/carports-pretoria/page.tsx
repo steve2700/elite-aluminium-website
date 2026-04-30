@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Elite Aluminium" }],
   creator: "Elite Aluminium",
   publisher: "Elite Aluminium",
-  metadataBase: new URL("https://elitealuminium.co.za"),
+  metadataBase: new URL("https://www.elitealuminium.co.za"),
   alternates: {
     canonical: "/carports-pretoria",
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Carports Pretoria | Premium Aluminium Carport Installation",
     description:
       "Professional carport installation in Pretoria. Aluminium, steel & shade net carports. Free quotes available.",
-    url: "https://elitealuminium.co.za/carports-pretoria",
+    url: "https://www.elitealuminium.co.za/carports-pretoria",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
