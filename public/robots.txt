@@ -1,6 +1,5 @@
 # Elite Aluminium - Robots.txt
-# https://elitealuminium.co.za/robots.txt
-
+# https://www.elitealuminium.co.za/robots.txt
 User-agent: *
 Allow: /
 Disallow: /api/
@@ -9,8 +8,8 @@ Disallow: /_next/
 Disallow: /private/
 
 # Sitemaps
-Sitemap: https://elitealuminium.co.za/sitemap.xml
-Sitemap: https://elitealuminium.co.za/sitemap-0.xml
+Sitemap: https://www.elitealuminium.co.za/sitemap.xml
+Sitemap: https://www.elitealuminium.co.za/sitemap-0.xml
 
 # Crawl delay (optional - adjust if needed)
 # Crawl-delay: 1
