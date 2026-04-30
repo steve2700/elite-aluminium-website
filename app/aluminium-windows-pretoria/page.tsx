@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Expert aluminium window installation in Pretoria. SABS certified, government-approved contractors. Serving all Pretoria areas. Free quotes - Call 067 276 3724",
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-windows-pretoria",
+    canonical: "https://www.elitealuminium.co.za/aluminium-windows-pretoria",
   },
 }
 
@@ -35,7 +35,7 @@ export default function AluminiumWindowsPretoriaPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Pretoria Windows",
-            url: "https://elitealuminium.co.za/aluminium-windows-pretoria",
+            url: "https://www.elitealuminium.co.za/aluminium-windows-pretoria",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
