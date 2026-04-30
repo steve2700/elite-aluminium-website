@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Frameless Glass Balustrades Sandton | Premium Uninterrupted Views",
     description: "Luxury frameless glass balustrades. SANS compliant, crystal-clear views, professional installation.",
-    url: "https://elitealuminium.co.za/frameless-glass-balustrades-sandton",
+    url: "https://www.elitealuminium.co.za/frameless-glass-balustrades-sandton",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/frameless-glass-balustrades-sandton",
+    canonical: "https://www.elitealuminium.co.za/frameless-glass-balustrades-sandton",
   },
 }
 
@@ -31,7 +31,7 @@ export default function FramelessGlassBalustradesSandton() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Frameless Glass Balustrades Sandton",
-            image: "https://elitealuminium.co.za/modern-glass-balustrades-installation.jpg",
+            image: "https://www.elitealuminium.co.za/modern-glass-balustrades-installation.jpg",
             description:
               "Premium frameless glass balustrades in Sandton. Luxury pool fencing and balcony glass with uninterrupted views.",
             address: {
