@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     title: "FAQ - Aluminium & Glass Installation Questions | Elite Aluminium",
     description:
       "Get answers to all your questions about aluminium and glass installations. 15+ years of expertise serving Gauteng.",
-    url: "https://elitealuminium.co.za/faq",
+    url: "https://www.elitealuminium.co.za/faq",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/faq",
+    canonical: "https://www.elitealuminium.co.za/faq",
   },
 }
 
