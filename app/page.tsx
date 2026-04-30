@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     address: true,
     telephone: true,
   },
-  metadataBase: new URL("https://elitealuminium.co.za"),
+  metadataBase: new URL("https://www.elitealuminium.co.za"),
   alternates: {
     canonical: "/",
   },
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "Elite Aluminium | Premium Aluminium & Glass Solutions Gauteng",
     description:
       "Expert installation of aluminium windows, doors, security gates & glass across Johannesburg, Sandton, Pretoria. 15+ years experience. Free quotes available.",
-    url: "https://elitealuminium.co.za",
+    url: "https://www.elitealuminium.co.za",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
@@ -92,9 +92,9 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "@id": "https://elitealuminium.co.za",
+            "@id": "https://www.elitealuminium.co.za",
             name: "Elite Aluminium",
-            image: "https://elitealuminium.co.za/logo.png",
+            image: "https://www.elitealuminium.co.za/logo.png",
             description:
               "Premium aluminium and glass installation company serving Gauteng, South Africa. Expert installation of windows, doors, security gates, carports, and glass balustrades.",
             address: {
@@ -108,7 +108,7 @@ export default function HomePage() {
               latitude: -26.2041,
               longitude: 28.0473,
             },
-            url: "https://elitealuminium.co.za",
+            url: "https://www.elitealuminium.co.za",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             priceRange: "$$",
