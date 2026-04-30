@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     "window security johannesburg",
   ],
   alternates: {
-    canonical: "https://elitealuminium.co.za/burglar-bars-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/burglar-bars-johannesburg",
   },
   openGraph: {
     title: "Burglar Bars Johannesburg | SABS Approved | Elite Aluminium",
     description: "Affordable, SABS approved burglar bar installation across Johannesburg.",
-    url: "https://elitealuminium.co.za/burglar-bars-johannesburg",
+    url: "https://www.elitealuminium.co.za/burglar-bars-johannesburg",
     type: "website",
   },
 }
