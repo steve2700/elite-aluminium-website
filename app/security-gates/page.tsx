@@ -24,12 +24,12 @@ export const metadata: Metadata = {
   keywords:
     "security gates, burglar bars, aluminium security, security gates Johannesburg, security gates Sandton, burglar bars Pretoria, home security Gauteng",
   alternates: {
-    canonical: "https://elitealuminium.co.za/security-gates",
+    canonical: "https://www.elitealuminium.co.za/security-gates",
   },
   openGraph: {
     title: "Security Gates & Burglar Bars Gauteng | Elite Aluminium",
     description: "Professional security gate installation. Protect your home with SABS-approved solutions.",
-    url: "https://elitealuminium.co.za/security-gates",
+    url: "https://www.elitealuminium.co.za/security-gates",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
