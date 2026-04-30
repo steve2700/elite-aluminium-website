@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     title: "Aluminium Windows Johannesburg | Elite Aluminium",
     description:
       "Professional aluminium window installation across all Johannesburg suburbs. 15+ years experience, SABS certified.",
-    url: "https://elitealuminium.co.za/aluminium-windows-johannesburg",
+    url: "https://www.elitealuminium.co.za/aluminium-windows-johannesburg",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-windows-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/aluminium-windows-johannesburg",
   },
 }
 
@@ -90,9 +90,9 @@ export default function AluminiumWindowsJohannesburgPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Johannesburg Windows",
-            image: "https://elitealuminium.co.za/modern-aluminium-windows-installation.jpg",
-            "@id": "https://elitealuminium.co.za/aluminium-windows-johannesburg",
-            url: "https://elitealuminium.co.za/aluminium-windows-johannesburg",
+            image: "https://www.elitealuminium.co.za/modern-aluminium-windows-installation.jpg",
+            "@id": "https://www.elitealuminium.co.za/aluminium-windows-johannesburg",
+            url: "https://www.elitealuminium.co.za/aluminium-windows-johannesburg",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
