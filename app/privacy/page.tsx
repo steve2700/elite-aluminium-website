@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | Elite Aluminium",
   description:
     "Elite Aluminium's privacy policy. Learn how we collect, use and protect your personal information in accordance with POPIA (Protection of Personal Information Act).",
-  alternates: { canonical: "https://elitealuminium.co.za/privacy-policy" },
+  alternates: { canonical: "https://www.elitealuminium.co.za/privacy-policy" },
   robots: { index: true, follow: true },
 }
 
