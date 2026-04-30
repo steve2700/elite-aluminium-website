@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Elite Aluminium | Free Quotes & Consultations",
     description: "Get free quotes on premium aluminium & glass installations. Call067 276 3724 or WhatsApp us today.",
-    url: "https://elitealuminium.co.za/contact",
+    url: "https://www.elitealuminium.co.za/contact",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/contact",
+    canonical: "https://www.elitealuminium.co.za/contact",
   },
 }
 
@@ -42,7 +42,7 @@ export default function ContactPage() {
             name: "Contact Elite Aluminium",
             description:
               "Contact Elite Aluminium for free quotes and consultations on aluminium and glass installations",
-            url: "https://elitealuminium.co.za/contact",
+            url: "https://www.elitealuminium.co.za/contact",
           }),
         }}
       />
