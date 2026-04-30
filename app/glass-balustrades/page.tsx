@@ -1,515 +1,412 @@
 import type { Metadata } from "next"
-import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import {
-  CheckCircle,
-  Phone,
-  MessageSquare,
-  Mail,
-  Shield,
-  Sparkles,
-  Eye,
-  TrendingUp,
-  Maximize2,
-  Droplets,
-} from "lucide-react"
-
+import { MessageSquare, Phone, Mail, Check, Star, Shield, Clock, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Glass Balustrades Gauteng | Frameless Glass Railings | Elite Aluminium",
+  title: "Glass Balustrades Sandton | Frameless Pool & Deck Glass Installations | Elite Aluminium",
   description:
-    "Premium glass balustrades and frameless glass railings in Gauteng. Pool-compliant, modern designs. Expert installation. 10-year guarantee. Call 067 276 3724.",
-  keywords:
-    "glass balustrades, frameless glass, glass railings, pool fencing, balcony glass, glass balustrades Sandton, glass balustrades Pretoria, Gauteng",
-  alternates: {
-    canonical: "https://elitealuminium.co.za/glass-balustrades",
-  },
-  openGraph: {
-    title: "Glass Balustrades & Frameless Glass Railings | Elite Aluminium",
-    description: "Transform your space with elegant glass balustrades. Pool-compliant solutions across Gauteng.",
-    url: "https://elitealuminium.co.za/glass-balustrades",
-    siteName: "Elite Aluminium",
-    locale: "en_ZA",
-    type: "website",
-  },
+    "Premium glass balustrades installation in Sandton. Frameless pool fencing, deck railings & balcony glass. SANS 10134 compliant. Estate-approved designs. Free quotes - 067 276 3724",
 }
 
-export default function GlassBalustradesPage() {
-  const balustradeTypes = [
+export default function GlassBalustradesSandtonPage() {
+  const suburbs = [
+    "Hyde Park",
+    "Sandhurst",
+    "Morningside",
+    "Bryanston",
+    "Atholl",
+    "Rivonia",
+    "Illovo",
+    "Melrose",
+    "Wendywood",
+    "Gallo Manor",
+    "Sunninghill",
+    "Paulshof",
+    "Lonehill",
+    "Dainfern",
+    "Cedar Lakes",
+  ]
+
+  const glassTypes = [
     {
-      title: "Frameless Glass Balustrades",
+      title: "Frameless Pool Fencing",
       description:
-        "Sleek, minimalist designs with no visible frames or posts. Glass panels secured with base channels for uninterrupted views.",
-      features: ["12mm tempered glass", "Invisible fixing", "360° views", "Modern aesthetic"],
+        "SANS 10134 compliant frameless glass pool fencing that provides unobstructed views while ensuring maximum safety for your luxury Sandton property.",
+      features: ["12mm toughened glass", "Self-closing gates", "Invisible spigot fixing", "Estate-approved"],
     },
     {
-      title: "Semi-Frameless Balustrades",
+      title: "Deck & Patio Glass",
       description:
-        "Aluminium posts with glass panels, combining strength with style. Cost-effective option maintaining clean aesthetics.",
-      features: ["10-12mm glass", "Slimline posts", "Various finishes", "Great value"],
+        "Elegant glass balustrades for elevated decks and patios in Sandton homes. Modern, minimalist design that complements luxury architecture.",
+      features: ["Frameless or channel options", "Wind-resistant", "Low maintenance", "Premium finish"],
     },
     {
-      title: "Framed Glass Balustrades",
+      title: "Balcony Railings",
       description:
-        "Robust aluminium frames holding glass panels. Excellent for high-traffic areas and commercial applications.",
-      features: ["Reinforced frames", "Easy maintenance", "Multiple colours", "Commercial grade"],
+        "High-rise balcony glass installations for Sandton apartments and penthouses. Engineered for safety with stunning panoramic views.",
+      features: ["High-strength glass", "Weather-resistant", "Custom heights", "Building compliant"],
     },
     {
-      title: "Pool Glass Fencing",
+      title: "Staircase Glass",
       description:
-        "SANS 10134 compliant pool barriers combining safety with style. Self-closing gates and childproof locks included.",
-      features: ["Pool compliant", "Self-closing gates", "No footholds", "Safety certified"],
+        "Contemporary glass balustrades for internal and external staircases. Adds light and space to modern Sandton homes.",
+      features: ["Sleek design", "Easy to clean", "Various fixing methods", "Custom-made"],
     },
   ]
 
   const benefits = [
-    {
-      icon: Eye,
-      title: "Unobstructed Views",
-      description:
-        "Glass balustrades provide safety barriers without blocking your view. Perfect for properties with spectacular vistas or garden outlooks.",
-    },
-    {
-      icon: Sparkles,
-      title: "Modern Elegance",
-      description:
-        "Transform your property with contemporary glass aesthetics. Glass balustrades instantly elevate any space with their clean, sophisticated appearance.",
-    },
-    {
-      icon: TrendingUp,
-      title: "Increase Property Value",
-      description:
-        "Glass balustrades are a premium feature that significantly enhances property appeal and market value, particularly in Gauteng's luxury estates.",
-    },
-    {
-      icon: Maximize2,
-      title: "Enhance Natural Light",
-      description:
-        "Glass allows light to flow freely through spaces, making areas feel larger and brighter compared to traditional solid railings.",
-    },
-    {
-      icon: Shield,
-      title: "Safety & Compliance",
-      description:
-        "Tempered safety glass meets all building codes. Pool installations comply with SANS 10134 requirements for child safety.",
-    },
-    {
-      icon: Droplets,
-      title: "Weather Resistant",
-      description:
-        "Marine-grade glass and aluminium components resist Gauteng's weather conditions. Won't rust, warp, or deteriorate over time.",
-    },
+    "Unobstructed panoramic views of Sandton skyline",
+    "SANS 10134 compliant for pool safety",
+    "Estate architectural guidelines approved",
+    "10-year guarantee on workmanship",
+    "12mm toughened safety glass standard",
+    "Invisible spigot or channel mounting",
+    "Same-day quotes in Sandton suburbs",
+    "Experienced luxury property installers",
   ]
 
-  const applications = [
+  const faqs = [
     {
-      title: "Pool Fencing",
-      description:
-        "SANS 10134 compliant glass pool barriers that provide safety without obstructing views of your pool area.",
+      question: "How much do glass balustrades cost in Sandton?",
+      answer:
+        "Glass balustrades in Sandton typically range from R2,500 to R4,500 per linear meter, depending on glass thickness, fixing method (frameless vs channel), and site-specific requirements. We provide detailed quotes after a free site visit to your Sandton property.",
     },
     {
-      title: "Balconies & Terraces",
-      description:
-        "Elegant glass barriers for high-rise apartments and multi-level homes, maximizing views while ensuring safety.",
+      question: "Are glass balustrades safe for pool fencing in Sandton?",
+      answer:
+        "Yes, absolutely. Our glass pool fencing is fully SANS 10134 compliant, using 12mm toughened safety glass with self-closing gates. Glass balustrades are the premium choice for Sandton estates, offering superior safety with unobstructed views.",
     },
     {
-      title: "Staircases",
-      description: "Modern glass staircase railings creating open, flowing interiors with sophisticated style.",
+      question: "Do glass balustrades work in Sandton's high-rise apartments?",
+      answer:
+        "Yes, we specialize in high-rise glass balustrade installations across Sandton. Our engineered solutions meet all building safety requirements for apartments and penthouses, withstanding wind loads and providing secure, stylish balcony railings.",
     },
     {
-      title: "Patios & Decks",
-      description: "Define outdoor entertaining areas with glass boundaries that maintain openness and views.",
+      question: "Are your glass installations estate-approved in Sandton?",
+      answer:
+        "Yes, we work extensively with Sandton estates and know all architectural guidelines. Our glass balustrades are designed to meet estate requirements for Dainfern, Cedar Lakes, Blue Hills, and other premium Sandton estates. We handle all estate approval submissions.",
     },
     {
-      title: "Juliet Balconies",
-      description: "Space-saving glass barriers for bedroom or living room windows with full-height openings.",
+      question: "How long does glass balustrade installation take in Sandton?",
+      answer:
+        "Most Sandton glass balustrade installations take 1-3 days, depending on the linear meters and complexity. Pool fencing installations typically take 1-2 days, while larger deck or multi-level projects may take 2-3 days. We schedule installations to minimize disruption to your Sandton home.",
     },
     {
-      title: "Commercial Applications",
-      description:
-        "Shopping centers, offices, and restaurants benefit from glass balustrades' professional appearance.",
+      question: "What's the maintenance for glass balustrades in Sandton?",
+      answer:
+        "Glass balustrades require minimal maintenance in Sandton. Simply clean with glass cleaner and a soft cloth every few weeks. The toughened glass is weather-resistant and won't rust, warp, or corrode like traditional metal railings. Spigots and hardware are stainless steel for longevity.",
     },
-  ]
-
-  const serviceAreas = [
-    "Sandton",
-    "Johannesburg",
-    "Pretoria",
-    "Centurion",
-    "Fourways",
-    "Midrand",
-    "Bryanston",
-    "Hyde Park",
-    "Waterkloof",
-    "Menlyn",
-    "Silver Lakes",
-    "Dainfern",
+    {
+      question: "Can you match existing glass designs in Sandton estates?",
+      answer:
+        "Yes, we can match existing glass balustrade designs to ensure consistency across your Sandton property or estate. We work with your architect or estate's design guidelines to deliver seamless, approved installations.",
+    },
+    {
+      question: "Do you offer warranties on glass installations in Sandton?",
+      answer:
+        "Yes, we provide a 10-year workmanship guarantee on all glass balustrade installations in Sandton. Our toughened glass also comes with manufacturer warranties. We're committed to long-term quality for every Sandton client.",
+    },
   ]
 
   return (
     <>
-    
-      <main className="min-h-screen bg-white">
-        {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
-          <div className="container mx-auto px-4 py-16 md:py-24 relative">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <div className="inline-flex items-center gap-2 bg-cyan-500/20 border border-cyan-400/30 rounded-full px-4 py-2 mb-6">
-                  <Sparkles className="h-4 w-4 text-cyan-400" />
-                  <span className="text-sm text-cyan-300">Luxury Glass Solutions</span>
-                </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
-                  Premium Glass Balustrades in Gauteng
-                </h1>
-                <p className="text-xl text-slate-300 mb-8 leading-relaxed text-pretty">
-                  Transform your property with elegant frameless glass balustrades and pool fencing. Expert installation
-                  across Sandton, Johannesburg, Pretoria, and all of Gauteng. Pool-compliant solutions with
-                  comprehensive 10-year guarantee.
-                </p>
-                <div className="flex flex-wrap gap-4">
-                  <a href="tel:+27672763724">
-                    <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700">
-                      <Phone className="mr-2 h-5 w-5" />
-                      Call 067 276 3724
-                    </Button>
-                  </a>
-                  <a
-                    href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                      <MessageSquare className="mr-2 h-5 w-5" />
-                      WhatsApp Quote
-                    </Button>
-                  </a>
-                </div>
-                <div className="flex flex-wrap items-center gap-6 mt-8 pt-8 border-t border-slate-700">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="h-5 w-5 text-green-400" />
-                    <span className="text-sm">Pool Compliant</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="h-5 w-5 text-green-400" />
-                    <span className="text-sm">Tempered Safety Glass</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="h-5 w-5 text-green-400" />
-                    <span className="text-sm">Estate Approved</span>
-                  </div>
-                </div>
-              </div>
-              <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src="/modern-glass-balustrades-installation.jpg"
-                  alt="Premium glass balustrades installation in Gauteng"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            serviceType: "Glass Balustrades Installation",
+            provider: {
+              "@type": "LocalBusiness",
+              name: "Elite Aluminium",
+              telephone: "+27672763724",
+              email: "info@elitealuminium.co.za",
+            },
+            areaServed: {
+              "@type": "City",
+              name: "Sandton",
+              containedInPlace: {
+                "@type": "State",
+                name: "Gauteng",
+              },
+            },
+            description:
+              "Premium glass balustrades installation in Sandton including frameless pool fencing, deck railings, and balcony glass. SANS 10134 compliant.",
+          }),
+        }}
+      />
 
-        {/* Introduction */}
-        <section className="py-16 bg-slate-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-balance">
-                Expert Glass Balustrade Installation Across Gauteng
-              </h2>
-              <div className="prose prose-lg max-w-none text-slate-700 space-y-4">
-                <p className="leading-relaxed">
-                  Elite Aluminium provides professional glass balustrade and frameless glass railing installation
-                  throughout Gauteng and the greater Johannesburg metropolitan area. Our experienced teams install
-                  premium glass safety barriers for luxury residential homes, security estates, commercial properties,
-                  and hospitality venues across Sandton, Johannesburg, Pretoria, Centurion, and all surrounding areas.
-                </p>
-                <p className="leading-relaxed">
-                  With over 15 years serving Gauteng's premium property market, we specialize in both frameless and
-                  semi-frameless glass balustrade systems. Our installations include SANS 10134 compliant pool fencing,
-                  balcony railings, staircase barriers, and architectural glass features. From Sandton's exclusive
-                  estates to Waterkloof's prestigious homes, we deliver elegant glass balustrades that combine safety,
-                  style, and property value enhancement, backed by our comprehensive 10-year workmanship guarantee.
-                </p>
-                <p className="leading-relaxed">
-                  Whether you need pool-compliant glass fencing, balcony balustrades, internal staircase glass, or
-                  commercial glass barriers in Gauteng, our specialist installers provide professional service from
-                  design consultation through precision installation. We work closely with architects, designers, and
-                  property owners to create custom glass solutions that maximize views while meeting all safety
-                  standards and aesthetic requirements for your Gauteng property.
-                </p>
+      {/* Hero Section */}
+      <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/modern-glass-balustrades-installation.jpg')] bg-cover bg-center opacity-20" />
+        <div className="container mx-auto px-4 py-20 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="inline-block bg-blue-600/20 border border-blue-500/30 rounded-full px-4 py-2 mb-6">
+              <span className="text-blue-400 font-medium">Premium Glass Installations in Sandton</span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance">
+              Glass Balustrades Sandton | Frameless Pool & Deck Glass
+            </h1>
+            <p className="text-xl text-slate-300 mb-8 text-pretty">
+              Luxury glass balustrade installations across Sandton. Frameless pool fencing, deck railings & balcony
+              glass. SANS 10134 compliant. Estate-approved designs with 10-year guarantee.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:+27672763724">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg w-full sm:w-auto">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call 067 276 3724
+                </Button>
+              </a>
+              <a
+                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Sandton"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-lg border-2 border-green-500 text-green-400 hover:bg-green-500 hover:text-white w-full sm:w-auto bg-transparent"
+                >
+                  <MessageSquare className="mr-2 h-5 w-5" />
+                  WhatsApp Quote
+                </Button>
+              </a>
+            </div>
+            <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm">
+              <div className="flex items-center gap-2">
+                <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
+                <span>15+ Years Experience</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Shield className="h-5 w-5 text-blue-400" />
+                <span>10-Year Guarantee</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Clock className="h-5 w-5 text-green-400" />
+                <span>Free Sandton Quotes</span>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Balustrade Types */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                Glass Balustrade Systems We Install in Gauteng
-              </h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto text-pretty">
-                From frameless minimalism to robust framed systems, we offer solutions for every application
-              </p>
-            </div>
-            <div className="grid md:grid-cols-2 gap-8">
-              {balustradeTypes.map((type, index) => (
-                <Card key={index} className="border-2 hover:border-cyan-500 transition-colors">
-                  <CardContent className="p-6">
-                    <h3 className="text-2xl font-bold text-slate-900 mb-3">{type.title}</h3>
-                    <p className="text-slate-600 mb-4 leading-relaxed">{type.description}</p>
-                    <ul className="space-y-2">
-                      {type.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center gap-2 text-slate-700">
-                          <CheckCircle className="h-5 w-5 text-cyan-600 flex-shrink-0" />
-                          <span>{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+      {/* Local Intro Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto prose prose-lg">
+            <p className="text-lg leading-relaxed text-slate-700">
+              Elite Aluminium provides premium <strong>glass balustrades installation throughout Sandton</strong> and
+              surrounding luxury suburbs. Our experienced teams install high-quality frameless glass fencing, pool
+              balustrades, deck railings, and balcony glass for residential estates, high-rise apartments, and
+              commercial properties across Sandton.
+            </p>
+            <p className="text-lg leading-relaxed text-slate-700 mt-4">
+              With over 15 years serving <strong>Sandton homeowners and estates</strong>, we understand the local
+              requirements for SANS 10134 compliant pool fencing, estate-approved designs, and luxury installations.
+              From Hyde Park to Dainfern, we deliver premium <strong>glass balustrades in Sandton</strong> backed by our
+              10-year workmanship guarantee.
+            </p>
+            <p className="text-lg leading-relaxed text-slate-700 mt-4">
+              Whether you need frameless pool fencing, contemporary deck glass, high-rise balcony railings, or internal
+              staircase balustrades in <strong>Sandton</strong>, our expert installers provide professional service from
+              quote to completion. We work with architects and estate committees to ensure full compliance with design
+              guidelines.
+            </p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Benefits */}
-        <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                Why Choose Glass Balustrades for Your Gauteng Property?
-              </h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto text-pretty">
-                Glass balustrades offer unique advantages that enhance both aesthetics and functionality
-              </p>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {benefits.map((benefit, index) => {
-                const Icon = benefit.icon
-                return (
-                  <div key={index} className="flex gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center">
-                        <Icon className="h-6 w-6 text-cyan-600" />
-                      </div>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold text-slate-900 mb-2">{benefit.title}</h3>
-                      <p className="text-slate-600 leading-relaxed">{benefit.description}</p>
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </section>
-
-        {/* Applications */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Glass Balustrade Applications</h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto text-pretty">
-                Versatile glass solutions for every area of your Gauteng property
-              </p>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {applications.map((app, index) => (
-                <Card key={index} className="border hover:shadow-lg transition-shadow">
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-2">{app.title}</h3>
-                    <p className="text-slate-600 leading-relaxed">{app.description}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Pool Compliance Section */}
-        <section className="py-16 bg-gradient-to-br from-cyan-50 to-blue-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="text-center mb-8">
-                <Shield className="h-16 w-16 mx-auto text-cyan-600 mb-4" />
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">SANS 10134 Pool Compliance</h2>
-              </div>
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                  Our glass pool fencing solutions fully comply with SANS 10134 regulations for swimming pool safety in
-                  South Africa. We ensure your pool area is secure for children while maintaining the beauty of your
-                  outdoor space.
-                </p>
-                <div className="grid md:grid-cols-2 gap-6">
-                  {[
-                    {
-                      title: "Height Requirements",
-                      description: "Minimum 1200mm height from ground level with no climbable footholds within 900mm.",
-                    },
-                    {
-                      title: "Self-Closing Gates",
-                      description: "Spring-loaded gates that automatically close and latch after every opening.",
-                    },
-                    {
-                      title: "Childproof Latches",
-                      description: "Height-appropriate locks that prevent young children from operating the gate.",
-                    },
-                    {
-                      title: "Gap Specifications",
-                      description: "Maximum 100mm gaps to prevent children squeezing through or getting trapped.",
-                    },
-                  ].map((item, index) => (
-                    <div key={index} className="flex gap-3">
-                      <CheckCircle className="h-6 w-6 text-cyan-600 flex-shrink-0 mt-1" />
-                      <div>
-                        <h3 className="font-bold text-slate-900 mb-1">{item.title}</h3>
-                        <p className="text-slate-600 text-sm leading-relaxed">{item.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Service Areas */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                Premium Glass Balustrade Areas We Serve
-              </h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto text-pretty">
-                Specialist glass balustrade installation across Gauteng's premium residential areas
-              </p>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {serviceAreas.map((area) => (
+      {/* Sandton Suburbs */}
+      <section className="py-16 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Sandton Suburbs We Serve</h2>
+            <p className="text-center text-slate-600 mb-8 text-pretty">
+              Professional glass balustrades installation across all Sandton areas
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+              {suburbs.map((suburb) => (
                 <div
-                  key={area}
-                  className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-center hover:border-cyan-500 hover:shadow-md transition-all"
+                  key={suburb}
+                  className="bg-white p-4 rounded-lg border border-slate-200 text-center hover:shadow-md transition-shadow"
                 >
-                  <span className="text-slate-900 font-medium">{area}</span>
+                  <MapPin className="h-5 w-5 mx-auto mb-2 text-blue-600" />
+                  <span className="text-sm font-medium text-slate-800">{suburb}</span>
                 </div>
               ))}
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* FAQ */}
-        <section className="py-16 bg-slate-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-                Frequently Asked Questions About Glass Balustrades
-              </h2>
-              <div className="space-y-6">
-                {[
-                  {
-                    question: "How much do glass balustrades cost in Gauteng?",
-                    answer:
-                      "Glass balustrade prices vary based on system type, glass thickness, and installation complexity. Frameless glass balustrades range from R3,500 to R5,500 per linear meter including installation. Semi-frameless systems range from R2,800 to R4,200 per meter. Pool-compliant fencing with self-closing gates typically costs R4,500 to R6,000 per meter. We provide detailed free quotes. Contact us on 067 276 3724 for accurate pricing based on your project specifications.",
-                  },
-                  {
-                    question: "What's the difference between frameless and semi-frameless glass?",
-                    answer:
-                      "Frameless glass balustrades have no visible posts or frames - glass panels are secured in base channels with minimal hardware, creating completely unobstructed views. Semi-frameless systems use slimline aluminium posts between glass panels, offering a balance between aesthetics and cost while maintaining clean lines. Both are equally safe and durable; the choice depends on your budget and aesthetic preferences.",
-                  },
-                  {
-                    question: "Is glass balustrade safe and durable?",
-                    answer:
-                      "Yes, extremely safe and durable. We use only tempered safety glass which is 4-5 times stronger than regular glass. If broken, it fractures into small, relatively harmless pieces. Our 12mm tempered glass exceeds building code requirements. The glass is impact-resistant, weather-resistant, and won't deteriorate over time like wood or corrode like steel. With proper installation, glass balustrades last decades.",
-                  },
-                  {
-                    question: "How do I clean and maintain glass balustrades?",
-                    answer:
-                      "Glass balustrades are very easy to maintain. Clean glass panels with standard glass cleaner or a mixture of water and white vinegar. Use a squeegee for streak-free results. Clean aluminium components with mild soap and water. We recommend cleaning every 2-4 weeks depending on environmental conditions. The process takes minutes and requires no special equipment or skills.",
-                  },
-                  {
-                    question: "Are glass balustrades suitable for windy areas?",
-                    answer:
-                      "Yes, properly installed glass balustrades are engineered to withstand high wind loads. We calculate wind loads based on your property's location and height, ensuring the system meets structural requirements. The tempered glass and reinforced fixing systems are designed for South African conditions. Many of our installations are in high-rise buildings and exposed balconies across Gauteng.",
-                  },
-                  {
-                    question: "Can glass balustrades be installed on existing structures?",
-                    answer:
-                      "Yes, we can install glass balustrades on most existing structures including concrete decks, wooden decks, balconies, and staircases. Our team assesses the structural integrity during the free consultation to determine the best fixing method. In some cases, reinforcement may be needed, which we can arrange. We handle everything from assessment to installation.",
-                  },
-                  {
-                    question: "How long does glass balustrade installation take?",
-                    answer:
-                      "Installation timeframes depend on project size and complexity. A standard pool fencing installation (15-20 linear meters) typically takes 1-2 days. Balcony or staircase installations usually take 4-8 hours. Custom manufacturing takes 2-3 weeks. We provide accurate timelines during consultation and coordinate installation to minimize disruption to your property.",
-                  },
-                  {
-                    question: "Do you provide warranties on glass balustrade installations?",
-                    answer:
-                      "Yes, we provide comprehensive warranties. All installations include our 10-year workmanship guarantee. Tempered glass comes with manufacturer warranties against defects. Aluminium components carry 5-year warranties. We use only quality materials from reputable suppliers and stand behind our installations. Any issues arising from our work are rectified at no cost during the warranty period.",
-                  },
-                ].map((faq, index) => (
-                  <div key={index} className="bg-white border border-slate-200 rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                    <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-br from-cyan-600 to-blue-600 text-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center">
-              <Sparkles className="h-16 w-16 mx-auto mb-6" />
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-balance">
-                Ready to Elevate Your Property with Glass Balustrades?
-              </h2>
-              <p className="text-xl mb-8 text-cyan-50 leading-relaxed text-pretty">
-                Get your free design consultation and quote today. Our glass specialists are ready to transform your
-                space with elegant, pool-compliant glass balustrade solutions.
-              </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <a href="tel:+27672763724">
-                  <Button size="lg" className="bg-white text-cyan-600 hover:bg-cyan-50">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Call 067 276 3724
-                  </Button>
-                </a>
-                <a
-                  href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades"
-                  target="_blank"
-                  rel="noopener noreferrer"
+      {/* Glass Types Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Types of Glass Balustrades We Install in Sandton
+            </h2>
+            <p className="text-center text-slate-600 mb-12 text-pretty">
+              Premium glass solutions for every luxury Sandton property
+            </p>
+            <div className="grid md:grid-cols-2 gap-8">
+              {glassTypes.map((type, idx) => (
+                <div
+                  key={idx}
+                  className="bg-slate-50 rounded-xl p-8 border border-slate-200 hover:shadow-lg transition-shadow"
                 >
-                  <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                    <MessageSquare className="mr-2 h-5 w-5" />
-                    WhatsApp Us
-                  </Button>
-                </a>
-                <a href="mailto:info@elitealuminium.co.za">
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="bg-transparent border-white text-white hover:bg-white/10"
-                  >
-                    <Mail className="mr-2 h-5 w-5" />
-                    Email Us
-                  </Button>
-                </a>
-              </div>
+                  <h3 className="text-2xl font-bold mb-4 text-slate-900">{type.title}</h3>
+                  <p className="text-slate-700 mb-6 leading-relaxed">{type.description}</p>
+                  <ul className="space-y-2">
+                    {type.features.map((feature, i) => (
+                      <li key={i} className="flex items-start gap-2">
+                        <Check className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-700">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
-        </section>
-      </main>
-      
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="py-16 bg-gradient-to-br from-blue-900 to-slate-900 text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Why Sandton Residents Choose Elite Aluminium
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {benefits.map((benefit, idx) => (
+                <div key={idx} className="flex items-start gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
+                  <Check className="h-6 w-6 text-green-400 flex-shrink-0 mt-1" />
+                  <span className="text-slate-100">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+              Glass Balustrades Sandton - Frequently Asked Questions
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, idx) => (
+                <div key={idx} className="bg-slate-50 rounded-lg p-6 border border-slate-200">
+                  <h3 className="text-xl font-bold mb-3 text-slate-900">{faq.question}</h3>
+                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact CTA Section */}
+      <section className="py-16 bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Your Free Sandton Glass Quote Today</h2>
+            <p className="text-xl mb-8 text-blue-100 text-pretty">
+              Professional glass balustrades installation across Sandton with same-day quotes and estate-approved
+              designs
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:+27672763724">
+                <Button size="lg" className="bg-white text-blue-600 hover:bg-slate-100 text-lg w-full sm:w-auto">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call 067 276 3724
+                </Button>
+              </a>
+              <a href="mailto:info@elitealuminium.co.za">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-white text-white hover:bg-white hover:text-blue-600 text-lg w-full sm:w-auto bg-transparent"
+                >
+                  <Mail className="mr-2 h-5 w-5" />
+                  Email Us
+                </Button>
+              </a>
+            </div>
+            <div className="mt-8 p-6 bg-white/10 backdrop-blur-sm rounded-lg inline-block">
+              <p className="text-sm text-blue-100 mb-2">Servicing all of Sandton and surrounding areas</p>
+              <p className="font-semibold">Response time: Under 2 hours</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Internal Links */}
+      <section className="py-12 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h3 className="text-2xl font-bold text-center mb-8">Related Services in Sandton</h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              <Link
+                href="/aluminium-windows-sandton"
+                className="bg-white p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow text-center"
+              >
+                <h4 className="font-semibold text-lg mb-2">Aluminium Windows Sandton</h4>
+                <p className="text-sm text-slate-600">Premium window installations</p>
+              </Link>
+              <Link
+                href="/sliding-doors-sandton"
+                className="bg-white p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow text-center"
+              >
+                <h4 className="font-semibold text-lg mb-2">Sliding Doors Sandton</h4>
+                <p className="text-sm text-slate-600">Luxury sliding door systems</p>
+              </Link>
+              <Link
+                href="/security-gates-sandton"
+                className="bg-white p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow text-center"
+              >
+                <h4 className="font-semibold text-lg mb-2">Security Gates Sandton</h4>
+                <p className="text-sm text-slate-600">High-end security solutions</p>
+              </Link>
+            </div>
+            <div className="text-center mt-8">
+              <Link href="/glass-balustrades" className="text-blue-600 hover:underline font-medium">
+                ← Back to General Glass Balustrades
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mobile Sticky CTA */}
+      <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-40">
+        <div className="flex gap-2">
+          <a href="tel:+27672763724" className="flex-1">
+            <Button className="w-full bg-blue-600 hover:bg-blue-700">
+              <Phone className="mr-2 h-4 w-4" />
+              Call Now
+            </Button>
+          </a>
+          <a
+            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Sandton"
+            className="flex-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="w-full bg-green-600 hover:bg-green-700">
+              <MessageSquare className="mr-2 h-4 w-4" />
+              WhatsApp
+            </Button>
+          </a>
+        </div>
+      </div>
     </>
   )
 }
