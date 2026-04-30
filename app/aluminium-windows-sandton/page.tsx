@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "window installation Sandton",
   ],
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-windows-sandton",
+    canonical: "https://www.elitealuminium.co.za/aluminium-windows-sandton",
   },
 }
 
@@ -43,8 +43,8 @@ export default function AluminiumWindowsSandtonPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Sandton Windows",
-            image: "https://elitealuminium.co.za/modern-aluminium-windows-installation.jpg",
-            url: "https://elitealuminium.co.za/aluminium-windows-sandton",
+            image: "https://www.elitealuminium.co.za/modern-aluminium-windows-installation.jpg",
+            url: "https://www.elitealuminium.co.za/aluminium-windows-sandton",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
