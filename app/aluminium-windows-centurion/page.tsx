@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Premium aluminium window installation in Centurion. Estate-approved designs, energy efficient solutions. Serving all Centurion estates. Free quotes - Call 067 276 3724",
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-windows-centurion",
+    canonical: "https://www.elitealuminium.co.za/aluminium-windows-centurion",
   },
 }
 
@@ -35,7 +35,7 @@ export default function AluminiumWindowsCenturionPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Centurion Windows",
-            url: "https://elitealuminium.co.za/aluminium-windows-centurion",
+            url: "https://www.elitealuminium.co.za/aluminium-windows-centurion",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
