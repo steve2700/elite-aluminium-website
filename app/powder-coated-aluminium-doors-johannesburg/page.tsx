@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "custom color doors",
   ],
   alternates: {
-    canonical: "https://elitealuminium.co.za/powder-coated-aluminium-doors-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/powder-coated-aluminium-doors-johannesburg",
   },
 }
 
