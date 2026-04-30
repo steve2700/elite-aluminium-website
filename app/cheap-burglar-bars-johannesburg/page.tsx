@@ -22,13 +22,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cheap Burglar Bars Johannesburg | From R180/m | Elite Aluminium",
     description: "Affordable, high-quality burglar bars in Johannesburg. Professional installation, 5-year guarantee.",
-    url: "https://elitealuminium.co.za/cheap-burglar-bars-johannesburg",
+    url: "https://www.elitealuminium.co.za/cheap-burglar-bars-johannesburg",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/cheap-burglar-bars-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/cheap-burglar-bars-johannesburg",
   },
 }
 
