@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "Aluminium & Glass Services in Randburg | Elite Aluminium",
   description: "Elite Aluminium serves Randburg with premium aluminium windows, doors, security gates and more. SABS certified, 10-year guarantee. Free quotes - Call 067 276 3724",
   keywords: ["aluminium services Randburg", "aluminium windows Randburg", "security gates Randburg", "aluminium doors Randburg"],
-  openGraph: { title: "Aluminium & Glass Services in Randburg | Elite Aluminium", url: "https://elitealuminium.co.za/areas/randburg", siteName: "Elite Aluminium", locale: "en_ZA", type: "website" },
-  alternates: { canonical: "https://elitealuminium.co.za/areas/randburg" },
+  openGraph: { title: "Aluminium & Glass Services in Randburg | Elite Aluminium", url: "https://www.elitealuminium.co.za/areas/randburg", siteName: "Elite Aluminium", locale: "en_ZA", type: "website" },
+  alternates: { canonical: "https://www.elitealuminium.co.za/areas/randburg" },
 }
 
 export default function RandburgAreaPage() {
@@ -23,7 +23,7 @@ export default function RandburgAreaPage() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "LocalBusiness", name: "Elite Aluminium - Randburg", "@id": "https://elitealuminium.co.za/areas/randburg", url: "https://elitealuminium.co.za/areas/randburg", telephone: "+27672763724", email: "info@elitealuminium.co.za", address: { "@type": "PostalAddress", addressLocality: "Randburg", addressRegion: "Gauteng", addressCountry: "ZA" }, geo: { "@type": "GeoCoordinates", latitude: -26.0937, longitude: 27.9950 }, areaServed: { "@type": "City", name: "Randburg" } }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "LocalBusiness", name: "Elite Aluminium - Randburg", "@id": "https://www.elitealuminium.co.za/areas/randburg", url: "https://www.elitealuminium.co.za/areas/randburg", telephone: "+27672763724", email: "info@elitealuminium.co.za", address: { "@type": "PostalAddress", addressLocality: "Randburg", addressRegion: "Gauteng", addressCountry: "ZA" }, geo: { "@type": "GeoCoordinates", latitude: -26.0937, longitude: 27.9950 }, areaServed: { "@type": "City", name: "Randburg" } }) }} />
 
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="container mx-auto px-4">
