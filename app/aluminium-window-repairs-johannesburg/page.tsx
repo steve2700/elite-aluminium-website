@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aluminium Window Repairs Johannesburg | Same Day Service",
     description: "Expert aluminium window repairs in Johannesburg. Same day service available. 15+ years experience.",
-    url: "https://elitealuminium.co.za/aluminium-window-repairs-johannesburg",
+    url: "https://www.elitealuminium.co.za/aluminium-window-repairs-johannesburg",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-window-repairs-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/aluminium-window-repairs-johannesburg",
   },
 }
 
@@ -355,9 +355,9 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Window Repairs Johannesburg",
-            image: "https://elitealuminium.co.za/logo.png",
-            "@id": "https://elitealuminium.co.za/aluminium-window-repairs-johannesburg",
-            url: "https://elitealuminium.co.za/aluminium-window-repairs-johannesburg",
+            image: "https://www.elitealuminium.co.za/logo.png",
+            "@id": "https://www.elitealuminium.co.za/aluminium-window-repairs-johannesburg",
+            url: "https://www.elitealuminium.co.za/aluminium-window-repairs-johannesburg",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             priceRange: "R280-R1200",
@@ -393,7 +393,7 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
                 closes: "13:00",
               },
             ],
-            sameAs: ["https://elitealuminium.co.za"],
+            sameAs: ["https://www.elitealuminium.co.za"],
           }),
         }}
       />
