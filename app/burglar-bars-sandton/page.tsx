@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     "security bars morningside",
   ],
   alternates: {
-    canonical: "https://elitealuminium.co.za/burglar-bars-sandton",
+    canonical: "https://www.elitealuminium.co.za/burglar-bars-sandton",
   },
   openGraph: {
     title: "Premium Burglar Bars Sandton | Estate Approved | Elite Aluminium",
     description: "Estate-approved burglar bar installation for luxury properties in Sandton.",
-    url: "https://elitealuminium.co.za/burglar-bars-sandton",
+    url: "https://www.elitealuminium.co.za/burglar-bars-sandton",
     type: "website",
   },
 }
