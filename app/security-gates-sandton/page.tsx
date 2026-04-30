@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   keywords:
     "security gates sandton, luxury security gates, estate approved security gates, burglar bars sandton, trellis doors sandton",
   alternates: {
-    canonical: "https://elitealuminium.co.za/security-gates-sandton",
+    canonical: "https://www.elitealuminium.co.za/security-gates-sandton",
   },
   openGraph: {
     title: "Security Gates Sandton | Premium Installation | Elite Aluminium",
     description: "Luxury security gates in Sandton. Estate-approved designs, SABS certified, 10-year guarantee.",
-    url: "https://elitealuminium.co.za/security-gates-sandton",
+    url: "https://www.elitealuminium.co.za/security-gates-sandton",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
