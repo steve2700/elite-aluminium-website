@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     title: "Commercial Shopfront Installers Johannesburg | Expert Aluminium & Glass",
     description:
       "Professional commercial shopfront installers in Johannesburg. Custom aluminium & glass shopfronts, automatic doors, 24/7 repair service.",
-    url: "https://elitealuminium.co.za/commercial-shopfront-installers-johannesburg",
+    url: "https://www.elitealuminium.co.za/commercial-shopfront-installers-johannesburg",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/commercial-shopfront-installers-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/commercial-shopfront-installers-johannesburg",
   },
 }
 
