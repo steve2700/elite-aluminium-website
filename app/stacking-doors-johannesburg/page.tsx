@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Stacking Doors Johannesburg | Elite Aluminium",
     description: "Open up your Johannesburg home with aluminium folding stacking door systems. Professional installation across all JHB suburbs.",
-    url: "https://elitealuminium.co.za/stacking-doors-johannesburg",
+    url: "https://www.elitealuminium.co.za/stacking-doors-johannesburg",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/stacking-doors-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/stacking-doors-johannesburg",
   },
 }
 
@@ -75,8 +75,8 @@ export default function StackingDoorsJohannesburgPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Stacking Doors Johannesburg",
-            "@id": "https://elitealuminium.co.za/stacking-doors-johannesburg",
-            url: "https://elitealuminium.co.za/stacking-doors-johannesburg",
+            "@id": "https://www.elitealuminium.co.za/stacking-doors-johannesburg",
+            url: "https://www.elitealuminium.co.za/stacking-doors-johannesburg",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
