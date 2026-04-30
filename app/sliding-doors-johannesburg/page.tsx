@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     title: "Sliding Doors Johannesburg | Aluminium Sliding Door Installation | Elite Aluminium",
     description:
       "Professional sliding door installation in Johannesburg. Stacking doors, lift-slide, pocket doors. 10-year guarantee. Call 067 276 3724.",
-    url: "https://elitealuminium.co.za/sliding-doors-johannesburg",
+    url: "https://www.elitealuminium.co.za/sliding-doors-johannesburg",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/sliding-doors-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/sliding-doors-johannesburg",
   },
 }
 
@@ -168,7 +168,7 @@ export default function SlidingDoorsJohannesburgPage() {
               addressRegion: "Gauteng",
               addressCountry: "ZA",
             },
-            url: "https://elitealuminium.co.za/sliding-doors-johannesburg",
+            url: "https://www.elitealuminium.co.za/sliding-doors-johannesburg",
             areaServed: {
               "@type": "City",
               name: "Johannesburg",
