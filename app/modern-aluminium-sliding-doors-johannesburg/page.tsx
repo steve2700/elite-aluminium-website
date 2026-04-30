@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     title: "Modern Aluminium Sliding Doors Johannesburg | Contemporary Designs",
     description:
       "Transform your space with modern aluminium sliding doors. Slim frames, energy-efficient, 10-year guarantee.",
-    url: "https://elitealuminium.co.za/modern-aluminium-sliding-doors-johannesburg",
+    url: "https://www.elitealuminium.co.za/modern-aluminium-sliding-doors-johannesburg",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/modern-aluminium-sliding-doors-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/modern-aluminium-sliding-doors-johannesburg",
   },
 }
 
@@ -32,7 +32,7 @@ export default function ModernAluminiumSlidingDoorsJohannesburg() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Modern Sliding Doors Johannesburg",
-            image: "https://elitealuminium.co.za/modern-aluminium-sliding-doors.jpg",
+            image: "https://www.elitealuminium.co.za/modern-aluminium-sliding-doors.jpg",
             description:
               "Modern aluminium sliding doors in Johannesburg. Contemporary designs with slim frames and energy-efficient glass.",
             address: {
