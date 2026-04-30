@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shower Doors & Enclosures Johannesburg | Elite Aluminium",
     description: "Professional shower door installation across all Johannesburg suburbs. Frameless, semi-frameless & framed options.",
-    url: "https://elitealuminium.co.za/shower-doors-johannesburg",
+    url: "https://www.elitealuminium.co.za/shower-doors-johannesburg",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/shower-doors-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/shower-doors-johannesburg",
   },
 }
 
@@ -74,8 +74,8 @@ export default function ShowerDoorsJohannesburgPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Shower Doors Johannesburg",
-            "@id": "https://elitealuminium.co.za/shower-doors-johannesburg",
-            url: "https://elitealuminium.co.za/shower-doors-johannesburg",
+            "@id": "https://www.elitealuminium.co.za/shower-doors-johannesburg",
+            url: "https://www.elitealuminium.co.za/shower-doors-johannesburg",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
