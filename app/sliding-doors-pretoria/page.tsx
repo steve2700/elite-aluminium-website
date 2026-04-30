@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     title: "Sliding Doors Pretoria | Aluminium Sliding Door Installation | Elite Aluminium",
     description:
       "Professional sliding door installation in Pretoria. Stacking doors, lift-slide, patio doors. 10-year guarantee. Call 067 276 3724.",
-    url: "https://elitealuminium.co.za/sliding-doors-pretoria",
+    url: "https://www.elitealuminium.co.za/sliding-doors-pretoria",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/sliding-doors-pretoria",
+    canonical: "https://www.elitealuminium.co.za/sliding-doors-pretoria",
   },
 }
 
@@ -165,7 +165,7 @@ export default function SlidingDoorsPretoriaPage() {
               addressRegion: "Gauteng",
               addressCountry: "ZA",
             },
-            url: "https://elitealuminium.co.za/sliding-doors-pretoria",
+            url: "https://www.elitealuminium.co.za/sliding-doors-pretoria",
             areaServed: {
               "@type": "City",
               name: "Pretoria",
