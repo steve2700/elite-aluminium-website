@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   keywords:
     "aluminium sliding doors, sliding doors Gauteng, patio doors, aluminium doors Johannesburg, sliding doors Sandton, sliding doors Pretoria, stacking doors",
   alternates: {
-    canonical: "https://elitealuminium.co.za/sliding-doors",
+    canonical: "https://www.elitealuminium.co.za/sliding-doors",
   },
   openGraph: {
     title: "Aluminium Sliding Doors Gauteng | Elite Aluminium",
     description: "Transform your space with premium aluminium sliding doors. Expert installation across Gauteng.",
-    url: "https://elitealuminium.co.za/sliding-doors",
+    url: "https://www.elitealuminium.co.za/sliding-doors",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
