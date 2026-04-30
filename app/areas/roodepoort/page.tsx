@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "Aluminium & Glass Services in Roodepoort | Elite Aluminium",
   description: "Elite Aluminium serves Roodepoort with premium aluminium windows, doors, security gates and more. SABS certified, 10-year guarantee. Free quotes - Call 067 276 3724",
   keywords: ["aluminium services Roodepoort", "aluminium windows Roodepoort", "security gates Roodepoort", "aluminium doors Roodepoort"],
-  openGraph: { title: "Aluminium & Glass Services in Roodepoort | Elite Aluminium", url: "https://elitealuminium.co.za/areas/roodepoort", siteName: "Elite Aluminium", locale: "en_ZA", type: "website" },
-  alternates: { canonical: "https://elitealuminium.co.za/areas/roodepoort" },
+  openGraph: { title: "Aluminium & Glass Services in Roodepoort | Elite Aluminium", url: "https://www.elitealuminium.co.za/areas/roodepoort", siteName: "Elite Aluminium", locale: "en_ZA", type: "website" },
+  alternates: { canonical: "https://www.elitealuminium.co.za/areas/roodepoort" },
 }
 
 export default function RoodepoortAreaPage() {
@@ -23,7 +23,7 @@ export default function RoodepoortAreaPage() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "LocalBusiness", name: "Elite Aluminium - Roodepoort", "@id": "https://elitealuminium.co.za/areas/roodepoort", url: "https://elitealuminium.co.za/areas/roodepoort", telephone: "+27672763724", email: "info@elitealuminium.co.za", address: { "@type": "PostalAddress", addressLocality: "Roodepoort", addressRegion: "Gauteng", addressCountry: "ZA" }, geo: { "@type": "GeoCoordinates", latitude: -26.1625, longitude: 27.8728 }, areaServed: { "@type": "City", name: "Roodepoort" } }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "LocalBusiness", name: "Elite Aluminium - Roodepoort", "@id": "https://www.elitealuminium.co.za/areas/roodepoort", url: "https://www.elitealuminium.co.za/areas/roodepoort", telephone: "+27672763724", email: "info@elitealuminium.co.za", address: { "@type": "PostalAddress", addressLocality: "Roodepoort", addressRegion: "Gauteng", addressCountry: "ZA" }, geo: { "@type": "GeoCoordinates", latitude: -26.1625, longitude: 27.8728 }, areaServed: { "@type": "City", name: "Roodepoort" } }) }} />
 
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="container mx-auto px-4">
