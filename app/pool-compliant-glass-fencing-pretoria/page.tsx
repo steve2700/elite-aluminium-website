@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     title: "Pool Compliant Glass Fencing Pretoria | SANS 10134 Certified",
     description:
       "Professional pool compliant glass fencing in Pretoria. SANS 10134 certified, COC included, 10-year guarantee.",
-    url: "https://elitealuminium.co.za/pool-compliant-glass-fencing-pretoria",
+    url: "https://www.elitealuminium.co.za/pool-compliant-glass-fencing-pretoria",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/pool-compliant-glass-fencing-pretoria",
+    canonical: "https://www.elitealuminium.co.za/pool-compliant-glass-fencing-pretoria",
   },
 }
 
