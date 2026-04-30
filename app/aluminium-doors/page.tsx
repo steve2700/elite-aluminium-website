@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     "commercial doors Gauteng",
   ],
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-doors",
+    canonical: "https://www.elitealuminium.co.za/aluminium-doors",
   },
   openGraph: {
     title: "Aluminium Doors Johannesburg | Pivot, Hinged & French Doors | Elite Aluminium",
     description:
       "Expert aluminium door installation in Johannesburg, Sandton, Pretoria. Pivot doors, hinged doors, French doors, stacking doors. SABS certified.",
-    url: "https://elitealuminium.co.za/aluminium-doors",
+    url: "https://www.elitealuminium.co.za/aluminium-doors",
   },
 }
 
