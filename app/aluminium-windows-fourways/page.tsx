@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Contemporary aluminium window installation in Fourways. Estate-approved, modern designs, energy efficient. Serving all Fourways estates. Free quotes - Call 067 276 3724",
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-windows-fourways",
+    canonical: "https://www.elitealuminium.co.za/aluminium-windows-fourways",
   },
 }
 
@@ -35,7 +35,7 @@ export default function AluminiumWindowsFourwaysPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Fourways Windows",
-            url: "https://elitealuminium.co.za/aluminium-windows-fourways",
+            url: "https://www.elitealuminium.co.za/aluminium-windows-fourways",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
