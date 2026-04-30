@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aluminium & Glass Services in Pretoria | Elite Aluminium",
     description: "Professional aluminium and glass installations across all Pretoria suburbs. 15+ years experience, SABS certified.",
-    url: "https://elitealuminium.co.za/areas/pretoria",
+    url: "https://www.elitealuminium.co.za/areas/pretoria",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
-  alternates: { canonical: "https://elitealuminium.co.za/areas/pretoria" },
+  alternates: { canonical: "https://www.elitealuminium.co.za/areas/pretoria" },
 }
 
 export default function PretoriaAreaPage() {
@@ -51,8 +51,8 @@ export default function PretoriaAreaPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "LocalBusiness",
-        name: "Elite Aluminium - Pretoria", "@id": "https://elitealuminium.co.za/areas/pretoria",
-        url: "https://elitealuminium.co.za/areas/pretoria", telephone: "+27672763724",
+        name: "Elite Aluminium - Pretoria", "@id": "https://www.elitealuminium.co.za/areas/pretoria",
+        url: "https://www.elitealuminium.co.za/areas/pretoria", telephone: "+27672763724",
         email: "info@elitealuminium.co.za",
         address: { "@type": "PostalAddress", addressLocality: "Pretoria", addressRegion: "Gauteng", addressCountry: "ZA" },
         geo: { "@type": "GeoCoordinates", latitude: -25.7461, longitude: 28.1881 },
