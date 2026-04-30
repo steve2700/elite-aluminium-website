@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     "glass installation Pretoria",
   ],
   alternates: {
-    canonical: "https://elitealuminium.co.za/glass-balustrades-pretoria",
+    canonical: "https://www.elitealuminium.co.za/glass-balustrades-pretoria",
   },
   openGraph: {
     title: "Glass Balustrades Pretoria | Premium Frameless Glass Installations",
     description:
       "Expert glass balustrades installation across Pretoria. SANS 10134 compliant. Estate-approved. 10-year guarantee.",
-    url: "https://elitealuminium.co.za/glass-balustrades-pretoria",
+    url: "https://www.elitealuminium.co.za/glass-balustrades-pretoria",
     type: "website",
   },
 }
