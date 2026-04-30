@@ -14,7 +14,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://elitealuminium.co.za"),
+  metadataBase: new URL("https://www.elitealuminium.co.za"),
   title: {
     default: "Elite Aluminium | Expert Aluminium & Glass Installation Gauteng | Free Quotes",
     template: "%s | Elite Aluminium",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_ZA",
-    url: "https://elitealuminium.co.za",
+    url: "https://www.elitealuminium.co.za",
     siteName: "Elite Aluminium",
     title: "Elite Aluminium | Expert Aluminium & Glass Installation Gauteng",
     description:
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   alternates: {
-    canonical: "https://elitealuminium.co.za",
+    canonical: "https://www.elitealuminium.co.za",
   },
   robots: {
     index: true,
@@ -105,8 +105,6 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "your-google-verification-code", // Add your Google Search Console verification code
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
   },
 }
 
@@ -142,12 +140,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://elitealuminium.co.za/#organization",
+              "@id": "https://www.elitealuminium.co.za/#organization",
               name: "Elite Aluminium",
               legalName: "Elite Aluminium (Pty) Ltd",
-              url: "https://elitealuminium.co.za",
-              logo: "https://elitealuminium.co.za/logo.png",
-              image: "https://elitealuminium.co.za/logo.png",
+              url: "https://www.elitealuminium.co.za",
+              logo: "https://www.elitealuminium.co.za/logo.png",
+              image: "https://www.elitealuminium.co.za/logo.png",
               description:
                 "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng.",
               telephone: "+27672763724",
@@ -254,19 +252,19 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "@id": "https://elitealuminium.co.za/#website",
-              url: "https://elitealuminium.co.za",
+              "@id": "https://www.elitealuminium.co.za/#website",
+              url: "https://www.elitealuminium.co.za",
               name: "Elite Aluminium",
               description:
                 "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng.",
               publisher: {
-                "@id": "https://elitealuminium.co.za/#organization",
+                "@id": "https://www.elitealuminium.co.za/#organization",
               },
               potentialAction: {
                 "@type": "SearchAction",
                 target: {
                   "@type": "EntryPoint",
-                  urlTemplate: "https://elitealuminium.co.za/search?q={search_term_string}",
+                  urlTemplate: "https://www.elitealuminium.co.za/search?q={search_term_string}",
                 },
                 "query-input": "required name=search_term_string",
               },
