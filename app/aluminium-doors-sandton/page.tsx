@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     title: "Aluminium Doors Sandton | Luxury Door Installation | Elite Aluminium",
     description:
       "Premium aluminium door installation in Sandton. Pivot doors, French doors, custom entrance doors. Estate-approved. Call 067 276 3724.",
-    url: "https://elitealuminium.co.za/aluminium-doors-sandton",
+    url: "https://www.elitealuminium.co.za/aluminium-doors-sandton",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-doors-sandton",
+    canonical: "https://www.elitealuminium.co.za/aluminium-doors-sandton",
   },
 }
 
@@ -301,7 +301,7 @@ export default function AluminiumDoorsSandtonPage() {
               addressRegion: "Gauteng",
               addressCountry: "ZA",
             },
-            url: "https://elitealuminium.co.za/aluminium-doors-sandton",
+            url: "https://www.elitealuminium.co.za/aluminium-doors-sandton",
             areaServed: {
               "@type": "City",
               name: "Sandton",
