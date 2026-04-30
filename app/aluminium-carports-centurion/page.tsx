@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     title: "Aluminium Carports Centurion | Premium Estate-Approved Carports",
     description:
       "Premium aluminium carports in Centurion. Estate-approved designs, SABS certified, 10-year guarantee. Free quotes.",
-    url: "https://elitealuminium.co.za/aluminium-carports-centurion",
+    url: "https://www.elitealuminium.co.za/aluminium-carports-centurion",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-carports-centurion",
+    canonical: "https://www.elitealuminium.co.za/aluminium-carports-centurion",
   },
 }
 
@@ -37,9 +37,9 @@ export default function AluminiumCarportsCenturionPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Aluminium Carports Centurion",
-            image: "https://elitealuminium.co.za/modern-aluminium-carport-installation.jpg",
-            "@id": "https://elitealuminium.co.za/aluminium-carports-centurion",
-            url: "https://elitealuminium.co.za/aluminium-carports-centurion",
+            image: "https://www.elitealuminium.co.za/modern-aluminium-carport-installation.jpg",
+            "@id": "https://www.elitealuminium.co.za/aluminium-carports-centurion",
+            url: "https://www.elitealuminium.co.za/aluminium-carports-centurion",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
