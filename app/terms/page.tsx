@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Terms & Conditions | Elite Aluminium",
   description:
     "Elite Aluminium's terms and conditions. Understand our service agreements, quotation policy, installation warranty, payment terms and liability.",
-  alternates: { canonical: "https://elitealuminium.co.za/terms-and-conditions" },
+  alternates: { canonical: "https://www.elitealuminium.co.za/terms-and-conditions" },
   robots: { index: true, follow: true },
 }
 
