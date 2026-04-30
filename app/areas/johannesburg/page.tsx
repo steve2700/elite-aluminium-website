@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     title: "Aluminium & Glass Services in Johannesburg | Elite Aluminium",
     description:
       "Professional aluminium and glass installations across all Johannesburg suburbs. 15+ years experience, SABS certified.",
-    url: "https://elitealuminium.co.za/areas/johannesburg",
+    url: "https://www.elitealuminium.co.za/areas/johannesburg",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/areas/johannesburg",
+    canonical: "https://www.elitealuminium.co.za/areas/johannesburg",
   },
 }
 
@@ -122,8 +122,8 @@ export default function JohannesburgAreaPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Johannesburg",
-            "@id": "https://elitealuminium.co.za/areas/johannesburg",
-            url: "https://elitealuminium.co.za/areas/johannesburg",
+            "@id": "https://www.elitealuminium.co.za/areas/johannesburg",
+            url: "https://www.elitealuminium.co.za/areas/johannesburg",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
