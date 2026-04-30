@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Affordable Security Gates Johannesburg | From R2,500",
     description: "Quality security gates at affordable prices. 10-year guarantee. Free quotes available.",
-    url: "https://elitealuminium.co.za/affordable-security-gates-johannesburg",
+    url: "https://www.elitealuminium.co.za/affordable-security-gates-johannesburg",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/affordable-security-gates-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/affordable-security-gates-johannesburg",
   },
 }
 
@@ -31,7 +31,7 @@ export default function AffordableSecurityGatesJohannesburg() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Affordable Security Gates Johannesburg",
-            image: "https://elitealuminium.co.za/modern-security-gates-installation.jpg",
+            image: "https://www.elitealuminium.co.za/modern-security-gates-installation.jpg",
             description:
               "Affordable security gates in Johannesburg from R2,500. Quality installation, 10-year guarantee.",
             address: {
