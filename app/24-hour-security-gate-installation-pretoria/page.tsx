@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     "weekend security gate installation",
   ],
   alternates: {
-    canonical: "https://elitealuminium.co.za/24-hour-security-gate-installation-pretoria",
+    canonical: "https://www.elitealuminium.co.za/24-hour-security-gate-installation-pretoria",
   },
   openGraph: {
     title: "24 Hour Security Gate Installation Pretoria | Elite Aluminium",
     description: "Emergency 24/7 security gate installation service in Pretoria. Same day response available.",
-    url: "https://elitealuminium.co.za/24-hour-security-gate-installation-pretoria",
+    url: "https://www.elitealuminium.co.za/24-hour-security-gate-installation-pretoria",
     type: "website",
   },
 }
