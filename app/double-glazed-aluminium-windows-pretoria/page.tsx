@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     title: "Double Glazed Aluminium Windows Pretoria | Energy Efficient | Elite Aluminium",
     description:
       "Energy-efficient double glazed aluminium windows in Pretoria. Reduce noise by 60%, save 30% on energy bills. Professional installation.",
-    url: "https://elitealuminium.co.za/double-glazed-aluminium-windows-pretoria",
+    url: "https://www.elitealuminium.co.za/double-glazed-aluminium-windows-pretoria",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/double-glazed-aluminium-windows-pretoria",
+    canonical: "https://www.elitealuminium.co.za/double-glazed-aluminium-windows-pretoria",
   },
 }
 
