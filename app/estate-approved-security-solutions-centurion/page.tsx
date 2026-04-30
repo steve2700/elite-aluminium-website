@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     title: "Estate Approved Security Solutions Centurion | HOA Compliant | Elite Aluminium",
     description:
       "Estate-approved security gates, burglar bars & fencing for Centurion estates. HOA compliant designs, invisible protection.",
-    url: "https://elitealuminium.co.za/estate-approved-security-solutions-centurion",
+    url: "https://www.elitealuminium.co.za/estate-approved-security-solutions-centurion",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/estate-approved-security-solutions-centurion",
+    canonical: "https://www.elitealuminium.co.za/estate-approved-security-solutions-centurion",
   },
 }
 
