@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Aluminium Doors Johannesburg | Professional Installation | Elite Aluminium",
     description:
       "Expert aluminium door installation in Johannesburg. Pivot doors, French doors, barn doors. 10-year guarantee. Free quotes. Call 067 276 3724.",
-    url: "https://elitealuminium.co.za/aluminium-doors-johannesburg",
+    url: "https://www.elitealuminium.co.za/aluminium-doors-johannesburg",
     type: "website",
     images: [
       {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-doors-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/aluminium-doors-johannesburg",
   },
 }
 
@@ -491,7 +491,7 @@ export default function AluminiumDoorsJohannesburgPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Aluminium Doors Johannesburg",
-            image: "https://elitealuminium.co.za/modern-aluminium-pivot-door-entrance.jpg",
+            image: "https://www.elitealuminium.co.za/modern-aluminium-pivot-door-entrance.jpg",
             telephone: "067-276-3724",
             email: "info@elitealuminium.co.za",
             address: {
@@ -505,7 +505,7 @@ export default function AluminiumDoorsJohannesburgPage() {
               latitude: -26.2041,
               longitude: 28.0473,
             },
-            url: "https://elitealuminium.co.za/aluminium-doors-johannesburg",
+            url: "https://www.elitealuminium.co.za/aluminium-doors-johannesburg",
             priceRange: "R8500-R35000",
             areaServed: {
               "@type": "City",
