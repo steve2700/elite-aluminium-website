@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     title: "Sliding Doors Sandton | Premium Sliding Door Installation | Elite Aluminium",
     description:
       "Luxury sliding door installation in Sandton. Stacking doors, lift-slide systems. Estate-approved. Call 067 276 3724.",
-    url: "https://elitealuminium.co.za/sliding-doors-sandton",
+    url: "https://www.elitealuminium.co.za/sliding-doors-sandton",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/sliding-doors-sandton",
+    canonical: "https://www.elitealuminium.co.za/sliding-doors-sandton",
   },
 }
 
@@ -164,7 +164,7 @@ export default function SlidingDoorsSandtonPage() {
               addressRegion: "Gauteng",
               addressCountry: "ZA",
             },
-            url: "https://elitealuminium.co.za/sliding-doors-sandton",
+            url: "https://www.elitealuminium.co.za/sliding-doors-sandton",
             areaServed: {
               "@type": "City",
               name: "Sandton",
