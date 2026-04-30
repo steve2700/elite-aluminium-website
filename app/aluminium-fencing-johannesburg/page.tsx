@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aluminium Fencing Johannesburg | Elite Aluminium",
     description: "Professional aluminium fencing installation across all Johannesburg suburbs. Estate-approved designs.",
-    url: "https://elitealuminium.co.za/aluminium-fencing-johannesburg",
+    url: "https://www.elitealuminium.co.za/aluminium-fencing-johannesburg",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
     type: "website",
   },
   alternates: {
-    canonical: "https://elitealuminium.co.za/aluminium-fencing-johannesburg",
+    canonical: "https://www.elitealuminium.co.za/aluminium-fencing-johannesburg",
   },
 }
 
@@ -75,8 +75,8 @@ export default function AluminiumFencingJohannesburgPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Elite Aluminium - Fencing Johannesburg",
-            "@id": "https://elitealuminium.co.za/aluminium-fencing-johannesburg",
-            url: "https://elitealuminium.co.za/aluminium-fencing-johannesburg",
+            "@id": "https://www.elitealuminium.co.za/aluminium-fencing-johannesburg",
+            url: "https://www.elitealuminium.co.za/aluminium-fencing-johannesburg",
             telephone: "+27672763724",
             email: "info@elitealuminium.co.za",
             address: {
