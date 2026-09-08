@@ -6,7 +6,7 @@ import { Phone, MessageSquare } from "lucide-react"
 export const metadata: Metadata = {
   title: "Powder Coated Aluminium Doors Johannesburg | Elite Aluminium",
   description:
-    "Premium powder coated aluminium doors in Johannesburg. Durable, rust-proof finish in custom colors. 10-year guarantee. Professional installation. Call 067 276 3724.",
+    "Premium powder coated aluminium doors in Johannesburg. Durable, rust-proof finish in custom colors. 10-year guarantee. Professional installation. Call 060 269 1601.",
   keywords: [
     "powder coated aluminium doors",
     "powder coated doors johannesburg",
@@ -36,7 +36,7 @@ export default function PowderCoatedAluminiumDoorsPage() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="border-white bg-transparent">
-              <Link href="tel:+27672763724">
+              <Link href="tel:+27602691601">
                 <Phone className="mr-2" />
                 Call Now
               </Link>

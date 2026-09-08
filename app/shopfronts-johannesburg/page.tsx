@@ -41,7 +41,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
             provider: {
               "@type": "LocalBusiness",
               name: "Elite Aluminium",
-              telephone: "+27672763724",
+              telephone: "+27602691601",
               email: "info@elitealuminium.co.za",
               address: {
                 "@type": "PostalAddress",
@@ -85,7 +85,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
                 className="gap-2 text-lg px-8 bg-white text-slate-900 hover:bg-slate-100"
               >
                 <Phone className="h-5 w-5" />
-                <a href="tel:+27672763724">067 276 3724</a>
+                <a href="tel:+27602691601">060 269 1601</a>
               </Button>
             </div>
 
@@ -633,7 +633,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
               className="gap-2 text-lg px-8 bg-white text-blue-900 hover:bg-slate-100"
             >
               <Phone className="h-5 w-5" />
-              <a href="tel:+27672763724">067 276 3724</a>
+              <a href="tel:+27602691601">060 269 1601</a>
             </Button>
             <Button
               size="lg"
@@ -700,7 +700,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
             <Phone className="mr-2 h-4 w-4" />
-            <a href="tel:+27672763724">Call Now</a>
+            <a href="tel:+27602691601">Call Now</a>
           </Button>
         </div>
       </div>

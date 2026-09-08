@@ -115,12 +115,12 @@ export default function Footer() {
             </p>
             <div className="space-y-2 text-sm">
               <a
-                href="tel:+27672763724"
+                href="tel:+27602691601"
                 className="flex items-center gap-2 hover:text-blue-400 transition-colors"
                 aria-label="Call Elite Aluminium"
               >
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                067 276 3724
+                060 269 1601
               </a>
               <a
                 href="mailto:info@elitealuminium.co.za"

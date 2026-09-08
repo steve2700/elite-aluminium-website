@@ -7,7 +7,7 @@ import { Phone, MessageSquare, CheckCircle, Clock, Wrench } from "lucide-react"
 export const metadata: Metadata = {
   title: "Aluminium Window Repairs Johannesburg | Same Day Service | Elite Aluminium",
   description:
-    "Professional aluminium window repairs in Johannesburg. Same day service, broken glass replacement, hinges, handles, seals. 15+ years experience. Call 067 276 3724 for urgent repairs.",
+    "Professional aluminium window repairs in Johannesburg. Same day service, broken glass replacement, hinges, handles, seals. 15+ years experience. Call 060 269 1601 for urgent repairs.",
   keywords: [
     "aluminium window repairs johannesburg",
     "window repair johannesburg",
@@ -168,9 +168,9 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild className="border-2 border-white text-lg px-8 bg-transparent">
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call: 067 276 3724
+                  Call: 060 269 1601
                 </Link>
               </Button>
             </div>
@@ -303,9 +303,9 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild className="bg-white text-blue-600 hover:bg-slate-100">
-              <Link href="tel:+27672763724">
+              <Link href="tel:+27602691601">
                 <Phone className="mr-2 h-5 w-5" />
-                Call: 067 276 3724
+                Call: 060 269 1601
               </Link>
             </Button>
             <Button
@@ -330,7 +330,7 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 lg:hidden z-50 shadow-lg">
         <div className="flex gap-2">
           <Button asChild className="flex-1 bg-blue-600 hover:bg-blue-700">
-            <Link href="tel:+27672763724">
+            <Link href="tel:+27602691601">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </Link>
@@ -358,7 +358,7 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
             image: "https://www.elitealuminium.co.za/logo.png",
             "@id": "https://www.elitealuminium.co.za/aluminium-window-repairs-johannesburg",
             url: "https://www.elitealuminium.co.za/aluminium-window-repairs-johannesburg",
-            telephone: "+27672763724",
+            telephone: "+27602691601",
             email: "info@elitealuminium.co.za",
             priceRange: "R280-R1200",
             address: {

@@ -28,14 +28,14 @@ export default function CTASection() {
               </Button>
             </Link>
 
-            <Link href="tel:+27672763724" className="w-full sm:w-auto">
+            <Link href="tel:+27602691601" className="w-full sm:w-auto">
               <Button
                 size="lg"
                 variant="outline"
                 className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border-white/50 hover:border-white text-lg px-8 py-6 rounded-lg backdrop-blur-sm transition-all"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                067 276 3724
+                060 269 1601
               </Button>
             </Link>
           </div>

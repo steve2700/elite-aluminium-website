@@ -7,9 +7,9 @@ import { Phone, Mail, MapPin, Clock, MessageSquare, Send } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Contact Elite Aluminium | Free Quotes & Consultations |067 276 3724",
+  title: "Contact Elite Aluminium | Free Quotes & Consultations |060 269 1601",
   description:
-    "Get in touch with Elite Aluminium for free quotes on aluminium windows, doors, security gates & glass. Call067 276 3724, email info@elitealuminium.co.za or WhatsApp us. Serving Gauteng.",
+    "Get in touch with Elite Aluminium for free quotes on aluminium windows, doors, security gates & glass. Call060 269 1601, email info@elitealuminium.co.za or WhatsApp us. Serving Gauteng.",
   keywords: [
     "contact elite aluminium",
     "aluminium quotes Gauteng",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Contact Elite Aluminium | Free Quotes & Consultations",
-    description: "Get free quotes on premium aluminium & glass installations. Call067 276 3724 or WhatsApp us today.",
+    description: "Get free quotes on premium aluminium & glass installations. Call060 269 1601 or WhatsApp us today.",
     url: "https://www.elitealuminium.co.za/contact",
     siteName: "Elite Aluminium",
     locale: "en_ZA",
@@ -64,14 +64,14 @@ export default function ContactPage() {
                     WhatsApp Us Now
                   </Button>
                 </Link>
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Button
                     size="lg"
                     variant="outline"
                     className="bg-white/10 border-white/20 text-white hover:bg-white/20"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 067 276 3724
+                    Call 060 269 1601
                   </Button>
                 </Link>
               </div>
@@ -91,8 +91,8 @@ export default function ContactPage() {
                     </div>
                     <h3 className="font-bold text-lg mb-2">Call Us</h3>
                     <p className="text-slate-600 text-sm mb-3">Speak directly with our experts</p>
-                    <a href="tel:+27672763724" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
-                     067 276 3724
+                    <a href="tel:+27602691601" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
+                     060 269 1601
                     </a>
                   </div>
                 </CardContent>
@@ -370,7 +370,7 @@ export default function ContactPage() {
                   <CardContent className="pt-6">
                     <h3 className="font-bold text-lg mb-2">What's the best way to contact you for urgent matters?</h3>
                     <p className="text-slate-600">
-                      For urgent enquiries or emergency services, WhatsApp is the fastest method at067 276 3724. You
+                      For urgent enquiries or emergency services, WhatsApp is the fastest method at060 269 1601. You
                       can also call us directly on the same number during business hours.
                     </p>
                   </CardContent>

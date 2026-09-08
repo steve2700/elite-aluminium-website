@@ -6,7 +6,7 @@ import { MessageSquare, Phone, Mail, Check, Star, Shield, Clock, MapPin } from "
 export const metadata: Metadata = {
   title: "Glass Balustrades Pretoria | Frameless Pool & Deck Glass Installations | Elite Aluminium",
   description:
-    "Premium glass balustrades installation in Pretoria. Frameless pool fencing, deck railings & balcony glass. SANS 10134 compliant. Estate-approved designs. Free quotes - 067 276 3724",
+    "Premium glass balustrades installation in Pretoria. Frameless pool fencing, deck railings & balcony glass. SANS 10134 compliant. Estate-approved designs. Free quotes - 060 269 1601",
   keywords: [
     "glass balustrades Pretoria",
     "frameless glass Pretoria",
@@ -145,7 +145,7 @@ export default function GlassBalustradesPretoriaPage() {
             provider: {
               "@type": "LocalBusiness",
               name: "Elite Aluminium",
-              telephone: "+27672763724",
+              telephone: "+27602691601",
               email: "info@elitealuminium.co.za",
             },
             areaServed: {
@@ -178,10 +178,10 @@ export default function GlassBalustradesPretoriaPage() {
               glass. SANS 10134 compliant. Estate-approved designs with 10-year guarantee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27672763724">
+              <a href="tel:+27602691601">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg w-full sm:w-auto">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 067 276 3724
+                  Call 060 269 1601
                 </Button>
               </a>
               <a
@@ -347,10 +347,10 @@ export default function GlassBalustradesPretoriaPage() {
               designs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+27672763724">
+              <a href="tel:+27602691601">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-slate-100 text-lg w-full sm:w-auto">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 067 276 3724
+                  Call 060 269 1601
                 </Button>
               </a>
               <a href="mailto:info@elitealuminium.co.za">
@@ -412,7 +412,7 @@ export default function GlassBalustradesPretoriaPage() {
       {/* Mobile Sticky CTA */}
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-40">
         <div className="flex gap-2">
-          <a href="tel:+27672763724" className="flex-1">
+          <a href="tel:+27602691601" className="flex-1">
             <Button className="w-full bg-blue-600 hover:bg-blue-700">
               <Phone className="mr-2 h-4 w-4" />
               Call Now

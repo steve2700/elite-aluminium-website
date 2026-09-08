@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = {
   title: "Security Gates Gauteng | Burglar Bars & Protection | Elite Aluminium",
   description:
-    "Premium security gates and burglar bars in Gauteng. Expert installation for maximum protection. SABS approved. 10-year guarantee. Call 067 276 3724.",
+    "Premium security gates and burglar bars in Gauteng. Expert installation for maximum protection. SABS approved. 10-year guarantee. Call 060 269 1601.",
   keywords:
     "security gates, burglar bars, aluminium security, security gates Johannesburg, security gates Sandton, burglar bars Pretoria, home security Gauteng",
   alternates: {
@@ -145,10 +145,10 @@ export default function SecurityGatesPage() {
                   quotes available.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:+27672763724">
+                  <a href="tel:+27602691601">
                     <Button size="lg" className="bg-red-600 hover:bg-red-700">
                       <Phone className="mr-2 h-5 w-5" />
-                      Call 067 276 3724
+                      Call 060 269 1601
                     </Button>
                   </a>
                   <a
@@ -372,7 +372,7 @@ export default function SecurityGatesPage() {
                   {
                     question: "How much do security gates cost in Gauteng?",
                     answer:
-                      "Security gate prices vary based on size, design complexity, and locking mechanisms. Standard door security gates range from R2,500 to R5,000. Window burglar bars cost R800 to R2,000 per window depending on size. Large patio security gates range from R6,000 to R12,000. We provide free quotes with detailed pricing. Contact us on 067 276 3724 for accurate pricing based on your specific security needs.",
+                      "Security gate prices vary based on size, design complexity, and locking mechanisms. Standard door security gates range from R2,500 to R5,000. Window burglar bars cost R800 to R2,000 per window depending on size. Large patio security gates range from R6,000 to R12,000. We provide free quotes with detailed pricing. Contact us on 060 269 1601 for accurate pricing based on your specific security needs.",
                   },
                   {
                     question: "How long does security gate installation take?",
@@ -433,10 +433,10 @@ export default function SecurityGatesPage() {
                 consultations available across Gauteng.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <a href="tel:+27672763724">
+                <a href="tel:+27602691601">
                   <Button size="lg" className="bg-white text-red-600 hover:bg-red-50">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 067 276 3724 Now
+                    Call 060 269 1601 Now
                   </Button>
                 </a>
                 <a

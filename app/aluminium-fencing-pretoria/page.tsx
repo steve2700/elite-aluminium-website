@@ -6,7 +6,7 @@ import { Phone, MessageSquare, MapPin } from "lucide-react"
 export const metadata: Metadata = {
   title: "Aluminium Fencing Pretoria | Professional Installation | Elite Aluminium",
   description:
-    "Professional aluminium fencing in Pretoria. Pool fencing, boundary fencing, security fencing. SANS 10134 compliant. Call 067 276 3724.",
+    "Professional aluminium fencing in Pretoria. Pool fencing, boundary fencing, security fencing. SANS 10134 compliant. Call 060 269 1601.",
   keywords: "aluminium fencing pretoria, pool fencing pretoria, boundary fencing, palisade fencing pretoria",
 }
 
@@ -25,10 +25,10 @@ export default function AluminiumFencingPretoriaPage() {
             security solutions. SANS 10134 compliant, 10-year guarantee.
           </p>
           <div className="flex gap-4">
-            <a href="tel:+27672763724">
+            <a href="tel:+27602691601">
               <Button size="lg" className="bg-blue-600">
                 <Phone className="mr-2" />
-                Call 067 276 3724
+                Call 060 269 1601
               </Button>
             </a>
             <Link href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20fencing%20in%20Pretoria">
@@ -82,7 +82,7 @@ export default function AluminiumFencingPretoriaPage() {
 
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t p-4 md:hidden z-50">
         <div className="flex gap-2">
-          <a href="tel:+27672763724" className="flex-1">
+          <a href="tel:+27602691601" className="flex-1">
             <Button className="w-full bg-blue-600">
               <Phone className="mr-2 h-4 w-4" />
               Call

@@ -106,14 +106,14 @@ export default function Hero() {
               </Button>
             </Link>
 
-            <Link href="tel:+27672763724" className="w-full sm:w-auto group">
+            <Link href="tel:+27602691601" className="w-full sm:w-auto group">
               <Button
                 size="lg"
                 variant="outline"
                 className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border-2 border-white/40 hover:border-white/60 text-lg px-10 py-7 rounded-xl backdrop-blur-md transition-all transform hover:scale-105"
               >
                 <Phone className="mr-3 h-6 w-6 group-hover:animate-pulse" />
-                Call 067 276 3724
+                Call 060 269 1601
               </Button>
             </Link>
           </div>

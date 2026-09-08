@@ -216,14 +216,14 @@ export default function FAQPage() {
                     Ask on WhatsApp
                   </Button>
                 </Link>
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Button
                     size="lg"
                     variant="outline"
                     className="bg-white/10 border-white/20 text-white hover:bg-white/20"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 067 276 3724
+                    Call 060 269 1601
                   </Button>
                 </Link>
               </div>

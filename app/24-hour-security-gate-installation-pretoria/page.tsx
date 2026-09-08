@@ -7,7 +7,7 @@ import { Phone, MessageSquare, Clock, Shield, Wrench, AlertCircle, CheckCircle, 
 export const metadata: Metadata = {
   title: "24 Hour Security Gate Installation Pretoria | Emergency Service | Elite Aluminium",
   description:
-    "24/7 emergency security gate installation in Pretoria. Same day service available. Professional team ready. Call 067 276 3724 anytime.",
+    "24/7 emergency security gate installation in Pretoria. Same day service available. Professional team ready. Call 060 269 1601 anytime.",
   keywords: [
     "24 hour security gate installation",
     "emergency security gates pretoria",
@@ -33,7 +33,7 @@ export default function EmergencySecurityGatePage() {
     "@type": "LocalBusiness",
     name: "Elite Aluminium - 24 Hour Security Gate Installation Pretoria",
     description: "24/7 emergency security gate installation service in Pretoria",
-    telephone: "+27672763724",
+    telephone: "+27602691601",
     email: "info@elitealuminium.co.za",
     address: {
       "@type": "PostalAddress",
@@ -73,9 +73,9 @@ export default function EmergencySecurityGatePage() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" asChild className="bg-red-600 hover:bg-red-700 text-white">
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Phone className="mr-2" />
-                  Emergency Call: 067 276 3724
+                  Emergency Call: 060 269 1601
                 </Link>
               </Button>
               <Button size="lg" asChild className="bg-green-600 hover:bg-green-700">
@@ -438,9 +438,9 @@ export default function EmergencySecurityGatePage() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" asChild className="bg-red-600 hover:bg-red-700">
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Phone className="mr-2" />
-                  Call Emergency Line: 067 276 3724
+                  Call Emergency Line: 060 269 1601
                 </Link>
               </Button>
               <Button size="lg" asChild variant="outline" className="bg-white text-slate-900 hover:bg-slate-100">
@@ -453,7 +453,7 @@ export default function EmergencySecurityGatePage() {
 
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t-2 border-red-600 p-3 md:hidden z-50 shadow-lg">
         <div className="flex gap-2">
-          <a href="tel:+27672763724" className="flex-1">
+          <a href="tel:+27602691601" className="flex-1">
             <Button className="w-full bg-red-600 hover:bg-red-700">
               <Phone className="mr-2 h-4 w-4" />
               Emergency Call

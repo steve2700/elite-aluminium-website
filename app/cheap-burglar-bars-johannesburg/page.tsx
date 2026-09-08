@@ -7,7 +7,7 @@ import { Phone, MessageSquare, CheckCircle, Shield, DollarSign } from "lucide-re
 export const metadata: Metadata = {
   title: "Cheap Burglar Bars Johannesburg | Affordable Security from R180/m | Elite Aluminium",
   description:
-    "Affordable burglar bars in Johannesburg from R180 per meter. High quality steel & aluminium security bars. Free quotes, professional installation, 5-year guarantee. Call 067 276 3724.",
+    "Affordable burglar bars in Johannesburg from R180 per meter. High quality steel & aluminium security bars. Free quotes, professional installation, 5-year guarantee. Call 060 269 1601.",
   keywords: [
     "cheap burglar bars johannesburg",
     "affordable burglar bars",
@@ -110,9 +110,9 @@ export default function CheapBurglarBarsJohannesburgPage() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild className="border-2 border-white text-lg px-8 bg-transparent">
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call: 067 276 3724
+                  Call: 060 269 1601
                 </Link>
               </Button>
             </div>
@@ -179,9 +179,9 @@ export default function CheapBurglarBarsJohannesburgPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild className="bg-white text-blue-600 hover:bg-slate-100">
-              <Link href="tel:+27672763724">
+              <Link href="tel:+27602691601">
                 <Phone className="mr-2 h-5 w-5" />
-                Call: 067 276 3724
+                Call: 060 269 1601
               </Link>
             </Button>
             <Button
@@ -206,7 +206,7 @@ export default function CheapBurglarBarsJohannesburgPage() {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 lg:hidden z-50 shadow-lg">
         <div className="flex gap-2">
           <Button asChild className="flex-1 bg-blue-600 hover:bg-blue-700">
-            <Link href="tel:+27672763724">
+            <Link href="tel:+27602691601">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </Link>

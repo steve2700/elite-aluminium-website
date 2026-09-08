@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Aluminium Carports Centurion | Premium Estate-Approved Carports | Elite Aluminium",
   description:
-    "Premium aluminium carports in Centurion. Estate-approved designs, SABS certified, 10-year guarantee. Serving Centurion, Irene, Wierdapark & surrounds. Call 067 276 3724.",
+    "Premium aluminium carports in Centurion. Estate-approved designs, SABS certified, 10-year guarantee. Serving Centurion, Irene, Wierdapark & surrounds. Call 060 269 1601.",
   keywords:
     "aluminium carports centurion, carports centurion, aluminium carport installation, estate-approved carports, centurion carports, double carports centurion, cantilever carports, SABS certified carports",
   openGraph: {
@@ -40,7 +40,7 @@ export default function AluminiumCarportsCenturionPage() {
             image: "https://www.elitealuminium.co.za/modern-aluminium-carport-installation.jpg",
             "@id": "https://www.elitealuminium.co.za/aluminium-carports-centurion",
             url: "https://www.elitealuminium.co.za/aluminium-carports-centurion",
-            telephone: "+27672763724",
+            telephone: "+27602691601",
             email: "info@elitealuminium.co.za",
             address: {
               "@type": "PostalAddress",
@@ -116,9 +116,9 @@ export default function AluminiumCarportsCenturionPage() {
                 className="bg-white/10 border-white/20 hover:bg-white/20 text-white text-lg px-8"
                 asChild
               >
-                <a href="tel:0672763724">
+                <a href="tel:0602691601">
                   <Phone className="mr-2 h-5 w-5" />
-                  067 276 3724
+                  060 269 1601
                 </a>
               </Button>
             </div>
@@ -776,9 +776,9 @@ export default function AluminiumCarportsCenturionPage() {
                 className="border-white text-white hover:bg-white/10 text-lg px-8 bg-transparent"
                 asChild
               >
-                <a href="tel:0672763724">
+                <a href="tel:0602691601">
                   <Phone className="mr-2 h-5 w-5" />
-                  067 276 3724
+                  060 269 1601
                 </a>
               </Button>
               <Button
@@ -814,7 +814,7 @@ export default function AluminiumCarportsCenturionPage() {
             </a>
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700" asChild>
-            <a href="tel:0672763724">
+            <a href="tel:0602691601">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </a>

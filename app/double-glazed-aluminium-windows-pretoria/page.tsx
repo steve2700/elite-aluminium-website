@@ -8,7 +8,7 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Double Glazed Aluminium Windows Pretoria | Energy Efficient | Elite Aluminium",
   description:
-    "Energy-efficient double glazed aluminium windows in Pretoria. Reduce noise by 60%, save 30% on energy bills. Professional installation. Call067 276 3724 for free quote.",
+    "Energy-efficient double glazed aluminium windows in Pretoria. Reduce noise by 60%, save 30% on energy bills. Professional installation. Call060 269 1601 for free quote.",
   keywords:
     "double glazed windows pretoria, energy efficient windows pretoria, aluminium double glazing, thermal windows pretoria, noise reduction windows, insulated windows",
   openGraph: {
@@ -41,7 +41,7 @@ export default function DoubleGlazedAluminiumWindowsPretoriaPage() {
             provider: {
               "@type": "LocalBusiness",
               name: "Elite Aluminium",
-              telephone: "+27672763724",
+              telephone: "+27602691601",
               email: "info@elitealuminium.co.za",
               address: {
                 "@type": "PostalAddress",
@@ -85,7 +85,7 @@ export default function DoubleGlazedAluminiumWindowsPretoriaPage() {
                 className="gap-2 text-lg px-8 bg-white text-slate-900 hover:bg-slate-100"
               >
                 <Phone className="h-5 w-5" />
-                <a href="tel:+27672763724">079 593 5025</a>
+                <a href="tel:+27602691601">079 593 5025</a>
               </Button>
             </div>
 
@@ -703,7 +703,7 @@ export default function DoubleGlazedAluminiumWindowsPretoriaPage() {
               className="gap-2 text-lg px-8 bg-white text-blue-900 hover:bg-slate-100"
             >
               <Phone className="h-5 w-5" />
-              <a href="tel:+27672763724">079 593 5025</a>
+              <a href="tel:+27602691601">079 593 5025</a>
             </Button>
             <Button
               size="lg"
@@ -767,7 +767,7 @@ export default function DoubleGlazedAluminiumWindowsPretoriaPage() {
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
             <Phone className="mr-2 h-4 w-4" />
-            <a href="tel:+27672763724">Call Now</a>
+            <a href="tel:+27602691601">Call Now</a>
           </Button>
         </div>
       </div>

@@ -6,7 +6,7 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Aluminium Doors Johannesburg | Pivot, Hinged & French Doors | Elite Aluminium",
   description:
-    "Expert aluminium door installation in Johannesburg, Sandton, Pretoria. Pivot doors, hinged doors, French doors, stacking doors. SABS certified. 15+ years experience. Free quotes - 067 276 3724",
+    "Expert aluminium door installation in Johannesburg, Sandton, Pretoria. Pivot doors, hinged doors, French doors, stacking doors. SABS certified. 15+ years experience. Free quotes - 060 269 1601",
   keywords: [
     "aluminium doors Johannesburg",
     "pivot doors Gauteng",
@@ -42,7 +42,7 @@ export default function AluminiumDoorsPage() {
             provider: {
               "@type": "LocalBusiness",
               name: "Elite Aluminium",
-              telephone: "+27672763724",
+              telephone: "+27602691601",
               email: "info@elitealuminium.co.za",
             },
           }),
@@ -80,10 +80,10 @@ export default function AluminiumDoorsPage() {
                 Get Free Quote
               </Button>
             </Link>
-            <Link href="tel:+27672763724">
+            <Link href="tel:+27602691601">
               <Button size="lg" variant="outline" className="bg-white/10 text-white border-white/30">
                 <Phone className="mr-2" />
-                Call 067 276 3724
+                Call 060 269 1601
               </Button>
             </Link>
           </div>
@@ -465,8 +465,8 @@ export default function AluminiumDoorsPage() {
                   <strong>Get Your Personalized Quote:</strong> Contact Elite Aluminium for a free consultation and
                   accurate quote tailored to your specific requirements. We'll assess your property, discuss your needs,
                   and provide transparent pricing with no hidden fees. Call{" "}
-                  <a href="tel:+27672763724" className="text-blue-600 hover:text-blue-700 font-semibold">
-                    067 276 3724
+                  <a href="tel:+27602691601" className="text-blue-600 hover:text-blue-700 font-semibold">
+                    060 269 1601
                   </a>{" "}
                   or{" "}
                   <a href="https://wa.me/27672763724" className="text-green-600 hover:text-green-700 font-semibold">
@@ -521,10 +521,10 @@ export default function AluminiumDoorsPage() {
                     WhatsApp for Quote
                   </Button>
                 </Link>
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Button size="lg" variant="outline" className="bg-white text-slate-900 hover:bg-slate-100 px-8 py-6">
                     <Phone className="mr-2" />
-                    Call 067 276 3724
+                    Call 060 269 1601
                   </Button>
                 </Link>
               </div>

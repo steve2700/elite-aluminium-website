@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | Elite Aluminium",
   },
   description:
-    "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng. 15+ years experience serving Johannesburg, Sandton, Pretoria, Centurion. SABS certified. Free quotes & site visits. Call 067 276 3724 today!",
+    "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng. 15+ years experience serving Johannesburg, Sandton, Pretoria, Centurion. SABS certified. Free quotes & site visits. Call 060 269 1601 today!",
   keywords: [
     "aluminium windows gauteng",
     "aluminium doors johannesburg",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "Elite Aluminium",
     title: "Elite Aluminium | Expert Aluminium & Glass Installation Gauteng",
     description:
-      "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng. 15+ years experience. Free quotes. Call 067 276 3724.",
+      "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng. 15+ years experience. Free quotes. Call 060 269 1601.",
     images: [
       {
         url: "/logo.png",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Elite Aluminium | Expert Aluminium & Glass Installation Gauteng",
     description:
-      "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng. Free quotes. Call 067 276 3724.",
+      "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng. Free quotes. Call 060 269 1601.",
     images: ["/logo.png"],
   },
   icons: {
@@ -149,7 +149,7 @@ export default function RootLayout({
               image: "https://www.elitealuminium.co.za/logo.png",
               description:
                 "Premium aluminium windows, doors, sliding doors, security gates & glass installations across Gauteng.",
-              telephone: "+27672763724",
+              telephone: "+27602691601",
               email: "info@elitealuminium.co.za",
               address: {
                 "@type": "PostalAddress",

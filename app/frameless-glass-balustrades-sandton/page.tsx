@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Frameless Glass Balustrades Sandton | Luxury Pool & Balcony Glass Fencing",
   description:
-    "Frameless glass balustrades in Sandton. Premium uninterrupted views for pools, balconies, and decks. SANS 10134 compliant. Free quotes. Call 067 276 3724.",
+    "Frameless glass balustrades in Sandton. Premium uninterrupted views for pools, balconies, and decks. SANS 10134 compliant. Free quotes. Call 060 269 1601.",
   keywords:
     "frameless glass balustrades sandton, glass pool fencing sandton, frameless glass railing, luxury glass balustrades, glass balcony railing sandton",
   openGraph: {
@@ -40,7 +40,7 @@ export default function FramelessGlassBalustradesSandton() {
               addressRegion: "Gauteng",
               addressCountry: "ZA",
             },
-            telephone: "+27672763724",
+            telephone: "+27602691601",
             email: "info@elitealuminium.co.za",
             priceRange: "R3500-R5500 per meter",
             areaServed: {
@@ -82,9 +82,9 @@ export default function FramelessGlassBalustradesSandton() {
                 className="border-white text-white hover:bg-white/10 gap-2 bg-transparent"
                 asChild
               >
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Phone className="h-5 w-5" />
-                  Call: 067 276 3724
+                  Call: 060 269 1601
                 </Link>
               </Button>
             </div>
@@ -173,7 +173,7 @@ export default function FramelessGlassBalustradesSandton() {
             </Link>
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700 gap-2" asChild>
-            <Link href="tel:+27672763724">
+            <Link href="tel:+27602691601">
               <Phone className="h-4 w-4" />
               Call Now
             </Link>

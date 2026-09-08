@@ -45,12 +45,12 @@ export default function Header() {
         <div className="flex items-center justify-between py-2 border-b border-slate-700/50">
           <div className="flex items-center gap-4 text-sm text-slate-300">
             <a
-              href="tel:+27672763724"
+              href="tel:+27602691601"
               className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"
-              aria-label="Call us at 0672763724"
+              aria-label="Call us at 0602691601"
             >
               <Phone className="h-3.5 w-3.5 flex-shrink-0" />
-              <span className="hidden sm:inline">0672763724</span>
+              <span className="hidden sm:inline">0602691601</span>
               <span className="sm:hidden text-xs">Call</span>
             </a>
             <a
@@ -265,11 +265,11 @@ export default function Header() {
                 {/* Mobile CTAs */}
                 <div className="pt-4 mt-4 border-t border-slate-700 space-y-3">
                   <a
-                    href="tel:+27672763724"
+                    href="tel:+27602691601"
                     className="flex items-center justify-center gap-2 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition-colors font-medium"
                   >
                     <Phone className="h-4 w-4" />
-                    0672763724
+                    0602691601
                   </a>
                   <a
                     href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote"

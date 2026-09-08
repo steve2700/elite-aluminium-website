@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export const metadata: Metadata = {
   title: "Modern Aluminium Sliding Doors Johannesburg | Contemporary Designs 2026",
   description:
-    "Modern aluminium sliding doors in Johannesburg. Contemporary slim-frame designs, stacking doors, and energy-efficient glass. Free quotes. Call 067 276 3724.",
+    "Modern aluminium sliding doors in Johannesburg. Contemporary slim-frame designs, stacking doors, and energy-efficient glass. Free quotes. Call 060 269 1601.",
   keywords:
     "modern aluminium sliding doors johannesburg, contemporary sliding doors jhb, slim frame sliding doors, modern patio doors johannesburg, designer sliding doors",
   openGraph: {
@@ -41,7 +41,7 @@ export default function ModernAluminiumSlidingDoorsJohannesburg() {
               addressRegion: "Gauteng",
               addressCountry: "ZA",
             },
-            telephone: "+27672763724",
+            telephone: "+27602691601",
             email: "info@elitealuminium.co.za",
             areaServed: {
               "@type": "City",
@@ -82,9 +82,9 @@ export default function ModernAluminiumSlidingDoorsJohannesburg() {
                 className="border-white text-white hover:bg-white/10 gap-2 bg-transparent"
                 asChild
               >
-                <Link href="tel:+27672763724">
+                <Link href="tel:+27602691601">
                   <Phone className="h-5 w-5" />
-                  Call: 067 276 3724
+                  Call: 060 269 1601
                 </Link>
               </Button>
             </div>
@@ -338,9 +338,9 @@ export default function ModernAluminiumSlidingDoorsJohannesburg() {
               className="border-white text-white hover:bg-white/10 gap-2 bg-transparent"
               asChild
             >
-              <Link href="tel:+27672763724">
+              <Link href="tel:+27602691601">
                 <Phone className="h-5 w-5" />
-                Call: 067 276 3724
+                Call: 060 269 1601
               </Link>
             </Button>
           </div>
@@ -357,7 +357,7 @@ export default function ModernAluminiumSlidingDoorsJohannesburg() {
             </Link>
           </Button>
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700 gap-2" asChild>
-            <Link href="tel:+27672763724">
+            <Link href="tel:+27602691601">
               <Phone className="h-4 w-4" />
               Call Now
             </Link>
