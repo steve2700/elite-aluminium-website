@@ -87,7 +87,7 @@ export default function CarportsPretoriaPage() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8" asChild>
                   <a
-                    href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
+                    href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -646,7 +646,7 @@ export default function CarportsPretoriaPage() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" variant="secondary" className="px-8" asChild>
                 <a
-                  href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
+                  href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -684,7 +684,7 @@ export default function CarportsPretoriaPage() {
         <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 flex gap-2 md:hidden z-50 shadow-lg">
           <Button className="flex-1 bg-blue-600 hover:bg-blue-700" asChild>
             <a
-              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
+              href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20carports%20in%20Pretoria"
               target="_blank"
               rel="noopener noreferrer"
             >

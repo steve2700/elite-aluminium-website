@@ -64,7 +64,7 @@ export default function Header() {
             </a>
           </div>
           <a
-            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
+            href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -272,7 +272,7 @@ export default function Header() {
                     0602691601
                   </a>
                   <a
-                    href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
+                    href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg transition-colors font-medium"

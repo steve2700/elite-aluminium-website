@@ -66,7 +66,7 @@ export default function BurglarBarsSandtonPage() {
                 Call 060 269 1601
               </Button>
             </a>
-            <Link href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20burglar%20bars%20in%20Sandton">
+            <Link href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20burglar%20bars%20in%20Sandton">
               <Button size="lg" className="bg-green-600">
                 <MessageSquare className="mr-2" />
                 WhatsApp Quote
@@ -324,7 +324,7 @@ export default function BurglarBarsSandtonPage() {
               Call
             </Button>
           </a>
-          <Link href="https://wa.me/27672763724" className="flex-1">
+          <Link href="https://wa.me/27602691601" className="flex-1">
             <Button className="w-full bg-green-600">
               <MessageSquare className="mr-2 h-4 w-4" />
               WhatsApp

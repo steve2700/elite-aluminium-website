@@ -30,7 +30,7 @@ export default function PowderCoatedAluminiumDoorsPage() {
           </p>
           <div className="flex gap-4 justify-center">
             <Button size="lg" asChild className="bg-green-600">
-              <Link href="https://wa.me/27672763724" target="_blank">
+              <Link href="https://wa.me/27602691601" target="_blank">
                 <MessageSquare className="mr-2" />
                 Get Quote
               </Link>

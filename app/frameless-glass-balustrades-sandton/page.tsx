@@ -69,7 +69,7 @@ export default function FramelessGlassBalustradesSandton() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white gap-2" asChild>
                 <Link
-                  href="https://wa.me/27672763724?text=Hi%2C%20I%27m%20interested%20in%20frameless%20glass%20balustrades%20in%20Sandton"
+                  href="https://wa.me/27602691601?text=Hi%2C%20I%27m%20interested%20in%20frameless%20glass%20balustrades%20in%20Sandton"
                   target="_blank"
                 >
                   <MessageSquare className="h-5 w-5" />
@@ -167,7 +167,7 @@ export default function FramelessGlassBalustradesSandton() {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 md:hidden z-50 shadow-lg">
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700 gap-2" asChild>
-            <Link href="https://wa.me/27672763724?text=Frameless%20glass%20quote%20Sandton" target="_blank">
+            <Link href="https://wa.me/27602691601?text=Frameless%20glass%20quote%20Sandton" target="_blank">
               <MessageSquare className="h-4 w-4" />
               WhatsApp
             </Link>

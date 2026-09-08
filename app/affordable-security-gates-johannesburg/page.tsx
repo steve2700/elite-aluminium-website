@@ -69,7 +69,7 @@ export default function AffordableSecurityGatesJohannesburg() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white gap-2" asChild>
                 <Link
-                  href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20affordable%20security%20gates%20in%20Johannesburg"
+                  href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20affordable%20security%20gates%20in%20Johannesburg"
                   target="_blank"
                 >
                   <MessageSquare className="h-5 w-5" />
@@ -513,7 +513,7 @@ export default function AffordableSecurityGatesJohannesburg() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-slate-100 gap-2" asChild>
               <Link
-                href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20a%20quote%20for%20affordable%20security%20gates"
+                href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20a%20quote%20for%20affordable%20security%20gates"
                 target="_blank"
               >
                 <MessageSquare className="h-5 w-5" />
@@ -543,7 +543,7 @@ export default function AffordableSecurityGatesJohannesburg() {
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700 gap-2" asChild>
             <Link
-              href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20affordable%20security%20gates"
+              href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20affordable%20security%20gates"
               target="_blank"
             >
               <MessageSquare className="h-4 w-4" />

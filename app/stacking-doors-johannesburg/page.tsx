@@ -116,7 +116,7 @@ export default function StackingDoorsJohannesburgPage() {
               <a href="tel:+27602691601" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
                 <Phone className="h-5 w-5" /> Call 060 269 1601
               </a>
-              <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20stacking%20doors%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+              <a href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20stacking%20doors%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
                 <MessageSquare className="h-5 w-5" /> WhatsApp Quote
               </a>
             </div>
@@ -280,7 +280,7 @@ export default function StackingDoorsJohannesburgPage() {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
         <div className="flex gap-2">
           <a href="tel:+27602691601" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg font-semibold">📞 Call Now</a>
-          <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20stacking%20doors%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold">💬 WhatsApp</a>
+          <a href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20stacking%20doors%20in%20Johannesburg" target="_blank" rel="noopener noreferrer" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold">💬 WhatsApp</a>
         </div>
       </div>
     </>

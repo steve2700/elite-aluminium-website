@@ -46,7 +46,7 @@ export default function SecurityGatesPretoriaPage() {
               </Button>
             </a>
             <Link
-              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Pretoria"
+              href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Pretoria"
               target="_blank"
             >
               <Button size="lg" className="bg-green-600 hover:bg-green-700">
@@ -104,7 +104,7 @@ export default function SecurityGatesPretoriaPage() {
               Call
             </Button>
           </a>
-          <Link href="https://wa.me/27672763724" className="flex-1">
+          <Link href="https://wa.me/27602691601" className="flex-1">
             <Button className="w-full bg-green-600">
               <MessageSquare className="mr-2 h-4 w-4" />
               WhatsApp

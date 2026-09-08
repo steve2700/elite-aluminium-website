@@ -224,7 +224,7 @@ export default function Footer() {
               Ready to transform your space? Contact us today for a free quote and site visit.
             </p>
             <Link
-              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
+              href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2.5 rounded-lg transition-colors text-sm font-medium"

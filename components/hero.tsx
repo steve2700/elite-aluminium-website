@@ -92,7 +92,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-8">
             <Link
-              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote%20for%20aluminium%20installation"
+              href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20free%20quote%20for%20aluminium%20installation"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto group"

@@ -58,7 +58,7 @@ export default function ContactPage() {
                 installations across Gauteng. We respond within 2 hours during business hours.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20free%20quote" target="_blank">
+                <Link href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20free%20quote" target="_blank">
                   <Button size="lg" className="bg-green-600 hover:bg-green-700">
                     <MessageSquare className="mr-2 h-5 w-5" />
                     WhatsApp Us Now
@@ -107,7 +107,7 @@ export default function ContactPage() {
                     <h3 className="font-bold text-lg mb-2">WhatsApp</h3>
                     <p className="text-slate-600 text-sm mb-3">Quick response guaranteed</p>
                     <Link
-                      href="https://wa.me/27672763724"
+                      href="https://wa.me/27602691601"
                       target="_blank"
                       className="text-green-600 hover:text-green-700 font-semibold"
                     >
@@ -282,7 +282,7 @@ export default function ContactPage() {
                     Our team is standing by to help with urgent enquiries, emergency repairs, and same-day
                     consultations.
                   </p>
-                  <Link href="https://wa.me/27672763724?text=I%20need%20urgent%20assistance" target="_blank">
+                  <Link href="https://wa.me/27602691601?text=I%20need%20urgent%20assistance" target="_blank">
                     <Button className="w-full bg-white text-blue-600 hover:bg-blue-50">
                       <MessageSquare className="mr-2 h-5 w-5" />
                       WhatsApp for Urgent Help

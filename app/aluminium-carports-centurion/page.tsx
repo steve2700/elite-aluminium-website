@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 }
 
 export default function AluminiumCarportsCenturionPage() {
-  const whatsappNumber = "27672763724"
+  const whatsappNumber = "27602691601"
   const whatsappMessage = encodeURIComponent("Hi, I need a quote for aluminium carports in Centurion")
 
   return (

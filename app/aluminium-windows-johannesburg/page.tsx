@@ -147,7 +147,7 @@ export default function AluminiumWindowsJohannesburgPage() {
                 Call 060 269 1601
               </a>
               <a
-                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Johannesburg"
+                href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Johannesburg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
@@ -586,7 +586,7 @@ export default function AluminiumWindowsJohannesburgPage() {
             📞 Call Now
           </a>
           <a
-            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Johannesburg"
+            href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20windows%20in%20Johannesburg"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-semibold"

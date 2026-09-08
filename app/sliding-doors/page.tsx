@@ -133,7 +133,7 @@ export default function SlidingDoorsPage() {
                     </Button>
                   </a>
                   <a
-                    href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20sliding%20doors"
+                    href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20sliding%20doors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -426,7 +426,7 @@ export default function SlidingDoorsPage() {
                   </Button>
                 </a>
                 <a
-                  href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20sliding%20doors"
+                  href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20aluminium%20sliding%20doors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

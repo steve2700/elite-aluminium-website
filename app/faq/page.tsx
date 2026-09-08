@@ -210,7 +210,7 @@ export default function FAQPage() {
                 installations. Can't find what you're looking for? We're here to help!
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="https://wa.me/27672763724?text=Hi%2C%20I%20have%20a%20question" target="_blank">
+                <Link href="https://wa.me/27602691601?text=Hi%2C%20I%20have%20a%20question" target="_blank">
                   <Button size="lg" className="bg-green-600 hover:bg-green-700">
                     <MessageSquare className="mr-2 h-5 w-5" />
                     Ask on WhatsApp
@@ -272,7 +272,7 @@ export default function FAQPage() {
                           Contact Us
                         </Button>
                       </Link>
-                      <Link href="https://wa.me/27672763724?text=Hi%2C%20I%20have%20a%20question" target="_blank">
+                      <Link href="https://wa.me/27602691601?text=Hi%2C%20I%20have%20a%20question" target="_blank">
                         <Button
                           size="lg"
                           variant="outline"

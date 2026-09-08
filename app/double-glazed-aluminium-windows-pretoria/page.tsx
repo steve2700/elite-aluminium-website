@@ -73,7 +73,7 @@ export default function DoubleGlazedAluminiumWindowsPretoriaPage() {
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white gap-2 text-lg px-8">
                 <MessageCircle className="h-5 w-5" />
                 <a
-                  href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20double%20glazed%20windows%20in%20Pretoria"
+                  href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20double%20glazed%20windows%20in%20Pretoria"
                   className="flex items-center gap-2"
                 >
                   WhatsApp Quote
@@ -693,7 +693,7 @@ export default function DoubleGlazedAluminiumWindowsPretoriaPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white gap-2 text-lg px-8">
               <MessageCircle className="h-5 w-5" />
-              <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20double%20glazed%20windows%20in%20Pretoria">
+              <a href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20double%20glazed%20windows%20in%20Pretoria">
                 WhatsApp Quote
               </a>
             </Button>
@@ -761,7 +761,7 @@ export default function DoubleGlazedAluminiumWindowsPretoriaPage() {
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700">
             <MessageCircle className="mr-2 h-4 w-4" />
-            <a href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20double%20glazed%20windows%20in%20Pretoria">
+            <a href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20double%20glazed%20windows%20in%20Pretoria">
               WhatsApp
             </a>
           </Button>

@@ -152,7 +152,7 @@ export default function SecurityGatesPage() {
                     </Button>
                   </a>
                   <a
-                    href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20a%20quote%20for%20security%20gates"
+                    href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20a%20quote%20for%20security%20gates"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -440,7 +440,7 @@ export default function SecurityGatesPage() {
                   </Button>
                 </a>
                 <a
-                  href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20a%20security%20gate%20quote%20urgently"
+                  href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20a%20security%20gate%20quote%20urgently"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -185,7 +185,7 @@ export default function GlassBalustradesPretoriaPage() {
                 </Button>
               </a>
               <a
-                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Pretoria"
+                href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Pretoria"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -419,7 +419,7 @@ export default function GlassBalustradesPretoriaPage() {
             </Button>
           </a>
           <a
-            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Pretoria"
+            href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20glass%20balustrades%20in%20Pretoria"
             className="flex-1"
             target="_blank"
             rel="noopener noreferrer"

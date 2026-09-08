@@ -79,7 +79,7 @@ export default function EmergencySecurityGatePage() {
                 </Link>
               </Button>
               <Button size="lg" asChild className="bg-green-600 hover:bg-green-700">
-                <Link href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20emergency%20security%20gate%20installation%20in%20Pretoria">
+                <Link href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20emergency%20security%20gate%20installation%20in%20Pretoria">
                   <MessageSquare className="mr-2" />
                   WhatsApp Now
                 </Link>
@@ -460,7 +460,7 @@ export default function EmergencySecurityGatePage() {
             </Button>
           </a>
           <Link
-            href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20emergency%20security%20gate%20installation%20in%20Pretoria"
+            href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20emergency%20security%20gate%20installation%20in%20Pretoria"
             className="flex-1"
           >
             <Button className="w-full bg-green-600 hover:bg-green-700">

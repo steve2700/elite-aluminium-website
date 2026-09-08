@@ -69,7 +69,7 @@ export default function SecurityGatesSandtonPage() {
                 </Button>
               </a>
               <Link
-                href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20security%20gates%20in%20Sandton"
+                href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20security%20gates%20in%20Sandton"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -185,7 +185,7 @@ export default function SecurityGatesSandtonPage() {
             </Button>
           </a>
           <Link
-            href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Sandton"
+            href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20security%20gates%20in%20Sandton"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1"

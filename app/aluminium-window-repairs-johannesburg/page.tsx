@@ -160,7 +160,7 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-green-600 hover:bg-green-700 text-lg px-8">
                 <Link
-                  href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20urgent%20window%20repair%20in%20Johannesburg"
+                  href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20urgent%20window%20repair%20in%20Johannesburg"
                   target="_blank"
                 >
                   <MessageSquare className="mr-2 h-5 w-5" />
@@ -315,7 +315,7 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
               className="border-2 border-white text-white hover:bg-white/10 bg-transparent"
             >
               <Link
-                href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20window%20repair%20in%20Johannesburg"
+                href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20window%20repair%20in%20Johannesburg"
                 target="_blank"
               >
                 <MessageSquare className="mr-2 h-5 w-5" />
@@ -337,7 +337,7 @@ export default function AluminiumWindowRepairsJohannesburgPage() {
           </Button>
           <Button asChild className="flex-1 bg-green-600 hover:bg-green-700">
             <Link
-              href="https://wa.me/27672763724?text=Hi%2C%20I%20need%20window%20repair%20in%20Johannesburg"
+              href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20window%20repair%20in%20Johannesburg"
               target="_blank"
             >
               <MessageSquare className="mr-2 h-4 w-4" />

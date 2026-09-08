@@ -20,7 +20,7 @@ export default function WhatsAppButton() {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/27672763724?text=Hi%20Elite%20Aluminium!%20I%27d%20like%20to%20get%20a%20free%20quote."
+        href="https://wa.me/27602691601?text=Hi%20Elite%20Aluminium!%20I%27d%20like%20to%20get%20a%20free%20quote."
         target="_blank"
         rel="noopener noreferrer"
         className="relative flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 group"

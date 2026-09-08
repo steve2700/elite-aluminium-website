@@ -14,7 +14,7 @@ export default function CTASection() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Link
-              href="https://wa.me/27672763724?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20aluminium%20installation%20needs"
+              href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20to%20discuss%20my%20aluminium%20installation%20needs"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto"
