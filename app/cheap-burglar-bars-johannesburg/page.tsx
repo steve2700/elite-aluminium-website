@@ -2,8 +2,9 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Phone, MessageSquare, CheckCircle, Shield, DollarSign } from "lucide-react"
+import { Phone, CheckCircle, Shield, DollarSign } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Cheap Burglar Bars Johannesburg | Affordable Security from R180/m | Elite Aluminium",
   description:
@@ -105,7 +106,7 @@ export default function CheapBurglarBarsJohannesburgPage() {
                   href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20affordable%20burglar%20bars%20in%20Johannesburg"
                   target="_blank"
                 >
-                  <MessageSquare className="mr-2 h-5 w-5" />
+                  <WhatsAppIcon className="mr-2 h-5 w-5" />
                   Get Free Quote
                 </Link>
               </Button>
@@ -194,7 +195,7 @@ export default function CheapBurglarBarsJohannesburgPage() {
                 href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20burglar%20bars"
                 target="_blank"
               >
-                <MessageSquare className="mr-2 h-5 w-5" />
+                <WhatsAppIcon className="mr-2 h-5 w-5" />
                 WhatsApp Quote
               </Link>
             </Button>
@@ -216,7 +217,7 @@ export default function CheapBurglarBarsJohannesburgPage() {
               href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20burglar%20bars"
               target="_blank"
             >
-              <MessageSquare className="mr-2 h-4 w-4" />
+              <WhatsAppIcon className="mr-2 h-4 w-4" />
               WhatsApp
             </Link>
           </Button>

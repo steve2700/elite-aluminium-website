@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
-import { Phone, Mail, MapPin, MessageSquare } from "lucide-react"
+import { Phone, Mail, MapPin } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Aluminium Windows Centurion | Estate-Approved Installation | Elite Aluminium",
   description:
@@ -73,7 +74,7 @@ export default function AluminiumWindowsCenturionPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold"
               >
-                <MessageSquare className="h-5 w-5" />
+                <WhatsAppIcon className="h-5 w-5" />
                 WhatsApp Quote
               </a>
             </div>

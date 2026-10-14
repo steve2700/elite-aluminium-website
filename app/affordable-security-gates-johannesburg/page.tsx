@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Shield, DollarSign, Clock, CheckCircle, Phone, MessageSquare, ChevronRight } from "lucide-react"
+import { Shield, DollarSign, Clock, CheckCircle, Phone, ChevronRight } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
@@ -72,7 +73,7 @@ export default function AffordableSecurityGatesJohannesburg() {
                   href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20affordable%20security%20gates%20in%20Johannesburg"
                   target="_blank"
                 >
-                  <MessageSquare className="h-5 w-5" />
+                  <WhatsAppIcon className="h-5 w-5" />
                   Get Free Quote on WhatsApp
                 </Link>
               </Button>
@@ -516,7 +517,7 @@ export default function AffordableSecurityGatesJohannesburg() {
                 href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20a%20quote%20for%20affordable%20security%20gates"
                 target="_blank"
               >
-                <MessageSquare className="h-5 w-5" />
+                <WhatsAppIcon className="h-5 w-5" />
                 WhatsApp for Free Quote
               </Link>
             </Button>
@@ -546,7 +547,7 @@ export default function AffordableSecurityGatesJohannesburg() {
               href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20affordable%20security%20gates"
               target="_blank"
             >
-              <MessageSquare className="h-4 w-4" />
+              <WhatsAppIcon className="h-4 w-4" />
               WhatsApp
             </Link>
           </Button>

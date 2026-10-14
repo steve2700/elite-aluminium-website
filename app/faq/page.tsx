@@ -1,7 +1,8 @@
 import type { Metadata } from "next"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { MessageSquare, Phone, HelpCircle } from "lucide-react"
+import { Phone, HelpCircle } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -212,7 +213,7 @@ export default function FAQPage() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link href="https://wa.me/27602691601?text=Hi%2C%20I%20have%20a%20question" target="_blank">
                   <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                    <MessageSquare className="mr-2 h-5 w-5" />
+                    <WhatsAppIcon className="mr-2 h-5 w-5" />
                     Ask on WhatsApp
                   </Button>
                 </Link>
@@ -278,7 +279,7 @@ export default function FAQPage() {
                           variant="outline"
                           className="border-green-600 text-green-600 hover:bg-green-50 bg-transparent"
                         >
-                          <MessageSquare className="mr-2 h-5 w-5" />
+                          <WhatsAppIcon className="mr-2 h-5 w-5" />
                           WhatsApp Us
                         </Button>
                       </Link>

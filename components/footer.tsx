@@ -1,8 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
 import { YeboFooterBadge } from "@/components/yebo-partner"
-import { Mail, MapPin, Phone, MessageSquare } from "lucide-react"
+import { Mail, MapPin, Phone } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -230,7 +231,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2.5 rounded-lg transition-colors text-sm font-medium"
             >
-              <MessageSquare className="h-4 w-4" />
+              <WhatsAppIcon className="h-4 w-4" />
               WhatsApp Us
             </Link>
             <div className="mt-6 space-y-1">

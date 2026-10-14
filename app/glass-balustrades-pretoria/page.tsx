@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { MessageSquare, Phone, Mail, Check, Star, Shield, Clock, MapPin } from "lucide-react"
+import { Phone, Mail, Check, Star, Shield, Clock, MapPin } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Glass Balustrades Pretoria | Frameless Pool & Deck Glass Installations | Elite Aluminium",
   description:
@@ -194,7 +195,7 @@ export default function GlassBalustradesPretoriaPage() {
                   variant="outline"
                   className="text-lg border-2 border-green-500 text-green-400 hover:bg-green-500 hover:text-white w-full sm:w-auto bg-transparent"
                 >
-                  <MessageSquare className="mr-2 h-5 w-5" />
+                  <WhatsAppIcon className="mr-2 h-5 w-5" />
                   WhatsApp Quote
                 </Button>
               </a>
@@ -425,7 +426,7 @@ export default function GlassBalustradesPretoriaPage() {
             rel="noopener noreferrer"
           >
             <Button className="w-full bg-green-600 hover:bg-green-700">
-              <MessageSquare className="mr-2 h-4 w-4" />
+              <WhatsAppIcon className="mr-2 h-4 w-4" />
               WhatsApp
             </Button>
           </a>

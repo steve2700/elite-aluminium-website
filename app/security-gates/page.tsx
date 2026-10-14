@@ -2,21 +2,10 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import {
-  CheckCircle,
-  Phone,
-  MessageSquare,
-  Mail,
-  Shield,
-  Award,
-  Lock,
-  Eye,
-  Home,
-  Zap,
-  AlertTriangle,
-} from "lucide-react"
+import { CheckCircle, Phone, Mail, Shield, Award, Lock, Eye, Home, Zap, AlertTriangle } from "lucide-react"
 
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Security Gates Gauteng | Burglar Bars & Protection | Elite Aluminium",
   description:
@@ -157,7 +146,7 @@ export default function SecurityGatesPage() {
                     rel="noopener noreferrer"
                   >
                     <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                      <MessageSquare className="mr-2 h-5 w-5" />
+                      <WhatsAppIcon className="mr-2 h-5 w-5" />
                       WhatsApp Quote
                     </Button>
                   </a>
@@ -445,7 +434,7 @@ export default function SecurityGatesPage() {
                   rel="noopener noreferrer"
                 >
                   <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                    <MessageSquare className="mr-2 h-5 w-5" />
+                    <WhatsAppIcon className="mr-2 h-5 w-5" />
                     WhatsApp Quote
                   </Button>
                 </a>

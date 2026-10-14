@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Sparkles, ThermometerSun, Phone, MessageSquare, CheckCircle, ChevronRight } from "lucide-react"
+import { Sparkles, ThermometerSun, Phone, CheckCircle, ChevronRight } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
@@ -72,7 +73,7 @@ export default function ModernAluminiumSlidingDoorsJohannesburg() {
                   href="https://wa.me/27602691601?text=Hi%2C%20I%27m%20interested%20in%20modern%20aluminium%20sliding%20doors"
                   target="_blank"
                 >
-                  <MessageSquare className="h-5 w-5" />
+                  <WhatsAppIcon className="h-5 w-5" />
                   Get Design Consultation
                 </Link>
               </Button>
@@ -328,7 +329,7 @@ export default function ModernAluminiumSlidingDoorsJohannesburg() {
                 href="https://wa.me/27602691601?text=Hi%2C%20I%27m%20interested%20in%20modern%20sliding%20doors"
                 target="_blank"
               >
-                <MessageSquare className="h-5 w-5" />
+                <WhatsAppIcon className="h-5 w-5" />
                 WhatsApp Us
               </Link>
             </Button>
@@ -352,7 +353,7 @@ export default function ModernAluminiumSlidingDoorsJohannesburg() {
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700 gap-2" asChild>
             <Link href="https://wa.me/27602691601?text=Modern%20sliding%20doors%20inquiry" target="_blank">
-              <MessageSquare className="h-4 w-4" />
+              <WhatsAppIcon className="h-4 w-4" />
               WhatsApp
             </Link>
           </Button>

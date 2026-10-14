@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Gem, Eye, Shield, Home, Phone, MessageSquare } from "lucide-react"
+import { Gem, Eye, Shield, Home, Phone } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
@@ -72,7 +73,7 @@ export default function FramelessGlassBalustradesSandton() {
                   href="https://wa.me/27602691601?text=Hi%2C%20I%27m%20interested%20in%20frameless%20glass%20balustrades%20in%20Sandton"
                   target="_blank"
                 >
-                  <MessageSquare className="h-5 w-5" />
+                  <WhatsAppIcon className="h-5 w-5" />
                   Get Premium Quote
                 </Link>
               </Button>
@@ -168,7 +169,7 @@ export default function FramelessGlassBalustradesSandton() {
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700 gap-2" asChild>
             <Link href="https://wa.me/27602691601?text=Frameless%20glass%20quote%20Sandton" target="_blank">
-              <MessageSquare className="h-4 w-4" />
+              <WhatsAppIcon className="h-4 w-4" />
               WhatsApp
             </Link>
           </Button>

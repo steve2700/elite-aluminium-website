@@ -2,7 +2,8 @@ import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Phone, MessageCircle, Mail, CheckCircle, Building2, Award, Clock, MapPin, Shield } from "lucide-react"
+import { Phone, Mail, CheckCircle, Building2, Award, Clock, MapPin, Shield } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -71,7 +72,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white gap-2 text-lg px-8">
-                <MessageCircle className="h-5 w-5" />
+                <WhatsAppIcon className="h-5 w-5" />
                 <a
                   href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg"
                   className="flex items-center gap-2"
@@ -622,7 +623,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white gap-2 text-lg px-8">
-              <MessageCircle className="h-5 w-5" />
+              <WhatsAppIcon className="h-5 w-5" />
               <a href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg">
                 WhatsApp Quote
               </a>
@@ -693,7 +694,7 @@ export default function CommercialShopfrontInstallersJohannesburgPage() {
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg p-4 md:hidden z-50">
         <div className="flex gap-2">
           <Button className="flex-1 bg-green-600 hover:bg-green-700">
-            <MessageCircle className="mr-2 h-4 w-4" />
+            <WhatsAppIcon className="mr-2 h-4 w-4" />
             <a href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20a%20quote%20for%20commercial%20shopfront%20installation%20in%20Johannesburg">
               WhatsApp
             </a>

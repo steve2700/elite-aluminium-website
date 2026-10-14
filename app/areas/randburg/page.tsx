@@ -1,7 +1,8 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Phone, Mail, MapPin, ArrowRight, MessageSquare } from "lucide-react"
+import { Phone, Mail, MapPin, ArrowRight } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Aluminium & Glass Services in Randburg | Elite Aluminium",
   description: "Elite Aluminium serves Randburg with premium aluminium windows, doors, security gates and more. SABS certified, 10-year guarantee. Free quotes - Call 060 269 1601",
@@ -40,7 +41,7 @@ export default function RandburgAreaPage() {
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">Premium aluminium windows, doors, security gates and glass installations for Randburg homes and businesses. SABS certified, 10-year guarantee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+27602691601" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><Phone className="h-5 w-5" /> Call 060 269 1601</a>
-              <a href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20in%20Randburg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><MessageSquare className="h-5 w-5" /> WhatsApp Quote</a>
+              <a href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20quote%20in%20Randburg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"><WhatsAppIcon className="h-5 w-5" /> WhatsApp Quote</a>
             </div>
           </div>
         </div>

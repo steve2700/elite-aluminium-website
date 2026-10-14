@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
-import { MessageSquare, Phone, Check, ShieldCheck, Lock } from "lucide-react"
+import { Phone, Check, ShieldCheck, Lock } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -76,7 +77,7 @@ export default function AluminiumDoorsPage() {
               target="_blank"
             >
               <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                <MessageSquare className="mr-2" />
+                <WhatsAppIcon className="mr-2" />
                 Get Free Quote
               </Button>
             </Link>
@@ -517,7 +518,7 @@ export default function AluminiumDoorsPage() {
                   target="_blank"
                 >
                   <Button size="lg" className="bg-green-600 hover:bg-green-700 px-8 py-6">
-                    <MessageSquare className="mr-2" />
+                    <WhatsAppIcon className="mr-2" />
                     WhatsApp for Quote
                   </Button>
                 </Link>

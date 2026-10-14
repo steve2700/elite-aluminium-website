@@ -1,7 +1,8 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Phone, MessageSquare, CheckCircle } from "lucide-react"
+import { Phone, CheckCircle } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import { Card, CardContent } from "@/components/ui/card"
 
 export const metadata: Metadata = {
@@ -68,7 +69,7 @@ export default function BurglarBarsSandtonPage() {
             </a>
             <Link href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20premium%20quote%20for%20burglar%20bars%20in%20Sandton">
               <Button size="lg" className="bg-green-600">
-                <MessageSquare className="mr-2" />
+                <WhatsAppIcon className="mr-2" />
                 WhatsApp Quote
               </Button>
             </Link>
@@ -326,7 +327,7 @@ export default function BurglarBarsSandtonPage() {
           </a>
           <Link href="https://wa.me/27602691601" className="flex-1">
             <Button className="w-full bg-green-600">
-              <MessageSquare className="mr-2 h-4 w-4" />
+              <WhatsAppIcon className="mr-2 h-4 w-4" />
               WhatsApp
             </Button>
           </Link>

@@ -4,8 +4,9 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
-import { Phone, MessageSquare, Mail, Shield, CheckCircle2, MapPin, Star } from "lucide-react"
+import { Phone, Mail, Shield, CheckCircle2, MapPin, Star } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Security Gates Johannesburg | Professional Installation | Elite Aluminium",
   description:
@@ -181,7 +182,7 @@ export default function SecurityGatesJohannesburgPage() {
                   variant="outline"
                   className="bg-green-600 hover:bg-green-700 text-white border-none text-lg"
                 >
-                  <MessageSquare className="mr-2 h-5 w-5" />
+                  <WhatsAppIcon className="mr-2 h-5 w-5" />
                   WhatsApp Quote
                 </Button>
               </Link>
@@ -596,7 +597,7 @@ export default function SecurityGatesJohannesburgPage() {
                 rel="noopener noreferrer"
               >
                 <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                  <MessageSquare className="mr-2 h-5 w-5" />
+                  <WhatsAppIcon className="mr-2 h-5 w-5" />
                   WhatsApp Quote
                 </Button>
               </Link>
@@ -628,7 +629,7 @@ export default function SecurityGatesJohannesburgPage() {
             className="flex-1"
           >
             <Button className="w-full bg-green-600 hover:bg-green-700">
-              <MessageSquare className="mr-2 h-4 w-4" />
+              <WhatsAppIcon className="mr-2 h-4 w-4" />
               WhatsApp
             </Button>
           </Link>

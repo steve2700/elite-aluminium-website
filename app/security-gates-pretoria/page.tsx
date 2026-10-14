@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Phone, MessageSquare, MapPin } from "lucide-react"
+import { Phone, MapPin } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Security Gates Pretoria | Professional Installation | Elite Aluminium",
   description:
@@ -50,7 +51,7 @@ export default function SecurityGatesPretoriaPage() {
               target="_blank"
             >
               <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                <MessageSquare className="mr-2" />
+                <WhatsAppIcon className="mr-2" />
                 WhatsApp Quote
               </Button>
             </Link>
@@ -106,7 +107,7 @@ export default function SecurityGatesPretoriaPage() {
           </a>
           <Link href="https://wa.me/27602691601" className="flex-1">
             <Button className="w-full bg-green-600">
-              <MessageSquare className="mr-2 h-4 w-4" />
+              <WhatsAppIcon className="mr-2 h-4 w-4" />
               WhatsApp
             </Button>
           </Link>

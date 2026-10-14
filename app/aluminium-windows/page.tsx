@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
-import { MessageSquare, Phone, Check, ShieldCheck, Award, Clock } from "lucide-react"
+import { Phone, Check, ShieldCheck, Award, Clock } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -90,7 +91,7 @@ export default function AluminiumWindowsPage() {
               rel="noopener noreferrer"
             >
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-6">
-                <MessageSquare className="mr-2 h-5 w-5" />
+                <WhatsAppIcon className="mr-2 h-5 w-5" />
                 Get Free Quote
               </Button>
             </Link>
@@ -554,7 +555,7 @@ export default function AluminiumWindowsPage() {
                   rel="noopener noreferrer"
                 >
                   <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-6">
-                    <MessageSquare className="mr-2 h-5 w-5" />
+                    <WhatsAppIcon className="mr-2 h-5 w-5" />
                     WhatsApp for Quote
                   </Button>
                 </Link>

@@ -2,8 +2,9 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Phone, Mail, MessageCircle, Check, MapPin, Shield, Clock, Award } from "lucide-react"
+import { Phone, Mail, Check, MapPin, Shield, Clock, Award } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Carports Pretoria | Premium Aluminium Carport Installation | Elite Aluminium",
   description:
@@ -91,7 +92,7 @@ export default function CarportsPretoriaPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <MessageCircle className="mr-2 h-5 w-5" />
+                    <WhatsAppIcon className="mr-2 h-5 w-5" />
                     WhatsApp Quote
                   </a>
                 </Button>
@@ -650,7 +651,7 @@ export default function CarportsPretoriaPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <MessageCircle className="mr-2 h-5 w-5" />
+                  <WhatsAppIcon className="mr-2 h-5 w-5" />
                   WhatsApp Quote
                 </a>
               </Button>
@@ -688,7 +689,7 @@ export default function CarportsPretoriaPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MessageCircle className="mr-2 h-4 w-4" />
+              <WhatsAppIcon className="mr-2 h-4 w-4" />
               WhatsApp
             </a>
           </Button>

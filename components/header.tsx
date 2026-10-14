@@ -4,7 +4,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { MessageSquare, Phone, Mail, Menu, ChevronDown, MapPin } from "lucide-react"
+import { Phone, Mail, Menu, ChevronDown, MapPin } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 
 export default function Header() {
@@ -69,7 +70,7 @@ export default function Header() {
             rel="noopener noreferrer"
           >
             <Button size="sm" className="bg-green-600 hover:bg-green-700 text-xs h-8 px-3">
-              <MessageSquare className="h-3 w-3 mr-1.5" />
+              <WhatsAppIcon className="h-3 w-3 mr-1.5" />
               <span className="hidden sm:inline">WhatsApp Quote</span>
               <span className="sm:hidden">Quote</span>
             </Button>
@@ -277,7 +278,7 @@ export default function Header() {
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg transition-colors font-medium"
                   >
-                    <MessageSquare className="h-4 w-4" />
+                    <WhatsAppIcon className="h-4 w-4" />
                     WhatsApp Quote
                   </a>
                 </div>

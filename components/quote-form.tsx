@@ -1,5 +1,6 @@
 "use client"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import type React from "react"
 
 import { useState } from "react"
@@ -8,7 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { MessageSquare } from "lucide-react"
+
 
 export default function QuoteForm() {
   const [formData, setFormData] = useState({
@@ -28,7 +29,7 @@ Service: ${formData.service}
 Area: ${formData.area}`
 
     const encodedMessage = encodeURIComponent(message)
-    window.open(`https://wa.me/27795935025?text=${encodedMessage}`, "_blank")
+    window.open(`https://wa.me/27602691601?text=${encodedMessage}`, "_blank")
   }
 
   return (
@@ -131,7 +132,7 @@ Area: ${formData.area}`
                   size="lg"
                   className="w-full bg-green-600 hover:bg-green-700 text-white text-lg py-6 rounded-lg"
                 >
-                  <MessageSquare className="mr-2 h-5 w-5" />
+                  <WhatsAppIcon className="mr-2 h-5 w-5" />
                   Send Quote Request via WhatsApp
                 </Button>
 

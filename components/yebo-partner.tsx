@@ -5,7 +5,7 @@ import { YEBO_PARTNER_LINE, yeboLink } from "@/lib/yebo"
 export function YeboQuoteCallout({ medium, className = "" }: { medium: string; className?: string }) {
   return (
     <div
-      className={`mx-auto max-w-2xl rounded-2xl border border-white/20 bg-white/10 p-5 text-left backdrop-blur-md ${className}`}
+      className={`rounded-2xl border border-white/20 bg-white/10 p-5 text-left backdrop-blur-md ${className}`}
     >
       <div className="flex items-start gap-4">
         <Image

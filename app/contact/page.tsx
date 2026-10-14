@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
-import { Phone, Mail, MapPin, Clock, MessageSquare, Send } from "lucide-react"
+import { Phone, Mail, MapPin, Clock, Send } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import Link from "next/link"
 import { YeboQuoteCallout } from "@/components/yebo-partner"
 
@@ -61,7 +62,7 @@ export default function ContactPage() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20free%20quote" target="_blank">
                   <Button size="lg" className="bg-green-600 hover:bg-green-700">
-                    <MessageSquare className="mr-2 h-5 w-5" />
+                    <WhatsAppIcon className="mr-2 h-5 w-5" />
                     WhatsApp Us Now
                   </Button>
                 </Link>
@@ -76,7 +77,7 @@ export default function ContactPage() {
                   </Button>
                 </Link>
               </div>
-              <YeboQuoteCallout medium="elite-contact" className="mt-8" />
+              <YeboQuoteCallout medium="elite-contact" className="mx-auto mt-8 max-w-2xl" />
             </div>
           </div>
         </section>
@@ -104,7 +105,7 @@ export default function ContactPage() {
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center">
                     <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
-                      <MessageSquare className="h-8 w-8 text-green-600" />
+                      <WhatsAppIcon className="h-8 w-8 text-green-600" />
                     </div>
                     <h3 className="font-bold text-lg mb-2">WhatsApp</h3>
                     <p className="text-slate-600 text-sm mb-3">Quick response guaranteed</p>
@@ -286,7 +287,7 @@ export default function ContactPage() {
                   </p>
                   <Link href="https://wa.me/27602691601?text=I%20need%20urgent%20assistance" target="_blank">
                     <Button className="w-full bg-white text-blue-600 hover:bg-blue-50">
-                      <MessageSquare className="mr-2 h-5 w-5" />
+                      <WhatsAppIcon className="mr-2 h-5 w-5" />
                       WhatsApp for Urgent Help
                     </Button>
                   </Link>

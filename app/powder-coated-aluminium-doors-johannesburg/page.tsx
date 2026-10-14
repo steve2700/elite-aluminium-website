@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Phone, MessageSquare } from "lucide-react"
+import { Phone } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Powder Coated Aluminium Doors Johannesburg | Elite Aluminium",
   description:
@@ -31,7 +32,7 @@ export default function PowderCoatedAluminiumDoorsPage() {
           <div className="flex gap-4 justify-center">
             <Button size="lg" asChild className="bg-green-600">
               <Link href="https://wa.me/27602691601" target="_blank">
-                <MessageSquare className="mr-2" />
+                <WhatsAppIcon className="mr-2" />
                 Get Quote
               </Link>
             </Button>

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
-import { MessageSquare, Phone } from "lucide-react"
+import { Phone } from "lucide-react"
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import Link from "next/link"
 
 export default function CTASection() {
@@ -23,7 +24,7 @@ export default function CTASection() {
                 size="lg"
                 className="w-full sm:w-auto bg-white text-blue-600 hover:bg-blue-50 text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all"
               >
-                <MessageSquare className="mr-2 h-5 w-5" />
+                <WhatsAppIcon className="mr-2 h-5 w-5" />
                 WhatsApp Us Now
               </Button>
             </Link>

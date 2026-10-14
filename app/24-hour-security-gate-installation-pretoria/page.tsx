@@ -2,8 +2,9 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Phone, MessageSquare, Clock, Shield, Wrench, AlertCircle, CheckCircle, MapPin } from "lucide-react"
+import { Phone, Clock, Shield, Wrench, AlertCircle, CheckCircle, MapPin } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "24 Hour Security Gate Installation Pretoria | Emergency Service | Elite Aluminium",
   description:
@@ -80,7 +81,7 @@ export default function EmergencySecurityGatePage() {
               </Button>
               <Button size="lg" asChild className="bg-green-600 hover:bg-green-700">
                 <Link href="https://wa.me/27602691601?text=Hi%2C%20I%20need%20emergency%20security%20gate%20installation%20in%20Pretoria">
-                  <MessageSquare className="mr-2" />
+                  <WhatsAppIcon className="mr-2" />
                   WhatsApp Now
                 </Link>
               </Button>
@@ -464,7 +465,7 @@ export default function EmergencySecurityGatePage() {
             className="flex-1"
           >
             <Button className="w-full bg-green-600 hover:bg-green-700">
-              <MessageSquare className="mr-2 h-4 w-4" />
+              <WhatsAppIcon className="mr-2 h-4 w-4" />
               WhatsApp
             </Button>
           </Link>

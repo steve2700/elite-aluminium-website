@@ -1,7 +1,8 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Phone, Mail, MapPin, Clock, CheckCircle2, ArrowRight, MessageSquare, Shield, Star } from "lucide-react"
+import { Phone, Mail, MapPin, Clock, CheckCircle2, ArrowRight, Shield, Star } from "lucide-react"
 
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
 export const metadata: Metadata = {
   title: "Aluminium & Glass Services in Johannesburg | Elite Aluminium",
   description:
@@ -188,7 +189,7 @@ export default function JohannesburgAreaPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
               >
-                <MessageSquare className="h-5 w-5" />
+                <WhatsAppIcon className="h-5 w-5" />
                 WhatsApp Quote
               </a>
             </div>
@@ -370,7 +371,7 @@ export default function JohannesburgAreaPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
-              <MessageSquare className="h-5 w-5" />
+              <WhatsAppIcon className="h-5 w-5" />
               WhatsApp Us
             </a>
             <a
