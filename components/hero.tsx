@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { MessageSquare, Phone, Award, CheckCircle2 } from "lucide-react"
 import Link from "next/link"
+import { YeboQuoteCallout } from "@/components/yebo-partner"
 
 export default function Hero() {
   return (
@@ -117,6 +118,9 @@ export default function Hero() {
               </Button>
             </Link>
           </div>
+
+          {/* Official partner: faster quotes */}
+          <YeboQuoteCallout medium="elite-hero" className="mt-2" />
 
           {/* Value Props */}
           <div className="flex flex-wrap justify-center gap-6 lg:gap-10 pt-10">

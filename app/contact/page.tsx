@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
 import { Phone, Mail, MapPin, Clock, MessageSquare, Send } from "lucide-react"
 import Link from "next/link"
+import { YeboQuoteCallout } from "@/components/yebo-partner"
 
 export const metadata: Metadata = {
   title: "Contact Elite Aluminium | Free Quotes & Consultations |060 269 1601",
@@ -75,6 +76,7 @@ export default function ContactPage() {
                   </Button>
                 </Link>
               </div>
+              <YeboQuoteCallout medium="elite-contact" className="mt-8" />
             </div>
           </div>
         </section>

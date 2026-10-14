@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import { YeboFooterBadge } from "@/components/yebo-partner"
 import { Mail, MapPin, Phone, MessageSquare } from "lucide-react"
 
 export default function Footer() {
@@ -258,6 +259,8 @@ export default function Footer() {
             ))}
           </div>
         </div>
+
+        <YeboFooterBadge />
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 mt-8 pt-6">
