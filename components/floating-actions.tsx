@@ -1,0 +1,25 @@
+"use client"
+
+import Link from "next/link"
+import { PhoneIcon, WhatsAppIcon } from "@/components/icons"
+import { SITE, WA_LINK } from "@/lib/site"
+import { trackCallClick, trackWhatsAppClick } from "@/lib/analytics"
+
+export function FloatingActions() {
+  return (
+    <>
+      {/* Desktop: round WhatsApp button */}
+      <a href={WA_LINK("Hi Elite Aluminium, I need a quote.")} target="_blank" rel="noopener noreferrer" onClick={trackWhatsAppClick} aria-label="Chat with Elite Aluminium on WhatsApp" className="group fixed bottom-6 right-6 z-40 hidden h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-ink shadow-xl shadow-black/30 transition hover:scale-105 md:flex">
+        <span aria-hidden="true" className="absolute inset-0 animate-ping rounded-full bg-[#25D366]/40" />
+        <WhatsAppIcon className="relative h-8 w-8" />
+        <span className="pointer-events-none absolute right-full mr-3 whitespace-nowrap rounded-full bg-ink px-4 py-2 font-display text-lg text-white opacity-0 transition group-hover:opacity-100">Get a quote on WhatsApp</span>
+      </a>
+      {/* Mobile: sticky call, photos and WhatsApp bar */}
+      <div className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-[1fr_auto_1fr] gap-2 bg-white/95 p-3 shadow-[0_-4px_20px_rgba(15,20,25,.15)] backdrop-blur md:hidden">
+        <a href={`tel:${SITE.phoneTel}`} onClick={trackCallClick} className="flex h-12 items-center justify-center gap-2 rounded-full bg-signal font-display text-lg font-bold text-white active:scale-95"><PhoneIcon className="h-5 w-5" />Call</a>
+        <Link href="/gallery" className="flex h-12 items-center justify-center rounded-full bg-ink px-5 font-display text-lg font-bold text-white active:scale-95">Photos</Link>
+        <a href={WA_LINK("Hi Elite Aluminium, I need a quote.")} target="_blank" rel="noopener noreferrer" onClick={trackWhatsAppClick} className="flex h-12 items-center justify-center gap-2 rounded-full bg-[#25D366] font-display text-lg font-bold text-ink active:scale-95"><WhatsAppIcon className="h-6 w-6" />Chat</a>
+      </div>
+    </>
+  )
+}

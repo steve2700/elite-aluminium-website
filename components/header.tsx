@@ -1,294 +1,91 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Phone, Mail, Menu, ChevronDown, MapPin } from "lucide-react"
-import { WhatsAppIcon } from "@/components/whatsapp-icon"
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
+import { useEffect, useState } from "react"
+import { usePathname } from "next/navigation"
+import { Logo } from "@/components/logo"
+import { CallButton, CircleCall } from "@/components/buttons"
+import { PRODUCTS } from "@/lib/products"
+import { CITIES } from "@/lib/cities"
+import { productHref } from "@/lib/nav"
+import { SITE } from "@/lib/site"
 
-export default function Header() {
-  const [servicesOpen, setServicesOpen] = useState(false)
-  const [areasOpen, setAreasOpen] = useState(false)
+const links = [
+  { href: "/about", label: "About" },
+  { href: "/faq", label: "FAQ" },
+  { href: "/contact", label: "Contact" },
+]
 
-  const services = [
-    { name: "Aluminium Windows", href: "/aluminium-windows" },
-    { name: "Aluminium Doors", href: "/aluminium-doors" },
-    { name: "Sliding Doors", href: "/sliding-doors" },
-    { name: "Stacking Doors", href: "/stacking-doors-johannesburg" },
-    { name: "Security Gates", href: "/security-gates" },
-    { name: "Burglar Bars", href: "/burglar-bars-johannesburg" },
-    { name: "Glass Balustrades", href: "/glass-balustrades" },
-    { name: "Shower Doors", href: "/shower-doors-johannesburg" },
-    { name: "Glass & Glazing", href: "/glass-glazing-johannesburg" },
-    { name: "Aluminium Fencing", href: "/aluminium-fencing-johannesburg" },
-    { name: "Shopfronts", href: "/shopfronts-johannesburg" },
-    { name: "Carports", href: "/carports-pretoria" },
-  ]
+function Caret() {
+  return <span aria-hidden="true" className="ml-1.5 inline-block h-2 w-2 -translate-y-0.5 rotate-45 border-b-2 border-r-2 border-current" />
+}
 
-  const areas = [
-    { name: "Johannesburg", href: "/areas/johannesburg" },
-    { name: "Sandton", href: "/areas/sandton" },
-    { name: "Pretoria", href: "/areas/pretoria" },
-    { name: "Centurion", href: "/areas/centurion" },
-    { name: "Fourways", href: "/areas/fourways" },
-    { name: "Midrand", href: "/areas/midrand" },
-    { name: "Randburg", href: "/areas/randburg" },
-    { name: "Roodepoort", href: "/areas/roodepoort" },
-  ]
+export function Header() {
+  const [open, setOpen] = useState(false)
+  const path = usePathname()
+  useEffect(() => setOpen(false), [path])
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : ""
+    return () => { document.body.style.overflow = "" }
+  }, [open])
 
+  const item = "px-3 py-2 font-display text-[15px] font-bold text-ink/80 transition hover:text-signal"
+  const panel = "invisible absolute left-0 top-full translate-y-2 rounded-3xl bg-white p-3 text-ink opacity-0 shadow-2xl ring-1 ring-ink/10 transition duration-200 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100"
+  const sub = "block rounded-2xl px-4 py-2.5 font-display text-[15px] font-bold hover:bg-ice"
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-slate-200/20 bg-slate-900/95 backdrop-blur supports-[backdrop-filter]:bg-slate-900/80">
-      <div className="container mx-auto px-4">
-
-        {/* Top Bar */}
-        <div className="flex items-center justify-between py-2 border-b border-slate-700/50">
-          <div className="flex items-center gap-4 text-sm text-slate-300">
-            <a
-              href="tel:+27602691601"
-              className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"
-              aria-label="Call us at 0602691601"
-            >
-              <Phone className="h-3.5 w-3.5 flex-shrink-0" />
-              <span className="hidden sm:inline">0602691601</span>
-              <span className="sm:hidden text-xs">Call</span>
-            </a>
-            <a
-              href="mailto:info@elitealuminium.co.za"
-              className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"
-              aria-label="Email us"
-            >
-              <Mail className="h-3.5 w-3.5 flex-shrink-0" />
-              <span className="hidden md:inline">info@elitealuminium.co.za</span>
-              <span className="md:hidden text-xs">Email</span>
-            </a>
-          </div>
-          <a
-            href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button size="sm" className="bg-green-600 hover:bg-green-700 text-xs h-8 px-3">
-              <WhatsAppIcon className="h-3 w-3 mr-1.5" />
-              <span className="hidden sm:inline">WhatsApp Quote</span>
-              <span className="sm:hidden">Quote</span>
-            </Button>
-          </a>
-        </div>
-
-        {/* Main Navigation */}
-        <div className="flex items-center justify-between py-3 sm:py-4">
-
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 sm:gap-3 group">
-            <div className="relative w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
-              <Image
-                src="/logo.png"
-                alt="Elite Aluminium Logo"
-                fill
-                className="object-contain transition-transform group-hover:scale-105"
-                sizes="(max-width: 640px) 40px, 48px"
-                priority
-              />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-white font-bold text-base sm:text-lg leading-tight">Elite Aluminium</span>
-              <span className="text-slate-400 text-[10px] sm:text-xs leading-tight">Premium Glass & Aluminium</span>
-            </div>
-          </Link>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
-
-            <Link href="/" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">
-              Home
-            </Link>
-
-            {/* Services Dropdown */}
-            <div className="group relative">
-              <button
-                className="text-slate-300 hover:text-white transition-colors text-sm font-medium flex items-center gap-1"
-                aria-haspopup="true"
-              >
-                Services
-                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
-              </button>
-              <div className="absolute top-full left-0 mt-2 w-60 bg-slate-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-slate-700 overflow-hidden">
-                <div className="py-2">
-                  {services.map((service) => (
-                    <Link
-                      key={service.href}
-                      href={service.href}
-                      className="block px-4 py-2.5 text-sm text-slate-300 hover:bg-slate-700 hover:text-white transition-colors"
-                    >
-                      {service.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Service Areas Dropdown */}
-            <div className="group relative">
-              <button
-                className="text-slate-300 hover:text-white transition-colors text-sm font-medium flex items-center gap-1"
-                aria-haspopup="true"
-              >
-                Service Areas
-                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
-              </button>
-              <div className="absolute top-full left-0 mt-2 w-52 bg-slate-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-slate-700 overflow-hidden">
-                <div className="py-2">
-                  {areas.map((area) => (
-                    <Link
-                      key={area.href}
-                      href={area.href}
-                      className="flex items-center gap-2 px-4 py-2.5 text-sm text-slate-300 hover:bg-slate-700 hover:text-white transition-colors"
-                    >
-                      <MapPin className="h-3.5 w-3.5 text-blue-400 flex-shrink-0" />
-                      {area.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            <Link href="/about" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">
-              About Us
-            </Link>
-
-            <Link href="/faq" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">
-              FAQ
-            </Link>
-
-            <Link href="/contact">
-              <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-sm">
-                Contact Us
-              </Button>
-            </Link>
-
-          </nav>
-
-          {/* Mobile Hamburger */}
-          <Sheet>
-            <SheetTrigger asChild className="lg:hidden">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="text-white hover:bg-slate-800"
-                aria-label="Open menu"
-              >
-                <Menu className="h-6 w-6" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent
-              side="right"
-              className="bg-slate-900 border-slate-700 text-white w-[300px] sm:w-[350px] overflow-y-auto"
-            >
-              <SheetHeader>
-                <SheetTitle className="text-white text-left flex items-center gap-2">
-                  <div className="relative w-8 h-8">
-                    <Image src="/logo.png" alt="Elite Aluminium Logo" fill className="object-contain" sizes="32px" />
-                  </div>
-                  Elite Aluminium
-                </SheetTitle>
-                <SheetDescription className="text-slate-400 text-left">
-                  Navigate our services
-                </SheetDescription>
-              </SheetHeader>
-
-              <nav className="flex flex-col gap-1 mt-8">
-
-                <Link href="/" className="text-base font-medium hover:text-blue-400 transition-colors py-2 px-2 rounded hover:bg-slate-800/50">
-                  Home
-                </Link>
-
-                {/* Mobile Services Accordion */}
-                <div>
-                  <button
-                    onClick={() => setServicesOpen(!servicesOpen)}
-                    className="w-full flex items-center justify-between text-base font-medium hover:text-blue-400 transition-colors py-2 px-2 rounded hover:bg-slate-800/50"
-                  >
-                    <span>Services</span>
-                    <ChevronDown className={`h-4 w-4 transition-transform ${servicesOpen ? "rotate-180" : ""}`} />
-                  </button>
-                  {servicesOpen && (
-                    <div className="mt-1 mb-2 border-l-2 border-slate-700 ml-3">
-                      {services.map((service) => (
-                        <Link
-                          key={service.href}
-                          href={service.href}
-                          className="block pl-4 py-2 text-sm text-slate-300 hover:text-blue-400 hover:bg-slate-800/50 rounded transition-colors"
-                        >
-                          {service.name}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                {/* Mobile Areas Accordion */}
-                <div>
-                  <button
-                    onClick={() => setAreasOpen(!areasOpen)}
-                    className="w-full flex items-center justify-between text-base font-medium hover:text-blue-400 transition-colors py-2 px-2 rounded hover:bg-slate-800/50"
-                  >
-                    <span>Service Areas</span>
-                    <ChevronDown className={`h-4 w-4 transition-transform ${areasOpen ? "rotate-180" : ""}`} />
-                  </button>
-                  {areasOpen && (
-                    <div className="mt-1 mb-2 border-l-2 border-slate-700 ml-3">
-                      {areas.map((area) => (
-                        <Link
-                          key={area.href}
-                          href={area.href}
-                          className="flex items-center gap-2 pl-4 py-2 text-sm text-slate-300 hover:text-blue-400 hover:bg-slate-800/50 rounded transition-colors"
-                        >
-                          <MapPin className="h-3.5 w-3.5 text-blue-400 flex-shrink-0" />
-                          {area.name}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                <Link href="/about" className="text-base font-medium hover:text-blue-400 transition-colors py-2 px-2 rounded hover:bg-slate-800/50">
-                  About Us
-                </Link>
-                <Link href="/faq" className="text-base font-medium hover:text-blue-400 transition-colors py-2 px-2 rounded hover:bg-slate-800/50">
-                  FAQ
-                </Link>
-                <Link href="/contact" className="text-base font-medium hover:text-blue-400 transition-colors py-2 px-2 rounded hover:bg-slate-800/50">
-                  Contact
-                </Link>
-
-                {/* Mobile CTAs */}
-                <div className="pt-4 mt-4 border-t border-slate-700 space-y-3">
-                  <a
-                    href="tel:+27602691601"
-                    className="flex items-center justify-center gap-2 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition-colors font-medium"
-                  >
-                    <Phone className="h-4 w-4" />
-                    0602691601
-                  </a>
-                  <a
-                    href="https://wa.me/27602691601?text=Hi%2C%20I%27d%20like%20a%20free%20quote"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg transition-colors font-medium"
-                  >
-                    <WhatsAppIcon className="h-4 w-4" />
-                    WhatsApp Quote
-                  </a>
-                </div>
-
-              </nav>
-            </SheetContent>
-          </Sheet>
-
+    <header className="sticky top-0 z-50 border-b border-ink/5 bg-white/95 shadow-sm shadow-ink/5 backdrop-blur">
+      <div className="hidden bg-ink text-xs text-silver md:block">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-1.5">
+          <span>Windows, doors, gates and glass, made to measure</span>
+          <a href={`tel:${SITE.phoneTel}`} className="font-bold text-white hover:underline">{SITE.phoneDisplay}</a>
         </div>
       </div>
+      <div className="mx-auto flex h-[84px] max-w-7xl items-center justify-between gap-4 px-5">
+        <Logo />
+        <nav aria-label="Main" className="hidden items-center lg:flex">
+          <div className="group relative">
+            <Link href="/gallery" className={item}>Products<Caret /></Link>
+            <div className={`${panel} grid w-[30rem] grid-cols-2`}>
+              {PRODUCTS.map((p) => <Link key={p.key} href={productHref(p.key)} className={sub}>{p.name}</Link>)}
+            </div>
+          </div>
+          <div className="group relative">
+            <Link href="/areas" className={item}>Areas<Caret /></Link>
+            <div className={`${panel} grid w-[24rem] grid-cols-2`}>
+              {CITIES.map((c) => <Link key={c.slug} href={`/areas/${c.slug}`} className={sub}>{c.name}</Link>)}
+            </div>
+          </div>
+          <Link href="/gallery" className="mx-1 rounded-full bg-ice px-4 py-2 font-display text-[15px] font-bold text-signal-dark transition hover:bg-signal hover:text-white">Photo gallery</Link>
+          {links.map((l) => <Link key={l.href} href={l.href} className={item}>{l.label}</Link>)}
+        </nav>
+        <div className="flex items-center gap-3">
+          <div className="hidden xl:block"><CallButton size="md" label={`Call ${SITE.phoneDisplay}`} pulse /></div>
+          <div className="hidden sm:block xl:hidden"><CallButton size="md" label="Call Now" pulse /></div>
+          <div className="sm:hidden"><CircleCall /></div>
+          <button type="button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="mobile-menu" aria-label={open ? "Close menu" : "Open menu"} className="flex h-12 w-12 flex-col items-center justify-center gap-1.5 rounded-full bg-ink/5 transition hover:bg-ink/10 lg:hidden">
+            <span className={`h-0.5 w-5 bg-ink transition ${open ? "translate-y-2 rotate-45" : ""}`} />
+            <span className={`h-0.5 w-5 bg-ink transition ${open ? "opacity-0" : ""}`} />
+            <span className={`h-0.5 w-5 bg-ink transition ${open ? "-translate-y-2 -rotate-45" : ""}`} />
+          </button>
+        </div>
+      </div>
+      {open && (
+        <div id="mobile-menu" className="fixed inset-x-0 bottom-0 top-[84px] overflow-y-auto bg-white px-5 pb-28 pt-4 lg:hidden">
+          <Link href="/gallery" className="mb-2 block rounded-full bg-signal px-6 py-4 text-center font-display text-2xl font-bold text-white">See our photo gallery</Link>
+          <details className="border-b border-ink/10 py-4">
+            <summary className="cursor-pointer font-display text-3xl font-bold marker:hidden">Products<Caret /></summary>
+            <div className="mt-3 flex flex-col">{PRODUCTS.map((p) => <Link key={p.key} href={productHref(p.key)} className="py-2 text-lg text-graphite hover:text-signal">{p.name}</Link>)}</div>
+          </details>
+          <details className="border-b border-ink/10 py-4">
+            <summary className="cursor-pointer font-display text-3xl font-bold marker:hidden">Areas<Caret /></summary>
+            <div className="mt-3 flex flex-col">
+              <Link href="/areas" className="py-2 text-lg text-graphite">All areas</Link>
+              {CITIES.map((c) => <Link key={c.slug} href={`/areas/${c.slug}`} className="py-2 text-lg text-graphite hover:text-signal">{c.name}</Link>)}
+            </div>
+          </details>
+          {links.map((l) => <Link key={l.href} href={l.href} className="block border-b border-ink/10 py-4 font-display text-3xl font-bold">{l.label}</Link>)}
+        </div>
+      )}
     </header>
   )
 }

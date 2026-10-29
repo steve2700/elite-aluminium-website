@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320"><defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3f6f9"/><stop offset=".45" stop-color="#b9c2cc"/><stop offset="1" stop-color="#7c8794"/></linearGradient>
+<linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#52a0ff"/><stop offset=".5" stop-color="#1f6bff"/><stop offset="1" stop-color="#0d3fb8"/></linearGradient>
+</defs>
+<circle cx="160" cy="160" r="154" fill="#ffffff" stroke="url(#s)" stroke-width="10"/>
+<g transform="translate(44 76) scale(.68)"><svg viewBox="10 10 410 280" width="410" height="280"><g>
+<polygon points="20,52 232,52 210,98 20,98" fill="url(#s)"/>
+<polygon points="20,118 188,118 168,164 20,164" fill="url(#s)"/>
+<polygon points="20,184 214,184 190,230 20,230" fill="url(#s)"/>
+<path fill-rule="evenodd" d="M304 22 L408 236 H346 L328 198 H280 L262 236 H200 Z M304 90 L326 146 H282 Z" fill="url(#b)"/>
+<polygon points="60,258 372,244 372,253" fill="url(#b)"/>
+<polygon points="118,272 340,258 340,266" fill="url(#b)" opacity=".75"/>
+</g></svg></g></svg>

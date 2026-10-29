@@ -1,35 +1,30 @@
-# Elite Aluminium - Robots.txt
-# https://www.elitealuminium.co.za/robots.txt
+# Elite Aluminium. Search engines and AI assistants are welcome.
 User-agent: *
 Allow: /
-Disallow: /api/
-Disallow: /admin/
-Disallow: /_next/
-Disallow: /private/
 
-# Sitemaps
 Sitemap: https://www.elitealuminium.co.za/sitemap.xml
-Sitemap: https://www.elitealuminium.co.za/sitemap-0.xml
 
-# Crawl delay (optional - adjust if needed)
-# Crawl-delay: 1
-
-# Allow all major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /
-
+# AI search and assistant crawlers
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot
+User-agent: Applebot-Extended
 User-agent: Bingbot
+User-agent: Amazonbot
+User-agent: DuckAssistBot
+User-agent: CCBot
 Allow: /
-
-User-agent: Slurp
-Allow: /
-
-# Block bad bots (optional)
-User-agent: AhrefsBot
-Crawl-delay: 10
 
 User-agent: SemrushBot
-Crawl-delay: 10
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: dotbot
+Disallow: /
