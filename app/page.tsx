@@ -40,34 +40,34 @@ export default function Home() {
       <section className="relative isolate overflow-hidden" aria-label="Welcome">
         <div aria-hidden="true" className="absolute -right-40 -top-40 -z-10 h-[600px] w-[600px] rounded-full bg-signal/15 blur-3xl" />
         <div aria-hidden="true" className="absolute -left-32 top-40 -z-10 h-[420px] w-[420px] rounded-full border-2 border-signal/15" />
-        <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 py-12 md:py-20 lg:grid-cols-[1.05fr_0.95fr]">
-          <div>
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-8 md:py-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch lg:gap-14">
+          <div className="min-w-0">
             <div className="rise flex flex-wrap items-center gap-x-3 gap-y-2" style={{ animationDelay: "0ms" }}>
               <span className="kicker rounded-full bg-ink px-4 py-2 text-white">Looking for</span>
               <Typewriter className="min-h-[1.6em] text-base font-bold text-graphite" lines={["sliding doors for the patio?", "a gate that looks the part?", "windows that fit properly?", "glass for the pool?", "a shower door made to measure?"]} />
             </div>
-            <h1 className="mt-5 text-5xl font-bold leading-[1.02] sm:text-6xl lg:text-[3.5rem] xl:text-[3.9rem]">
+            <h1 className="mt-4 text-[2.6rem] font-bold leading-[1.02] sm:mt-5 sm:text-6xl lg:text-[3.5rem] xl:text-[3.9rem]">
               <span className="rise block" style={{ animationDelay: "120ms" }}>Aluminium</span>
               <span className="rise my-1 block" style={{ animationDelay: "240ms" }}>
                 <RotatingWord interval={2200} words={["windows", "doors", "sliding doors", "gates", "balustrades", "shower doors"]} className="rounded-3xl bg-signal px-4 pb-1 text-white" />
               </span>
               <span className="rise block" style={{ animationDelay: "360ms" }}>made and installed across Gauteng.</span>
             </h1>
-            <WordReveal as="p" step={26} text="Made to measure and fitted properly. Not sure what you want? See real photos of our work first, then send us a quote card." className="mt-6 max-w-xl text-xl leading-relaxed text-graphite" />
-            <div className="rise mt-8 flex flex-wrap gap-3" style={{ animationDelay: "600ms" }}>
+            <WordReveal as="p" step={26} text="Made to measure and fitted properly. Not sure what you want? See real photos of our work first, then send us a quote card." className="mt-4 max-w-xl text-lg leading-relaxed text-graphite sm:mt-6 sm:text-xl" />
+            <div className="rise mt-8 hidden flex-wrap gap-3 sm:flex" style={{ animationDelay: "600ms" }}>
               <CallButton pulse />
               <LinkButton href="/gallery" look="dark">See Our Photos</LinkButton>
               <WhatsAppButton label="WhatsApp" />
             </div>
-            <div className="rise mt-6 rounded-[2rem] bg-white p-5 shadow-sm" style={{ animationDelay: "720ms" }}>
+            <div className="rise mt-5 rounded-[2rem] bg-white p-5 shadow-sm sm:mt-6" style={{ animationDelay: "720ms" }}>
               <p className="font-display text-base font-bold">Want to see it first? Jump to the photos:</p>
-              <ul className="mt-3 flex flex-wrap gap-2">
-                {GROUPS.map((g) => <li key={g.key}><Link href={`/gallery?group=${g.key}`} className="inline-block rounded-full bg-ice px-4 py-2 font-display text-sm font-bold text-signal-dark transition hover:bg-signal hover:text-white">{g.label}</Link></li>)}
+              <ul className="-mx-5 mt-3 flex gap-2 overflow-x-auto px-5 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
+                {GROUPS.map((g) => <li key={g.key} className="shrink-0"><Link href={`/gallery?group=${g.key}`} className="inline-block whitespace-nowrap rounded-full bg-ice px-4 py-2 font-display text-sm font-bold text-signal-dark transition hover:bg-signal hover:text-white">{g.label}</Link></li>)}
               </ul>
             </div>
             <div className="mt-5"><MotionToggle /></div>
           </div>
-          <div className="rise px-2 sm:px-8" style={{ animationDelay: "400ms" }}><HeroStage /></div>
+          <div className="rise px-2 sm:px-8 lg:h-full lg:px-0 lg:pl-4" style={{ animationDelay: "400ms" }}><HeroStage /></div>
         </div>
       </section>
 

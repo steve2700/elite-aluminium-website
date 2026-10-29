@@ -10,8 +10,8 @@ const slides: [string, string, string][] = [
 
 export function HeroStage() {
   return (
-    <div className="relative pb-8">
-      <div className="relative aspect-[5/4] overflow-hidden rounded-[2.5rem] bg-ink shadow-2xl shadow-ink/30 ring-4 ring-white" role="group" aria-label="Photos of our recent installations">
+    <div className="relative pb-8 lg:h-full">
+      <div className="relative aspect-[5/4] overflow-hidden lg:aspect-auto lg:h-full lg:min-h-[520px] rounded-[2.5rem] bg-ink shadow-2xl shadow-ink/30 ring-4 ring-white" role="group" aria-label="Photos of our recent installations">
         {slides.map(([file, alt, cap], i) => (
           <div key={file} className="slide absolute inset-0" style={{ animationDelay: `${i * 6}s` }}>
             <Image src={`/${file}`} alt={alt} fill priority={i === 0} sizes="(min-width: 1024px) 45vw, 100vw" className={`object-cover ${["drift-a", "drift-b", "drift-c", "drift-a", "drift-b"][i]}`} />
